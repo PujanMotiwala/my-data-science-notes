@@ -24,8 +24,16 @@ theme:
   features:
     - navigation.tabs # Use tabs for top-level sections if you like
     - navigation.sections # Expand sections in sidebar
-    - toc.integrate # Move Table of Contents into sidebar
+    - navigation.expand # Expand all sections in sidebar
+    - navigation.instant # Instant loading of pages
     - navigation.top # Add a "back to top" button
+    - navigation.tracking # Track page views
+    - navigation.indexes # Add index pages for sections
+    - navigation.search # Add search functionality
+    - navigation.search.highlight # Highlight search terms in search results
+    - navigation.search.suggest # Autocomplete in search
+    - navigation.path # Show paths in sidebar  
+    - toc.integrate # Move Table of Contents into sidebar
     - search.suggest # Autocomplete in search
     - search.highlight # Highlight search terms
     - content.code.annotate # Allow code annotations
