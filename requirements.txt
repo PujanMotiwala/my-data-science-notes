@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material
 mkdocs-kroki-plugin
 mkdocs-roamlinks-plugin
+mkdocs-exclude
