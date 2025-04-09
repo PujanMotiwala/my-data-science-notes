@@ -32,8 +32,6 @@ Here are the primary areas covered in these notes:
 *   **[Deep Learning](./07%20Deep%20Learning/)**: Notes on neural networks and advanced architectures.
 *   **[Big Data Technologies](./08%20Big%20Data%20Technologies/)**: Tools for handling large datasets (Spark, Hadoop, etc.).
 *   **[Ethics and Bias](./09%20Ethics%20and%20Bias/)**: Important considerations in responsible data science.
-*   **[Diagrams](./Excalidraw/)**: Visual explanations and diagrams (if applicable).
-
 ---
 
 *Please note: This is a living collection of notes reflecting my ongoing learning journey. Content may be updated or reorganized over time.*
