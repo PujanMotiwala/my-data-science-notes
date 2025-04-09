@@ -1,0 +1,1 @@
+[Probability Distribution | Formula, Types, & Examples (scribbr.com)](https://www.scribbr.com/statistics/probability-distributions/)

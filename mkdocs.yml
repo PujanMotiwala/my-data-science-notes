@@ -1,0 +1,80 @@
+site_name: My Data Science Notes
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: assets/logo.svg # Path relative to the 'docs' directory
+  favicon: assets/logo.svg # Optional: Add a favicon too
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate  # 'slate' is the dark scheme
+      primary: blue   # Choose a primary color for dark mode
+      accent: light-blue # Choose an accent color for dark mode
+      toggle:
+        icon: material/brightness-4 # Icon for switching TO dark mode (moon)
+        name: Switch to dark modes
+    # Palette toggle for light mode
+    - scheme: default # 'default' is the light scheme
+      primary: indigo # Choose a primary color (e.g., blue, teal, indigo)
+      accent: blue    # Choose an accent color
+      toggle:
+        icon: material/brightness-7 # Icon for switching TO light mode (sun)
+        name: Switch to light mode
+  features:
+    - navigation.tabs # Use tabs for top-level sections if you like
+    - navigation.sections # Expand sections in sidebar
+    - toc.integrate # Move Table of Contents into sidebar
+    - navigation.top # Add a "back to top" button
+    - search.suggest # Autocomplete in search
+    - search.highlight # Highlight search terms
+    - content.code.annotate # Allow code annotations
+    - content.code.copy # Add copy button to code blocks
+# Optional: Add extensions for better Markdown rendering
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span # Needed for line highlighting
+      pygments_lang_class: true # Usually good practice
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid # If you plan to use Mermaid diagrams directly (Kroki handles this too)
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3 # Optional: control how many levels show in TOC
+  - pymdownx.tasklist: # For checklists like - [ ] and - [x]
+      custom_checkbox: true # Makes them look like actual checkboxes
+  - footnotes # For [^1] style footnotes
+  - pymdownx.arithmatex: # For LaTeX Math using MathJax ($...$ and $$...$$)
+      generic: true # Important setting for Material theme
+  - pymdownx.details # For collapsible <details>/<summary> blocks (alternative to admonitions)
+  - pymdownx.emoji: # For :emoji: codes
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink # Auto-links URLs and emails
+  - pymdownx.smartsymbols # Converts --- to em-dash, -- to en-dash, ... to ellipsis etc.
+  - pymdownx.tabbed: # Create tabbed content sections
+      alternate_style: true
+  - attr_list # Allows adding HTML attributes/CSS classes to Markdown elements (e.g., {#id .class})
+  - md_in_html # Allow processing Markdown syntax inside HTML blocks
+  - tables # For GFM style tables (often included by default with Material, but explicit is fine)
+  - def_list # For definition lists
+  - abbr # For abbreviations
+plugins:
+  - search # Built-in search plugin, often enabled by default with Material
+  - kroki:
+      EnableExcalidraw: true
+      ServerURL: https://kroki.io  # Default Kroki server
+      FileTypes:
+        - svg # Add the plugin name here
+  - roamlinks
+  - exclude:
+      glob:
+        - 'Excalidraw/**' # Exclude this folder from the build
+extra_javascript:
+  - javascripts/mathjax.js # Create this file if needed (see below)
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

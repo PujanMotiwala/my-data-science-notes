@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"925f95fa26509d5c","type":"text","text":"Supervised ML","x":-110,"y":-728,"width":250,"height":60},
+		{"id":"f24f5fb7c55cea0b","type":"text","text":"Unsupervised ML","x":265,"y":-728,"width":250,"height":60},
+		{"id":"b8129c937ea6c354","type":"text","text":"Data Types","x":-515,"y":-408,"width":250,"height":60},
+		{"id":"5eaf5bbdeb45e15e","type":"text","text":"Ordinal","x":-515,"y":-238,"width":250,"height":60},
+		{"id":"e9c3e60aec10509b","type":"text","text":"Ordinal","x":80,"y":-468,"width":250,"height":60},
+		{"id":"c0064df12d338e48","type":"text","text":"Continuous","x":-515,"y":-158,"width":250,"height":60},
+		{"id":"1156d874d94f26f6","type":"text","text":" ","x":-515,"y":-78,"width":250,"height":60}
+	],
+	"edges":[]
+}
