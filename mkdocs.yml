@@ -39,6 +39,10 @@ theme:
     - content.code.annotate # Allow code annotations
     - content.code.copy # Add copy button to code blocks
 # Optional: Add extensions for better Markdown rendering
+extra:
+  analytics:
+    provider: google
+    property: G-K08G66LHC7
 nav:
   # 1. The Home Page (required)
   - 'Home': 'index.md'
