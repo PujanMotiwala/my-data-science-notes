@@ -2,6 +2,6 @@
 
 -  [Mode](https://www.scribbr.com/statistics/mode/): the most frequent value.
 -  [Median](https://www.scribbr.com/statistics/median/): the middle number in an ordered dataset.
--   [Mean](https://www.scribbr.com/statistics/mean/): the sum of all values divided by the total number of values.
+-  [Mean](https://www.scribbr.com/statistics/mean/): the sum of all values divided by the total number of values.
 
 In addition to central tendency, the variability and distribution of your dataset is important to understand when performing [descriptive statistics](https://www.scribbr.com/statistics/descriptive-statistics/).

@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "eb1403e1f6ce119d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccd32d9f41626507",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b22b6b73fba1688b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d8b8bb3202e4518",
+    "type": "split",
+    "children": [
+      {
+        "id": "c09c2c793ffaa112",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf2b220a13ff8333",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d0150411a53c8006",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5374d0eaa6d01bb9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401.5
+  },
+  "right": {
+    "id": "91a64ff43f1b32b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "559f8980e82c301d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fc3550dcb0a41d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "274aeac377137ccb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e3ee62be4360b819",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "707cdc6695874b2c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b22b6b73fba1688b",
+  "lastOpenFiles": [
+    "02 Math/01 Probability/03 Common Probability Distributions/00_Overview.md",
+    "02 Math/01 Probability/05 Important Theorems/02_Central_Limit_Theorem_CLT.md",
+    "02 Math/01 Probability/Basic.md",
+    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/03_Overview.md",
+    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/02_Singular_Value_Decomposition_SVD.md",
+    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/01_Eigenvalues_and_Eigenvectors.md",
+    "02 Math/03 Linear Algebra/05 Norms/04_Frobenius_Norm.md",
+    "02 Math/03 Linear Algebra/05 Norms/03_L2_Norm_Euclidean.md",
+    "02 Math/03 Linear Algebra/05 Norms/02_L1_Norm_Manhattan.md",
+    "02 Math/03 Linear Algebra/05 Norms/01_Definition.md",
+    "02 Math/03 Linear Algebra/04 Vector Spaces and Concepts/03_Rank.md",
+    "02 Math/03 Linear Algebra/04 Vector Spaces and Concepts/02_Span_and_Basis.md",
+    "02 Math/03 Linear Algebra/04 Vector Spaces and Concepts/01_Linear_Independence.md",
+    "02 Math/03 Linear Algebra/02 Basic Operations/01_Vector_Operations.md",
+    "02 Math/03 Linear Algebra/03 Matrix Properties and Concepts/04_Trace.md",
+    "02 Math/03 Linear Algebra/03 Matrix Properties and Concepts/03_Determinant.md",
+    "02 Math/03 Linear Algebra/03 Matrix Properties and Concepts/02_Inverse_Matrix.md",
+    "02 Math/03 Linear Algebra/03 Matrix Properties and Concepts/01_Identity_Matrix.md",
+    "02 Math/03 Linear Algebra/02 Basic Operations/02_Matrix_Operations.md",
+    "02 Math/03 Linear Algebra/01 Core Objects/04_Tensors.md",
+    "02 Math/03 Linear Algebra/01 Core Objects/02_Vectors.md",
+    "02 Math/03 Linear Algebra/01 Core Objects/03_Matrices.md",
+    "02 Math/03 Linear Algebra/01 Core Objects/01_Scalars.md",
+    "02 Math/01 Probability/05 Important Theorems/01_Law_of_Large_Numbers_LLN.md",
+    "02 Math/01 Probability/04 Expectation Variance Covariance/03_Covariance_and_Correlation.md",
+    "02 Math/01 Probability/04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation.md",
+    "02 Math/04 Calculus/06 Matrix Calculus",
+    "02 Math/05 Information Theory",
+    "03 Data Collection/Data Types/Data Types.canvas",
+    "02 Math/04 Calculus/05 Integrals",
+    "02 Math/04 Calculus/04 Advanced Topics",
+    "02 Math/04 Calculus/03 Optimization",
+    "02 Math/04 Calculus/02 Multivariable Calculus",
+    "02 Math/04 Calculus/01 Foundations",
+    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations",
+    "02 Math/03 Linear Algebra/05 Norms",
+    "02 Math/03 Linear Algebra/04 Vector Spaces and Concepts"
+  ]
+}
