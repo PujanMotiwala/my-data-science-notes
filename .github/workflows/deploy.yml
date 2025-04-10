@@ -27,33 +27,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Checks out your repository code
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # Match your local Python version if desired
-          cache: 'pip' # Cache pip dependencies
+          python-version: '3.10' # Or your preferred version
+          cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt # Installs packages from your requirements file
+        run: |
+          pip install -r requirements.txt
+          # Explicitly ensure PyYAML is installed if not always in requirements
+          # pip install PyYAML
 
+      # ---> ADD THIS STEP <---
+      - name: Run Preprocessing Script
+        run: python preprocess_notes.py # Assumes script is at the root
+
+      # ---> MODIFY THIS STEP <---
       - name: Build MkDocs site
-        run: mkdocs build # Builds the static site into the 'site/' directory
+        # Tell mkdocs to use the output of the script as the source
+        run: mkdocs build --config-file mkdocs.yml --docs-dir docs_build --site-dir ./site
+        # '--config-file' might be optional if it's named mkdocs.yml
+        # '--site-dir ./site' is the default output, but being explicit is okay
 
       - name: Upload build artifact
-        uses: actions/upload-pages-artifact@v3 # Uploads the 'site' directory for deployment
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: ./site # Upload the correctly built site directory
 
-  # Deployment job
+  # Deployment job (Stays the Same)
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # Sets the deployment environment URL
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build # Requires the 'build' job to complete successfully
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # Deploys the uploaded artifact
+        uses: actions/deploy-pages@v4
