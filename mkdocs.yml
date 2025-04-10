@@ -1,6 +1,7 @@
 site_url: https://pujanmotiwala.github.io/my-data-science-notes/
-
 site_name: My Data Science Notes
+docs_dir: docs_build
+
 theme:
   name: material
   custom_dir: docs/overrides
@@ -24,7 +25,6 @@ theme:
   features:
     - navigation.tabs # Use tabs for top-level sections if you like
     - navigation.sections # Expand sections in sidebar
-    - navigation.expand # Expand all sections in sidebar
     - navigation.instant # Instant loading of pages
     - navigation.top # Add a "back to top" button
     - navigation.tracking # Track page views

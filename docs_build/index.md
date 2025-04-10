@@ -1,4 +1,4 @@
-# Welcome to My Data Science Notes!
+# Welcome!
 
 This site serves as my personal digital garden – a collection of notes, thoughts, code snippets, and summaries related to the vast field of Data Science.
 
