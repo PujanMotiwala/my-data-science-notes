@@ -4,3 +4,4 @@ mkdocs-kroki-plugin
 mkdocs-roamlinks-plugin
 mkdocs-exclude
 mkdocs-awesome-pages-plugin
+PyYAML

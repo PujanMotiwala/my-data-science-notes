@@ -45,7 +45,7 @@ jobs:
       - name: Run Preprocessing Script
         run: python preprocess_notes.py # Assumes script is at the root
 
-        - name: Verify MkDocs Path and Version # <-- ADD THIS BLOCK
+      - name: Verify MkDocs Path and Version # <-- ADD THIS BLOCK
         run: |
           echo "--- Which mkdocs? ---"
           which mkdocs
