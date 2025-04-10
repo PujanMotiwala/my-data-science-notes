@@ -57,11 +57,8 @@ jobs:
           pip list | grep mkdocs
 
       # ---> MODIFY THIS STEP <---
-      - name: Build MkDocs site
-        # Tell mkdocs to use the output of the script as the source
-        run: mkdocs build --config-file mkdocs.yml --docs-dir docs_build --site-dir ./site
-        # '--config-file' might be optional if it's named mkdocs.yml
-        # '--site-dir ./site' is the default output, but being explicit is okay
+      - name: Build MkDocs site (using python -m) # <-- MODIFY THIS STEP
+        run: python -m mkdocs build --config-file mkdocs.yml --docs-dir docs_build --site-dir ./site
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
