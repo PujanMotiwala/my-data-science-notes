@@ -1,32 +1,20 @@
 window.MathJax = {
   tex: {
-    // Define the inline math delimiters MathJax should recognize
-    // arithmatex typically converts $...$ to \(...\)
-    inlineMath: [ ["\\(","\\)"] ],
-    // Define the display math delimiters MathJax should recognize
-    // arithmatex typically converts $$...$$ to \[...\]
-    displayMath: [ ["\\[","\\]"] ],
-    // Allow processing of environments like align, gather, etc.
-    processEnvironments: true,
-    // Allow processing of escaped dollar signs \$
-    processEscapes: true
+    inlineMath: [ ["\\(","\\)"] ], // Looks for \( ... \)
+    displayMath: [ ["\\[","\\]"] ], // Looks for \[ ... \]
+    processEscapes: true,
+    processEnvironments: true
   },
-  // Options for how MathJax interacts with the HTML page
   options: {
-    // Skip processing math in elements with these classes (e.g., code blocks)
     ignoreHtmlClass: ".*|",
-    // Process math only in elements with this class (set by arithmatex)
-    processHtmlClass: "arithmatex"
+    processHtmlClass: "arithmatex" // Crucial: Only process elements with this class
   },
-  // Specific output processor options (optional, but good defaults)
+  // Optional but good defaults
   chtml: {
-    matchFontHeight: true // Adjust font size to match surrounding text
+    matchFontHeight: true
   },
-  // Loader options (usually defaults are fine)
   loader: {
-    load: ['input/tex', 'output/chtml'] // Load TeX input and CommonHTML output processor
+    load: ['input/tex', 'output/chtml']
   }
 };
-
-// Optional: Log to console to confirm the config is loaded
-// console.log("MathJax Configuration Loaded:", window.MathJax);
+// console.log("MathJax Config Loaded"); // Uncomment for debugging
