@@ -1,7 +1,7 @@
 # Gradient Descent Variants (SGD, Mini-batch)
 
 ## Simple Idea
-*   Basic [[02_Gradient_Descent|Gradient Descent]] (sometimes called "Batch Gradient Descent") calculates the [[../02 Multivariable Calculus/03_Gradient|gradient]] using the *entire* training dataset in every single step. This can be extremely slow and computationally expensive for large datasets.
+*   Basic [[02_Gradient_Descent|Gradient Descent]] (sometimes called "Batch Gradient Descent") calculates the [[03_Gradient|gradient]] using the *entire* training dataset in every single step. This can be extremely slow and computationally expensive for large datasets.
 *   Gradient Descent variants were developed to speed up training and improve convergence by using only a *subset* of the data for each gradient calculation and parameter update.
 
 ## Formal Definitions & Concepts
@@ -49,7 +49,7 @@
 *(Visual Idea: Excalidraw contour plot showing the paths: BGD smooth descent, SGD very noisy zig-zag, Mini-batch less noisy zig-zag).*
 
 ## Connections to Other Topics
-*   All variants rely on calculating the [[../02 Multivariable Calculus/03_Gradient|gradient]] (often via backpropagation).
+*   All variants rely on calculating the [[03_Gradient|gradient]] (often via backpropagation).
 *   The choice of variant impacts convergence speed, stability, memory usage, and potentially the quality of the final minimum found.
 *   Leads into **Adaptive Optimization Algorithms** (like Momentum, RMSprop, Adam) which further refine how the gradient information is used in the update step, building upon SGD/Mini-batch GD. These will be covered in [[Optimizer Variants / Adaptive Methods]].
 

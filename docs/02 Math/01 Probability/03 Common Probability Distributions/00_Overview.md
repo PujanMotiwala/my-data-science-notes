@@ -1,7 +1,7 @@
 # Overview of Common Probability Distributions
 
 ## Introduction
-*   This note provides a quick summary and comparison of the fundamental [[../02 Random Variables/01_Definition|discrete]] and [[../02 Random Variables/01_Definition|continuous]] probability distributions covered in this section.
+*   This note provides a quick summary and comparison of the fundamental [[02 Math/01 Probability/02 Random Variables/01_Definition|discrete]] and [[02 Math/01 Probability/02 Random Variables/01_Definition|continuous]] probability distributions covered in this section.
 *   Understanding the characteristics and typical use cases of these distributions is essential for modeling random phenomena encountered in data science, AI engineering, and statistical analysis.
 
 ## Core Distributions Summary
@@ -21,7 +21,7 @@
 
 ## Key Takeaways & Relationships
 
-*   **Discrete vs. Continuous:** Remember the fundamental difference in how probabilities are assigned ([[../02 Random Variables/02_Probability_Mass_Function_PMF|PMF]] for points vs. [[../02 Random Variables/03_Probability_Density_Function_PDF|PDF]] for intervals/areas).
+*   **Discrete vs. Continuous:** Remember the fundamental difference in how probabilities are assigned ([[02_Probability_Mass_Function_PMF|PMF]] for points vs. [[03_Probability_Density_Function_PDF|PDF]] for intervals/areas).
 *   **Bernoulli as Building Block:** [[01_Bernoulli_Distribution|Bernoulli]] trials underlie the [[02_Binomial_Distribution|Binomial]], [[08_Geometric_Distribution|Geometric]], and [[09_Negative_Binomial_Distribution|Negative Binomial]] distributions.
 *   **Poisson Process:** The [[03_Poisson_Distribution|Poisson distribution]] (counts in interval) and [[06_Exponential_Distribution|Exponential]]/[[10_Gamma_Distribution|Gamma]] distributions (waiting times) describe different aspects of the same underlying random arrival process.
 *   **Generalizations:** [[09_Negative_Binomial_Distribution|Negative Binomial]] generalizes [[08_Geometric_Distribution|Geometric]]; [[10_Gamma_Distribution|Gamma]] generalizes [[06_Exponential_Distribution|Exponential]].
@@ -39,8 +39,8 @@
 
 ## Further Exploration
 *   Distributions crucial for **Statistical Inference** (often derived from the Normal) include the **t-distribution**, **Chi-squared ($\chi^2$) distribution**, and **F-distribution**. These will be covered in the context of hypothesis testing and confidence intervals ([[../02 Inferential statistics/parametric tests/Parametric Tests|Parametric Tests]]).
-*   Understanding **[[../02 Random Variables/05_Joint_Marginal_Conditional_Distributions|Joint Distributions]]** (e.g., Multivariate Normal) is key for modeling relationships between multiple variables.
-*   [[../05 Important Theorems/02_Central_Limit_Theorem_CLT|Central Limit Theorem]] and [[../05 Important Theorems/01_Law_of_Large_Numbers_LLN|Law of Large Numbers]] are theoretical cornerstones underpinning the relevance of many distributions, especially the Normal distribution.
+*   Understanding **[[05_Joint_Marginal_Conditional_Distributions|Joint Distributions]]** (e.g., Multivariate Normal) is key for modeling relationships between multiple variables.
+*   [[02_Central_Limit_Theorem_CLT|Central Limit Theorem]] and [[01_Law_of_Large_Numbers_LLN|Law of Large Numbers]] are theoretical cornerstones underpinning the relevance of many distributions, especially the Normal distribution.
 
 ## Sources
 *   Refer to the individual notes for each distribution for specific sources.

@@ -1,12 +1,12 @@
 # Vector and Matrix Norms: Definition
 
 ## Simple Idea
-*   A **norm** is basically a way to measure the "size", "length", or "magnitude" of a [[../01 Core Objects/02_Vectors|vector]].
-*   For [[../01 Core Objects/03_Matrices|matrices]], norms measure their "magnitude" in a way that often relates to how much they can "stretch" vectors during [[../02 Basic Operations/02_Matrix_Operations|matrix-vector multiplication]].
+*   A **norm** is basically a way to measure the "size", "length", or "magnitude" of a [[02_Vectors|vector]].
+*   For [[03_Matrices|matrices]], norms measure their "magnitude" in a way that often relates to how much they can "stretch" vectors during [[02_Matrix_Operations|matrix-vector multiplication]].
 *   Norms provide a formal concept of distance in vector spaces.
 
 ## Formal Definition
-*   A **norm** on a [[../04 Vector Spaces and Concepts/Vector Space|vector space]] $V$ is a function $\| \cdot \| : V \to \mathbb{R}$ that assigns a non-negative real-valued length or size to each vector $\mathbf{x} \in V$, satisfying the following properties for all vectors $\mathbf{x}, \mathbf{y} \in V$ and all [[../01 Core Objects/01_Scalars|scalars]] $\alpha \in \mathbb{R}$ (or $\mathbb{C}$):
+*   A **norm** on a [[../04 Vector Spaces and Concepts/Vector Space|vector space]] $V$ is a function $\| \cdot \| : V \to \mathbb{R}$ that assigns a non-negative real-valued length or size to each vector $\mathbf{x} \in V$, satisfying the following properties for all vectors $\mathbf{x}, \mathbf{y} \in V$ and all [[01_Scalars|scalars]] $\alpha \in \mathbb{R}$ (or $\mathbb{C}$):
     1.  **Non-negativity:** $\|\mathbf{x}\| \ge 0$.
     2.  **Definiteness:** $\|\mathbf{x}\| = 0$ if and only if $\mathbf{x} = \mathbf{0}$ (the zero vector).
     3.  **Absolute Homogeneity (Scaling):** $\|\alpha \mathbf{x}\| = |\alpha| \|\mathbf{x}\|$.

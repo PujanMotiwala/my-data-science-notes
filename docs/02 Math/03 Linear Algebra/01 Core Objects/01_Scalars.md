@@ -24,7 +24,7 @@
 
 ## Connections to Other Topics
 *   Scalars are the entries in [[02_Vectors|Vectors]] and [[03_Matrices|Matrices]].
-*   Used in **[[../02 Basic Operations/01_Vector_Operations|Scalar Multiplication]]** of vectors and matrices.
+*   Used in **[[01_Vector_Operations|Scalar Multiplication]]** of vectors and matrices.
 *   Form the coefficients in **linear combinations** of vectors.
 
 ## Summary

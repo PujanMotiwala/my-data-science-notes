@@ -1,7 +1,7 @@
 # Uniform Distribution (Continuous)
 
 ## Definition / Introduction
-*   The Continuous Uniform distribution describes a [[../02 Random Variables/01_Definition|Continuous Random Variable]] where all possible values within a specified range $[a, b]$ are **equally likely**.
+*   The Continuous Uniform distribution describes a [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Random Variable]] where all possible values within a specified range $[a, b]$ are **equally likely**.
 *   It represents complete uncertainty within the bounds $a$ and $b$; no single value or sub-interval within the range is favored over another of the same size.
 *   Think of it as randomly picking a real number from a fixed interval.
 
@@ -12,7 +12,7 @@
 *   Notation: $X \sim \text{Uniform}(a, b)$ or $X \sim U(a, b)$.
 
 ### 2. Probability Density Function (PDF)
-*   The [[../02 Random Variables/03_Probability_Density_Function_PDF|PDF]] is constant within the interval $[a, b]$ and zero elsewhere. The height of the constant value must make the total area under the curve equal to 1.
+*   The [[03_Probability_Density_Function_PDF|PDF]] is constant within the interval $[a, b]$ and zero elsewhere. The height of the constant value must make the total area under the curve equal to 1.
     $$
     f(x) = \begin{cases} \frac{1}{b-a} & \text{if } a \le x \le b \\ 0 & \text{otherwise} \end{cases}
     $$
@@ -24,18 +24,18 @@
     *   $b$: The maximum possible value (upper bound), where $b > a$.
 
 ### 4. Cumulative Distribution Function (CDF)
-*   The [[../02 Random Variables/04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ represents the accumulated probability up to $x$.
+*   The [[04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ represents the accumulated probability up to $x$.
     $$
     F(x) = \begin{cases} 0 & \text{if } x < a \\ \frac{x-a}{b-a} & \text{if } a \le x \le b \\ 1 & \text{if } x > b \end{cases}
     $$
 *   Intuition: The CDF increases linearly from 0 at $x=a$ to 1 at $x=b$. The proportion of the interval covered up to $x$ is $\frac{x-a}{b-a}$.
 
 ### 5. Expected Value (Mean)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected value]] (average) is the midpoint of the interval:
+*   The [[01_Expected_Value|expected value]] (average) is the midpoint of the interval:
     $$ E[X] = \frac{a+b}{2} $$
 
 ### 6. Variance
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] (measure of spread) is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] (measure of spread) is:
     $$ Var(X) = \frac{(b-a)^2}{12} $$
 *   The variance depends only on the width of the interval $(b-a)$.
 
@@ -67,4 +67,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Uniform Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Random Number Generation]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Uniform Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Random Number Generation]] [[02 Math/index]] [[Statistics]]

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  <footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <!-- Footer copyright -->
+        <div class="md-footer-copyright">
+          {# Defaults to site name and year, customize below #}
+          <div class="md-footer-copyright__highlight">
+            Copyright © 2025 ClickCatalyst - All rights reserved
+          </div>
+        </div>
+        <!-- Add other things like social links here if needed -->
+        {% include "partials/social.html" %}
+      </div>
+    </div>
+  </footer>
+{% endblock %}

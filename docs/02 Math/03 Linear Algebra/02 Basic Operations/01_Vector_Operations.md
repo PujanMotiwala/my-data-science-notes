@@ -1,7 +1,7 @@
 # Vector Operations
 
 ## Definition / Introduction
-*   Vector operations define how [[../01 Core Objects/02_Vectors|vectors]] interact with each other and with [[../01 Core Objects/01_Scalars|scalars]].
+*   Vector operations define how [[02_Vectors|vectors]] interact with each other and with [[01_Scalars|scalars]].
 *   These operations form the basis of linear algebra and allow us to manipulate vectors algebraically and understand their geometric relationships.
 *   The core operations are vector addition, scalar multiplication, and the dot product (inner product).
 
@@ -29,14 +29,14 @@
 ### 3. Linear Combination
 *   **Definition:** A vector formed by adding scalar multiples of other vectors. Given vectors $\mathbf{v}_1, \mathbf{v}_2, ..., \mathbf{v}_k$ and scalars $c_1, c_2, ..., c_k$, a linear combination is:
     $$ \mathbf{w} = c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \dots + c_k\mathbf{v}_k = \sum_{i=1}^k c_i \mathbf{v}_i $$
-*   **Significance:** Fundamental concept related to [[../04 Vector Spaces and Concepts/02_Span_and_Basis|Span]] and [[../04 Vector Spaces and Concepts/01_Linear_Independence|Linear Independence]].
+*   **Significance:** Fundamental concept related to [[02_Span_and_Basis|Span]] and [[01_Linear_Independence|Linear Independence]].
 
 ### 4. Dot Product (Inner Product or Scalar Product)
 *   **Definition:** An operation between two vectors of the **same dimension** ($n$) that results in a **single scalar value**.
 *   **Algebraic Rule:** If $\mathbf{u} = [u_1, ..., u_n]^T$ and $\mathbf{v} = [v_1, ..., v_n]^T$, their dot product (denoted $\mathbf{u} \cdot \mathbf{v}$ or $\mathbf{u}^T\mathbf{v}$) is:
     $$ \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^T\mathbf{v} = u_1 v_1 + u_2 v_2 + \dots + u_n v_n = \sum_{i=1}^n u_i v_i $$
     *(Note: $\mathbf{u}^T\mathbf{v}$ emphasizes viewing it as matrix multiplication of a $1 \times n$ row vector by an $n \times 1$ column vector).*
-*   **Geometric Interpretation:** Relates to the angle $\theta$ between the two vectors and their [[../05 Norms/03_L2_Norm_Euclidean|magnitudes (L₂ norms)]] $||\mathbf{u}||_2, ||\mathbf{v}||_2$:
+*   **Geometric Interpretation:** Relates to the angle $\theta$ between the two vectors and their [[03_L2_Norm_Euclidean|magnitudes (L₂ norms)]] $||\mathbf{u}||_2, ||\mathbf{v}||_2$:
     $$ \mathbf{u} \cdot \mathbf{v} = ||\mathbf{u}||_2 \, ||\mathbf{v}||_2 \cos(\theta) $$
 *   **Significance & Use Cases:**
     *   **Calculating Vector Length:** $\mathbf{v} \cdot \mathbf{v} = ||\mathbf{v}||_2^2$ (L₂ norm squared).
@@ -49,8 +49,8 @@
 
 ## Connections to Other Topics
 *   These operations define the structure of a [[../04 Vector Spaces and Concepts/Vector Space|Vector Space]].
-*   The dot product is used to define [[../05 Norms/03_L2_Norm_Euclidean|vector norms (lengths)]] and angles.
-*   Essential for understanding [[../02 Basic Operations/02_Matrix_Operations|Matrix Operations]], especially matrix-vector multiplication.
+*   The dot product is used to define [[03_L2_Norm_Euclidean|vector norms (lengths)]] and angles.
+*   Essential for understanding [[02_Matrix_Operations|Matrix Operations]], especially matrix-vector multiplication.
 *   Core components of many algorithms in optimization (gradients), machine learning (linear models, neural nets), and physics simulations.
 
 ## Summary

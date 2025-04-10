@@ -1,11 +1,11 @@
 # Determinant
 
 ## Simple Idea
-*   Think of the determinant of a square [[../01 Core Objects/03_Matrices|matrix]] as a [[../01 Core Objects/01_Scalars|scalar]] value that tells you about the **scaling factor** of the linear transformation represented by that matrix.
+*   Think of the determinant of a square [[03_Matrices|matrix]] as a [[01_Scalars|scalar]] value that tells you about the **scaling factor** of the linear transformation represented by that matrix.
 *   Specifically, it tells you how much the **area** (in 2D) or **volume** (in 3D) changes when you apply the matrix transformation. A determinant of 0 means the transformation squashes space into a lower dimension (like flattening a 3D object onto a plane or a 2D shape onto a line).
 
 ## Formal Definition
-*   The determinant is a [[../01 Core Objects/01_Scalars|scalar]] value that can only be computed for a **square matrix** $\mathbf{A}$ ($n \times n$). It is denoted as $\det(\mathbf{A})$ or $|\mathbf{A}|$.
+*   The determinant is a [[01_Scalars|scalar]] value that can only be computed for a **square matrix** $\mathbf{A}$ ($n \times n$). It is denoted as $\det(\mathbf{A})$ or $|\mathbf{A}|$.
 *   Its calculation encodes properties related to the matrix's invertibility and the geometric scaling effect of the corresponding linear transformation.
 
 ## Key Concepts
@@ -42,7 +42,7 @@
 *   Crucial for determining if a [[02_Inverse_Matrix|Matrix Inverse]] exists.
 *   Used in Cramer's rule for solving systems of linear equations $\mathbf{Ax=b}$ (though often not computationally preferred).
 *   Appears in the change of variables formula for multivariable calculus integration ([[../04 Calculus/04 Advanced Topics/02_Jacobian_Matrix|Jacobian determinant]]).
-*   Related to [[../06 Decompositions and Factorizations/01_Eigenvalues_and_Eigenvectors|Eigenvalues]] (the determinant is the product of the eigenvalues, counting algebraic multiplicities).
+*   Related to [[01_Eigenvalues_and_Eigenvectors|Eigenvalues]] (the determinant is the product of the eigenvalues, counting algebraic multiplicities).
 
 ## Summary
 *   The **Determinant ($\det(\mathbf{A})$ or $|\mathbf{A}|$)** is a scalar value associated with a **square matrix**.

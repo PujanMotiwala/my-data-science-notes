@@ -1,7 +1,7 @@
 # Gamma Distribution
 
 ## Definition / Introduction
-*   The Gamma distribution is a flexible [[../02 Random Variables/01_Definition|Continuous Probability Distribution]] defined for positive real numbers ($x > 0$).
+*   The Gamma distribution is a flexible [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Probability Distribution]] defined for positive real numbers ($x > 0$).
 *   It arises naturally as the distribution of the **waiting time until a specified number ($\alpha$) of events occur** in a [[03_Poisson_Distribution|Poisson process]] with rate $\beta$.
 *   It generalizes both the [[06_Exponential_Distribution|Exponential distribution]] (waiting time for the 1st event) and the Chi-squared distribution (related to sum of squared Normal variables).
 *   Used extensively in reliability, queueing theory, climate modeling, and Bayesian statistics (as a conjugate prior for parameters like the Poisson rate or the precision of a Normal distribution).
@@ -21,7 +21,7 @@ The Gamma distribution is typically parameterized in two main ways:
 *Notation: $X \sim \text{Gamma}(\alpha, \beta)$ or $X \sim \Gamma(\alpha, \beta)$ .*
 
 ### 2. Probability Density Function (PDF)
-*   The [[../02 Random Variables/03_Probability_Density_Function_PDF|PDF]] for $X \sim \text{Gamma}(\alpha, \beta)$ is:
+*   The [[03_Probability_Density_Function_PDF|PDF]] for $X \sim \text{Gamma}(\alpha, \beta)$ is:
     $$ f(x | \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{-\beta x} \quad \text{for } x > 0 $$
 *   Where:
     *   $x$ is the value of the random variable (waiting time, etc.).
@@ -40,18 +40,18 @@ The Gamma distribution is typically parameterized in two main ways:
 *   It acts as the normalization constant in the Gamma PDF, ensuring the total area integrates to 1.
 
 ### 4. Cumulative Distribution Function (CDF)
-*   The [[../02 Random Variables/04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ involves the **lower incomplete Gamma function** $\gamma(s, x) = \int_0^x t^{s-1}e^{-t} dt$:
+*   The [[04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ involves the **lower incomplete Gamma function** $\gamma(s, x) = \int_0^x t^{s-1}e^{-t} dt$:
     $$ F(x | \alpha, \beta) = \frac{\gamma(\alpha, \beta x)}{\Gamma(\alpha)} = P(\alpha, \beta x) \quad \text{for } x > 0 $$
     where $P(s, x)$ is the regularized lower incomplete Gamma function.
 *   There's no simple closed-form expression; probabilities are typically found using statistical software.
 
 ### 5. Expected Value (Mean)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected value]] is:
+*   The [[01_Expected_Value|expected value]] is:
     $$ E[X] = \frac{\alpha}{\beta} $$
 *   If $\alpha$ is the number of events and $\beta$ is the rate, this makes sense: average rate per event is $1/\beta$, so time for $\alpha$ events is $\alpha \times (1/\beta)$.
 
 ### 6. Variance
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] is:
     $$ Var(X) = \frac{\alpha}{\beta^2} $$
 
 ### 7. Shape of the Distribution
@@ -85,4 +85,4 @@ The Gamma distribution is typically parameterized in two main ways:
 *   Classic Texts: (e.g., Casella & Berger; Hogg, McKean, Craig "Introduction to Mathematical Statistics") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Gamma Distribution]] [[Exponential Distribution]] [[Chi-squared Distribution]] [[Poisson Process]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Gamma Function]] [[Bayesian Statistics]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Gamma Distribution]] [[Exponential Distribution]] [[Chi-squared Distribution]] [[Poisson Process]] [[PDF]] [[CDF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Gamma Function]] [[Bayesian Statistics]] [[02 Math/index]] [[Statistics]]

@@ -36,10 +36,10 @@
     You multiply the derivatives of each "layer", evaluating outer derivatives at the inner function results.
 
 ## Connections to Other Topics & Relevance
-*   **Backpropagation in Neural Networks:** The Chain Rule is the **mathematical heart of backpropagation**, the algorithm used to train deep neural networks. The loss function depends on the output layer, which depends on the hidden layers, which depend on the weights and inputs. Backpropagation uses the chain rule repeatedly to calculate the [[../02 Multivariable Calculus/03_Gradient|gradient]] of the loss with respect to each weight and bias throughout the network, allowing [[../03 Optimization/02_Gradient_Descent|Gradient Descent]] to update the parameters.
+*   **Backpropagation in Neural Networks:** The Chain Rule is the **mathematical heart of backpropagation**, the algorithm used to train deep neural networks. The loss function depends on the output layer, which depends on the hidden layers, which depend on the weights and inputs. Backpropagation uses the chain rule repeatedly to calculate the [[03_Gradient|gradient]] of the loss with respect to each weight and bias throughout the network, allowing [[02_Gradient_Descent|Gradient Descent]] to update the parameters.
 *   **Related Rates Problems:** Used in physics and engineering to find the rate of change of one quantity in terms of the rate of change of another related quantity.
 *   **Implicit Differentiation:** A technique that relies on the chain rule to find derivatives of implicitly defined functions.
-*   **[[../02 Multivariable Calculus/03_Gradient|Multivariable Chain Rule]]:** Extends the concept to functions involving multiple variables.
+*   **[[03_Gradient|Multivariable Chain Rule]]:** Extends the concept to functions involving multiple variables.
 
 ## Summary
 *   The **Chain Rule** is used to differentiate **composite functions** ($f(g(x))$).

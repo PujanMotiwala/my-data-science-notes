@@ -7,7 +7,7 @@
 *   Since the code is suboptimal (based on $Q$ instead of $P$), cross-entropy will be greater than or equal to the true entropy: $H(P, Q) \ge H(P)$. The difference is the [[03_KL_Divergence|KL Divergence]].
 
 ## Formal Definition
-*   For two [[../01 Probability/02 Random Variables/01_Definition|discrete probability distributions]] $P = \{p_1, ..., p_n\}$ and $Q = \{q_1, ..., q_n\}$ defined over the same set of events $\{x_1, ..., x_n\}$, the **cross-entropy** of $Q$ relative to $P$ is:
+*   For two [[02 Math/01 Probability/02 Random Variables/01_Definition|discrete probability distributions]] $P = \{p_1, ..., p_n\}$ and $Q = \{q_1, ..., q_n\}$ defined over the same set of events $\{x_1, ..., x_n\}$, the **cross-entropy** of $Q$ relative to $P$ is:
     $$ H(P, Q) = - \sum_{i=1}^n p_i \log(q_i) $$
 *   **Logarithm Base:** As with [[01_Entropy|entropy]], the base determines units (bits for $\log_2$, nats for $\ln$). We typically use $\ln$ (nats) in machine learning.
 *   **Handling $q_i=0$:** If $p_i > 0$ but $q_i = 0$ for any $i$, the cross-entropy is formally infinite (you can't encode an event that occurred if your assumed distribution gave it zero probability). In practice, often requires smoothing or assumes $q_i$ are never exactly zero if $p_i$ isn't.

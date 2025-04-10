@@ -1,7 +1,7 @@
 # Poisson Distribution
 
 ## Definition / Introduction
-*   The Poisson distribution is a [[../02 Random Variables/01_Definition|Discrete Probability Distribution]] that models the probability of a given **number of events occurring in a fixed interval** of time or space.
+*   The Poisson distribution is a [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete Probability Distribution]] that models the probability of a given **number of events occurring in a fixed interval** of time or space.
 *   It's used when these events occur independently and with a known constant average rate ($\lambda$).
 *   Examples: Number of emails received per hour, number of typos per page, number of cars arriving at a toll booth per minute, number of mutations in a DNA strand.
 
@@ -15,29 +15,29 @@ A process can often be modeled by a Poisson distribution if:
 *   Two events cannot occur at exactly the same instant (the probability of simultaneous events is negligible).
 
 ### 2. The Poisson Random Variable
-*   A [[../02 Random Variables/01_Definition|Random Variable]] $X$ follows a Poisson distribution if it represents the count of events occurring in a fixed interval, given the average rate $\lambda$.
+*   A [[02 Math/01 Probability/02 Random Variables/01_Definition|Random Variable]] $X$ follows a Poisson distribution if it represents the count of events occurring in a fixed interval, given the average rate $\lambda$.
 *   Possible values for $X$ are non-negative integers $\{0, 1, 2, 3, ...\}$.
 *   Notation: $X \sim \text{Poisson}(\lambda)$ or $X \sim \text{Poi}(\lambda)$.
 
 ### 3. Probability Mass Function (PMF)
-*   The [[../02 Random Variables/02_Probability_Mass_Function_PMF|PMF]] gives the probability of observing exactly $k$ events in the interval:
+*   The [[02_Probability_Mass_Function_PMF|PMF]] gives the probability of observing exactly $k$ events in the interval:
     $$ P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!} \quad \text{for } k = 0, 1, 2, ... $$
 *   Where:
     *   $k$ is the number of events (a non-negative integer).
     *   $\lambda$ (lambda) is the average number of events per interval (the rate parameter). $\lambda > 0$.
     *   $e$ is Euler's number (the base of the natural logarithm, $e \approx 2.71828...$).
-    *   $k!$ is the [[../01 Basic Probability Theory/03_Combinatorics|factorial]] of $k$.
+    *   $k!$ is the [[03_Combinatorics|factorial]] of $k$.
 
 ### 4. Parameter
 *   The Poisson distribution has only **one parameter**:
     *   $\lambda$ (lambda): The average rate or mean number of events in the given interval.
 
 ### 5. Expected Value (Mean)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected]] number of events in the interval is simply the rate parameter:
+*   The [[01_Expected_Value|expected]] number of events in the interval is simply the rate parameter:
     $$ E[X] = \lambda $$
 
 ### 6. Variance
-*   A key property of the Poisson distribution is that its [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] is equal to its mean:
+*   A key property of the Poisson distribution is that its [[02_Variance_and_Standard_Deviation|variance]] is equal to its mean:
     $$ Var(X) = \lambda $$
 *   If the observed variance in count data is much larger than the mean (overdispersion), a simple Poisson model might not be appropriate (consider [[09_Negative_Binomial_Distribution|Negative Binomial]] instead).
 
@@ -66,4 +66,4 @@ A process can often be modeled by a Poisson distribution if:
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Poisson Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Exponential Distribution]] [[Binomial Distribution]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Poisson Distribution]] [[PMF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Rate Parameter]] [[Exponential Distribution]] [[Binomial Distribution]] [[02 Math/index]] [[Statistics]]

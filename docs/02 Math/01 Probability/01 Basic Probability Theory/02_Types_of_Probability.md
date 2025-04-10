@@ -28,7 +28,7 @@
     *   Observation: $n(E)=150$ visitors converted (e.g., made a purchase).
     *   Event E: A visitor converts.
     *   Calculation: $P(E) \approx \frac{150}{1000} = 0.15$ or 15%.
-*   **Limitation:** Requires a large number of trials $N$ for the approximation to be reliable (related to the [[../05 Important Theorems/01_Law_of_Large_Numbers_LLN|Law of Large Numbers]]). The probability is an estimate based on past data and might change if the underlying conditions change.
+*   **Limitation:** Requires a large number of trials $N$ for the approximation to be reliable (related to the [[01_Law_of_Large_Numbers_LLN|Law of Large Numbers]]). The probability is an estimate based on past data and might change if the underlying conditions change.
 
 ### 3. Subjective Probability
 *   **Basis:** Represents an individual's degree of belief or confidence in an event occurring. It's based on personal judgment, experience, intuition, and available (possibly incomplete) evidence.
@@ -40,7 +40,7 @@
 
 ## Connections to Other Topics
 *   Theoretical probability relies heavily on [[03_Combinatorics|Combinatorics]] for counting outcomes.
-*   Empirical probability is closely linked to [[../05 Important Theorems/01_Law_of_Large_Numbers_LLN|Law of Large Numbers]] and is the foundation of [[../02 Inferential statistics/001 Inferential Statistics|Inferential Statistics]].
+*   Empirical probability is closely linked to [[01_Law_of_Large_Numbers_LLN|Law of Large Numbers]] and is the foundation of [[../02 Inferential statistics/001 Inferential Statistics|Inferential Statistics]].
 *   Subjective probability is central to [[../06_Bayes_Theorem|Bayesian statistics]], where prior beliefs are updated with evidence.
 *   [[../../AB Testing/Intro|A/B testing]] relies heavily on empirical probability.
 

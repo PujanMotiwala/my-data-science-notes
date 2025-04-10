@@ -1,12 +1,12 @@
 # Beta Distribution
 
 ## Simple Idea
-*   The Beta distribution is a [[../02 Random Variables/01_Definition|continuous probability distribution]] defined on the interval **(0, 1)**.
+*   The Beta distribution is a [[02 Math/01 Probability/02 Random Variables/01_Definition|continuous probability distribution]] defined on the interval **(0, 1)**.
 *   Think of it as representing a **probability distribution *of probabilities***. It's often used to model uncertainty about a parameter that itself represents a probability, like the bias of a coin (`p`) or the conversion rate of a webpage.
 *   Its shape is very flexible, controlled by two positive shape parameters, allowing it to model various forms of belief about a probability.
 
 ## Formal Definition
-*   A continuous random variable $X$ follows a Beta distribution with positive shape parameters $\alpha$ and $\beta$, if its [[../02 Random Variables/03_Probability_Density_Function_PDF|Probability Density Function (PDF)]] is defined on the interval $(0, 1)$ as:
+*   A continuous random variable $X$ follows a Beta distribution with positive shape parameters $\alpha$ and $\beta$, if its [[03_Probability_Density_Function_PDF|Probability Density Function (PDF)]] is defined on the interval $(0, 1)$ as:
     $$ f(x | \alpha, \beta) = \frac{1}{B(\alpha, \beta)} x^{\alpha-1} (1-x)^{\beta-1} \quad \text{for } 0 < x < 1 $$
 *   Where:
     *   $x$ is a value between 0 and 1 (representing a probability or proportion).
@@ -66,4 +66,4 @@
 *   Bayesian statistics textbooks (e.g., "Doing Bayesian Data Analysis" by Kruschke; "Bayesian Data Analysis" by Gelman et al.)
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Beta Distribution]] [[PDF]] [[Expected Value]] [[Variance]] [[Beta Function]] [[Gamma Function]] [[Bayesian Statistics]] [[Conjugate Prior]] [[02 Math/index]] [[Statistics]] [[Foundations]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Beta Distribution]] [[PDF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Beta Function]] [[Gamma Function]] [[Bayesian Statistics]] [[Conjugate Prior]] [[02 Math/index]] [[Statistics]] [[Foundations]]

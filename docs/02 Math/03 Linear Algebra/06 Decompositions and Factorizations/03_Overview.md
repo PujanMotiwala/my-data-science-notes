@@ -1,7 +1,7 @@
 # Overview of Matrix Decompositions
 
 ## Simple Idea
-*   Matrix decompositions (or factorizations) are ways of **breaking down a complex [[../01 Core Objects/03_Matrices|matrix]] into a product of simpler, structured matrices**.
+*   Matrix decompositions (or factorizations) are ways of **breaking down a complex [[03_Matrices|matrix]] into a product of simpler, structured matrices**.
 *   Think of it like factoring a number (e.g., $12 = 2 \times 2 \times 3$). Factoring a matrix reveals its fundamental properties and makes certain computations much easier.
 
 ## Formal Definition
@@ -12,8 +12,8 @@
 ## Why Decompose Matrices?
 *   **Solving Linear Systems ($\mathbf{Ax=b}$):** Decompositions like LU or QR provide efficient and numerically stable ways to solve systems.
 *   **Understanding Transformations:** Decompositions like [[01_Eigenvalues_and_Eigenvectors|Eigendecomposition]] and [[02_Singular_Value_Decomposition_SVD|SVD]] reveal the geometric action of the matrix (scaling, rotation).
-*   **Simplifying Computations:** Calculating [[../03 Matrix Properties and Concepts/03_Determinant|determinants]] ($\det(\mathbf{A}) = \det(\mathbf{F}_1)\dots$), [[../03 Matrix Properties and Concepts/02_Inverse_Matrix|inverses]] ($\mathbf{A}^{-1} = \dots \mathbf{F}_2^{-1}\mathbf{F}_1^{-1}$), and matrix powers ($\mathbf{A}^k$) becomes easier using decomposed forms.
-*   **Data Compression & [[../04 Vector Spaces and Concepts/03_Rank|Rank]] Reduction:** [[02_Singular_Value_Decomposition_SVD|SVD]] allows for low-rank approximation, compressing data by retaining essential components.
+*   **Simplifying Computations:** Calculating [[03_Determinant|determinants]] ($\det(\mathbf{A}) = \det(\mathbf{F}_1)\dots$), [[02_Inverse_Matrix|inverses]] ($\mathbf{A}^{-1} = \dots \mathbf{F}_2^{-1}\mathbf{F}_1^{-1}$), and matrix powers ($\mathbf{A}^k$) becomes easier using decomposed forms.
+*   **Data Compression & [[03_Rank|Rank]] Reduction:** [[02_Singular_Value_Decomposition_SVD|SVD]] allows for low-rank approximation, compressing data by retaining essential components.
 *   **Revealing Properties:** [[01_Eigenvalues_and_Eigenvectors|Eigenvalues]] from Eigendecomposition indicate stability; singular values from [[02_Singular_Value_Decomposition_SVD|SVD]] relate to matrix rank and energy/variance.
 *   **Algorithm Development:** Many algorithms in machine learning (e.g., [[02_Singular_Value_Decomposition_SVD|PCA]], recommender systems) and numerical analysis rely directly on matrix decompositions.
 
@@ -31,7 +31,7 @@
 *   **Components:**
     *   $\mathbf{U}, \mathbf{V}$: [[Orthogonal Matrix|Orthogonal matrices]] containing left/right **singular vectors**.
     *   $\mathbf{\Sigma}$ (Sigma): Diagonal ($m \times n$) matrix containing non-negative **singular values** ($\sigma_i$).
-*   **Use:** [[../04 Vector Spaces and Concepts/03_Rank|Rank]] determination ($\text{rank} = \#$ non-zero $\sigma_i$), low-rank approximation (compression, noise reduction), [[02_Singular_Value_Decomposition_SVD|PCA]], solving linear systems (via pseudoinverse), recommender systems.
+*   **Use:** [[03_Rank|Rank]] determination ($\text{rank} = \#$ non-zero $\sigma_i$), low-rank approximation (compression, noise reduction), [[02_Singular_Value_Decomposition_SVD|PCA]], solving linear systems (via pseudoinverse), recommender systems.
 
 ## Other Common Decompositions (Brief Mention)
 
@@ -40,7 +40,7 @@
 *   **Cholesky Decomposition ($\mathbf{A = LL^T}$ or $\mathbf{A = R^T R}$):** Factors a **symmetric, positive-definite** matrix $\mathbf{A}$ into a **L**ower triangular matrix $\mathbf{L}$ and its transpose $\mathbf{L}^T$ (or an upper triangular $\mathbf{R}$ and its transpose). Very efficient ($\sim \frac{1}{2}$ cost of LU) for solving systems with such matrices (common in statistics, e.g., with covariance matrices) and for Monte Carlo simulation of correlated variables.
 
 ## Connections to Other Topics
-*   All decompositions rely on the fundamental concepts of [[../01 Core Objects/03_Matrices|matrices]], [[../02 Basic Operations/02_Matrix_Operations|matrix operations]], [[../04 Vector Spaces and Concepts/01_Linear_Independence|linear independence]], [[../04 Vector Spaces and Concepts/02_Span_and_Basis|span]], and [[../04 Vector Spaces and Concepts/03_Rank|rank]].
+*   All decompositions rely on the fundamental concepts of [[03_Matrices|matrices]], [[02_Matrix_Operations|matrix operations]], [[01_Linear_Independence|linear independence]], [[02_Span_and_Basis|span]], and [[03_Rank|rank]].
 *   [[01_Eigenvalues_and_Eigenvectors|Eigenvalues]]/vectors and singular values/vectors are key outputs of specific decompositions.
 *   [[Orthogonal Matrix|Orthogonal matrices]] (like $\mathbf{U}, \mathbf{V}, \mathbf{Q}$) play a crucial role as they represent rotations/reflections and preserve lengths and angles ($\|\mathbf{Qx}\|_2 = \|\mathbf{x}\|_2$), leading to numerical stability.
 

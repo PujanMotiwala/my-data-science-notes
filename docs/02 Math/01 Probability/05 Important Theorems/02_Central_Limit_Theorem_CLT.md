@@ -2,7 +2,7 @@
 
 ## Definition / Introduction
 *   The Central Limit Theorem (CLT) is one of the most remarkable and important results in probability theory and statistics.
-*   It states that, under certain conditions, the **distribution of the sum (or average) of a large number of independent random variables** will be approximately a **[[../03 Common Probability Distributions/05_Normal_Gaussian_Distribution|Normal (Gaussian) distribution]]**, **regardless of the original distribution** from which the variables were drawn.
+*   It states that, under certain conditions, the **distribution of the sum (or average) of a large number of independent random variables** will be approximately a **[[05_Normal_Gaussian_Distribution|Normal (Gaussian) distribution]]**, **regardless of the original distribution** from which the variables were drawn.
 *   This explains why the Normal distribution appears so frequently in nature and statistical practice.
 
 ## Key Concepts
@@ -10,8 +10,8 @@
 ### 1. The Core Idea
 *   Let $X_1, X_2, ..., X_n$ be a sequence of independent and identically distributed (i.i.d.) random variables, each with a finite mean $\mu$ and a finite non-zero variance $\sigma^2$.
 *   Consider the **sample mean:** $\bar{X}_n = \frac{X_1 + X_2 + \dots + X_n}{n}$.
-    *   From [[../04 Expectation Variance Covariance/01_Expected_Value|linearity of expectation]], $E[\bar{X}_n] = \mu$.
-    *   From [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|properties of variance]] (for i.i.d. variables), $Var(\bar{X}_n) = Var\left(\frac{\sum X_i}{n}\right) = \frac{1}{n^2} \sum Var(X_i) = \frac{1}{n^2} (n\sigma^2) = \frac{\sigma^2}{n}$.
+    *   From [[01_Expected_Value|linearity of expectation]], $E[\bar{X}_n] = \mu$.
+    *   From [[02_Variance_and_Standard_Deviation|properties of variance]] (for i.i.d. variables), $Var(\bar{X}_n) = Var\left(\frac{\sum X_i}{n}\right) = \frac{1}{n^2} \sum Var(X_i) = \frac{1}{n^2} (n\sigma^2) = \frac{\sigma^2}{n}$.
     *   The standard deviation of the sample mean (also called the [[../02 Inferential statistics/Estimation/Standard error|Standard Error]]) is $SD(\bar{X}_n) = \sqrt{\frac{\sigma^2}{n}} = \frac{\sigma}{\sqrt{n}}$.
 *   The CLT states that as the sample size $n$ becomes sufficiently large ($n \to \infty$), the **distribution of the sample mean $\bar{X}_n$** approaches a Normal distribution with mean $\mu$ and variance $\sigma^2/n$:
     $$ \bar{X}_n \xrightarrow{\text{approx}} N\left(\mu, \frac{\sigma^2}{n}\right) \quad \text{as } n \to \infty $$
@@ -37,7 +37,7 @@
 ## Connections to Other Topics & Relevance
 *   **[[../02 Inferential statistics/Hypothesis testing|Hypothesis Testing]] & [[../02 Inferential statistics/Estimation/Confidence Intervals|Confidence Intervals]]:** The CLT is the cornerstone for many common statistical procedures involving sample means. It allows us to assume the sampling distribution of the mean is approximately Normal, even if the population distribution isn't, enabling the use of Z-tests, t-tests (which accounts for estimating $\sigma$), and the calculation of confidence intervals for $\mu$.
 *   **[[../02 Inferential statistics/Estimation/Standard error|Standard Error]]:** The $\sigma/\sqrt{n}$ term is the standard deviation of the sampling distribution of the mean, known as the standard error. The CLT gives this distribution its Normal shape.
-*   **Approximations:** Justifies using the Normal distribution to approximate others like the [[../03 Common Probability Distributions/02_Binomial_Distribution|Binomial]] and [[../03 Common Probability Distributions/03_Poisson_Distribution|Poisson]] under certain conditions (large $n$ or $\lambda$).
+*   **Approximations:** Justifies using the Normal distribution to approximate others like the [[02_Binomial_Distribution|Binomial]] and [[03_Poisson_Distribution|Poisson]] under certain conditions (large $n$ or $\lambda$).
 *   **Quality Control & Process Monitoring:** Understanding the distribution of sample averages is crucial for setting control limits.
 
 ## Summary
@@ -57,4 +57,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Important Theorems]] [[Central Limit Theorem]] [[CLT]] [[Normal Distribution]] [[Sampling Distribution]] [[Sample Mean]] [[Standard Error]] [[Convergence]] [[Statistical Inference]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Important Theorems]] [[Central Limit Theorem]] [[CLT]] [[Normal Distribution]] [[Sampling Distribution]] [[Sample Mean]] [[Standard error]] [[Convergence]] [[Statistical Inference]] [[02 Math/index]] [[Statistics]]

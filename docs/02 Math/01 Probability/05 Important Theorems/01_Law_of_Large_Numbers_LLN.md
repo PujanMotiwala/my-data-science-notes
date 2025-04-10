@@ -2,7 +2,7 @@
 
 ## Definition / Introduction
 *   The Law of Large Numbers (LLN) is a fundamental theorem in probability theory that describes the long-term stability of the average of random variables.
-*   It essentially states that as you collect more and more independent observations from a random process, the **sample average** of these observations will get closer and closer to the **theoretical [[../04 Expectation Variance Covariance/01_Expected_Value|Expected Value]]** (or mean) $\mu$ of the process.
+*   It essentially states that as you collect more and more independent observations from a random process, the **sample average** of these observations will get closer and closer to the **theoretical [[01_Expected_Value|Expected Value]]** (or mean) $\mu$ of the process.
 *   It provides the mathematical justification for why we can estimate underlying population parameters (like the mean) using sample data.
 
 ## Key Concepts
@@ -34,11 +34,11 @@ There are two main forms, differing in the type of convergence:
 *   The underlying distribution must have a **finite mean** $\mu$. (Distributions like the Cauchy distribution do not have a finite mean, and the LLN does not apply).
 
 ## Connections to Other Topics & Relevance
-*   **Foundation of [[../01 Basic Probability Theory/02_Types_of_Probability|Empirical Probability]]:** Justifies estimating the probability $p$ of an event by observing its relative frequency (proportion) in a large number of trials. The observed frequency converges to the true theoretical probability $p$ (which is the expected value of a Bernoulli trial).
+*   **Foundation of [[02_Types_of_Probability|Empirical Probability]]:** Justifies estimating the probability $p$ of an event by observing its relative frequency (proportion) in a large number of trials. The observed frequency converges to the true theoretical probability $p$ (which is the expected value of a Bernoulli trial).
 *   **Basis for Statistical Inference:** Allows us to use sample statistics (like the sample mean) to estimate population parameters (like the population mean $\mu$). Provides confidence that larger samples give better estimates.
 *   **[[../../AB Testing/Intro|A/B Testing]]:** The LLN ensures that as we collect more user data in an A/B test, the observed conversion rates for each variant will converge towards their true underlying conversion rates.
 *   **Monte Carlo Methods:** Relies on the LLN. By simulating a process many times, the average result of the simulations converges to the expected value of the quantity being estimated (e.g., estimating complex integrals or option prices).
-*   **[[../04 Expectation Variance Covariance/01_Expected_Value|Expected Value]]:** The LLN connects the theoretical concept of expected value to the practical calculation of a sample average.
+*   **[[01_Expected_Value|Expected Value]]:** The LLN connects the theoretical concept of expected value to the practical calculation of a sample average.
 
 ## Summary
 *   The **Law of Large Numbers (LLN)** states that the **sample average ($\bar{X}_n$)** converges to the **theoretical expected value ($\mu$)** as the sample size ($n$) grows infinitely large.

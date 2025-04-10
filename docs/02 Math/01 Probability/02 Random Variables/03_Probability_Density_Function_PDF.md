@@ -1,7 +1,7 @@
 # Probability Density Function (PDF)
 
 ## Definition / Introduction
-*   For a [[01_Definition|Continuous Random Variable]], the probability of it taking on any *single specific* value is essentially zero (because there are infinitely many possible values in any interval).
+*   For a [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Random Variable]], the probability of it taking on any *single specific* value is essentially zero (because there are infinitely many possible values in any interval).
 *   Instead of assigning probabilities to specific points like a [[02_Probability_Mass_Function_PMF|PMF]] does for discrete variables, we use a **Probability Density Function (PDF)** to describe the *relative likelihood* of a continuous random variable $X$ falling within a given range or interval.
 *   The PDF $f(x)$ itself does *not* give probability directly; probability is represented by the **area under the PDF curve** over an interval.
 
@@ -41,9 +41,9 @@ A function $f(x)$ can be considered a valid PDF if and only if it satisfies thes
 *   The **area under the curve** between two points represents the probability of the variable falling within that range.
 
 ## Connections to Other Topics
-*   The PDF defines the probability distribution for a [[01_Definition|Continuous Random Variable]]. Common continuous distributions like [[../03 Common Probability Distributions/04_Uniform_Distribution|Uniform]], [[../03 Common Probability Distributions/05_Normal_Gaussian_Distribution|Normal (Gaussian)]], and [[../03 Common Probability Distributions/06_Exponential_Distribution|Exponential]] are characterized by their specific PDF formulas.
+*   The PDF defines the probability distribution for a [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Random Variable]]. Common continuous distributions like [[04_Uniform_Distribution|Uniform]], [[05_Normal_Gaussian_Distribution|Normal (Gaussian)]], and [[06_Exponential_Distribution|Exponential]] are characterized by their specific PDF formulas.
 *   Requires concepts from [[../04 Calculus/05 Integrals/01_Definite_and_Indefinite_Integrals|Calculus (Integration)]] to calculate probabilities.
-*   Used to calculate the [[../04 Expectation Variance Covariance/01_Expected_Value|Expected Value]] ($E[X] = \int x f(x) dx$) and [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|Variance]] ($Var(X) = \int (x-\mu)^2 f(x) dx$) of a continuous RV using integration.
+*   Used to calculate the [[01_Expected_Value|Expected Value]] ($E[X] = \int x f(x) dx$) and [[02_Variance_and_Standard_Deviation|Variance]] ($Var(X) = \int (x-\mu)^2 f(x) dx$) of a continuous RV using integration.
 *   Related to the [[04_Cumulative_Distribution_Function_CDF|Cumulative Distribution Function (CDF)]] for continuous variables: $F(x) = P(X \le x) = \int_{-\infty}^{x} f(t) dt$, and conversely, $f(x) = \frac{d}{dx} F(x)$.
 
 ## Summary

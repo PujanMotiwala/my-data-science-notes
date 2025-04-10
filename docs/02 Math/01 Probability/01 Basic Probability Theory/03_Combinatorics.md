@@ -46,7 +46,7 @@
 
 ## Connections to Other Topics
 *   Essential for calculating [[02_Types_of_Probability|Theoretical Probabilities]].
-*   The Binomial Coefficient $\binom{n}{k}$ is fundamental to the [[../03 Common Probability Distributions/02_Binomial_Distribution|Binomial Distribution]].
+*   The Binomial Coefficient $\binom{n}{k}$ is fundamental to the [[02_Binomial_Distribution|Binomial Distribution]].
 *   Used in sampling techniques in [[../02 Inferential statistics/001 Inferential Statistics|Statistics]].
 *   Relevant in analyzing algorithm complexity (e.g., number of pairs).
 

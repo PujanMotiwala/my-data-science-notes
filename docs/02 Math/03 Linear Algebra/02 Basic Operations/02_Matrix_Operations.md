@@ -1,7 +1,7 @@
 # Matrix Operations
 
 ## Definition / Introduction
-*   Matrix operations define how [[../01 Core Objects/03_Matrices|matrices]] interact with each other, with [[../01 Core Objects/02_Vectors|vectors]], and with [[../01 Core Objects/01_Scalars|scalars]].
+*   Matrix operations define how [[03_Matrices|matrices]] interact with each other, with [[02_Vectors|vectors]], and with [[01_Scalars|scalars]].
 *   These operations allow us to manipulate blocks of data, solve systems of equations, represent and combine linear transformations, and perform computations essential to machine learning models.
 *   Core operations include matrix addition, scalar multiplication, matrix-vector multiplication, matrix-matrix multiplication, and transposition.
 
@@ -49,7 +49,7 @@
 
 ## Connections to Other Topics
 *   Matrix multiplication allows solving systems of linear equations $\mathbf{Ax=b}$.
-*   Core operations used in defining and computing [[../03 Matrix Properties and Concepts/02_Inverse_Matrix|Matrix Inverses]], [[../03 Matrix Properties and Concepts/03_Determinant|Determinants]], and performing matrix [[../06 Decompositions and Factorizations/03_Overview|Decompositions]] (like SVD, Eigendecomposition).
+*   Core operations used in defining and computing [[02_Inverse_Matrix|Matrix Inverses]], [[03_Determinant|Determinants]], and performing matrix [[03_Overview|Decompositions]] (like SVD, Eigendecomposition).
 *   Foundation for computations in [[../../06 Machine Learning/02 Supervised/01 Regression/01_Simple Linear Regression/Linear Regression|Linear Regression]] (Normal Equation involves $(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}$), [[../../07 Deep Learning/01 Foundational Models/Neural Networks/01 The Basics/01_Introduction|Neural Networks]], Principal Component Analysis (PCA), etc.
 
 ## Summary

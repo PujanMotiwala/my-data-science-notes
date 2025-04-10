@@ -1,7 +1,7 @@
 # Joint, Marginal, and Conditional Distributions
 
 ## Definition / Introduction
-*   Often, we are interested in the behavior of **multiple [[01_Definition|random variables]]** simultaneously. For instance, how are height and weight related? How does the probability of rain depend on temperature?
+*   Often, we are interested in the behavior of **multiple [[02 Math/01 Probability/02 Random Variables/01_Definition|random variables]]** simultaneously. For instance, how are height and weight related? How does the probability of rain depend on temperature?
 *   **Joint Distributions** describe the probability of two or more random variables *simultaneously* taking on specific values or falling within specific ranges.
 *   **Marginal Distributions** describe the probability distribution of a *single* random variable from the group, ignoring the others.
 *   **Conditional Distributions** describe the probability distribution of one random variable *given* that another random variable has taken on a specific value.
@@ -9,7 +9,7 @@
 
 ## Key Concepts (Discrete Case)
 
-Let $X$ and $Y$ be two [[01_Definition|discrete random variables]].
+Let $X$ and $Y$ be two [[02 Math/01 Probability/02 Random Variables/01_Definition|discrete random variables]].
 
 ### 1. Joint Probability Mass Function (Joint PMF)
 *   **Definition:** Gives the probability that $X$ takes the value $x$ *and* $Y$ takes the value $y$ simultaneously.
@@ -34,13 +34,13 @@ Let $X$ and $Y$ be two [[01_Definition|discrete random variables]].
 *   **Intuition:** It describes the distribution of one variable within the restricted "slice" where the other variable's value is known.
 
 ### 4. Independence
-*   Discrete RVs $X$ and $Y$ are [[../01 Basic Probability Theory/05_Independence|independent]] if and only if their joint PMF is the product of their marginal PMFs for all $x, y$:
+*   Discrete RVs $X$ and $Y$ are [[05_Independence|independent]] if and only if their joint PMF is the product of their marginal PMFs for all $x, y$:
     $$ p_{X,Y}(x, y) = p_X(x) p_Y(y) $$
 *   Equivalently, independence means $p_{X|Y}(x|y) = p_X(x)$ (knowing Y doesn't change the distribution of X) and $p_{Y|X}(y|x) = p_Y(y)$.
 
 ## Key Concepts (Continuous Case)
 
-Let $X$ and $Y$ be two [[01_Definition|continuous random variables]].
+Let $X$ and $Y$ be two [[02 Math/01 Probability/02 Random Variables/01_Definition|continuous random variables]].
 
 ### 1. Joint Probability Density Function (Joint PDF)
 *   **Definition:** A function $f_{X,Y}(x, y)$ such that the probability of $(X, Y)$ falling within a region $A$ in the xy-plane is found by integrating the joint PDF over that region.
@@ -63,13 +63,13 @@ Let $X$ and $Y$ be two [[01_Definition|continuous random variables]].
 *   **Properties:** For a fixed $y$, $f_{X|Y}(x|y)$ is a valid PDF in $x$ (non-negative, integrates to 1 over all x).
 
 ### 4. Independence
-*   Continuous RVs $X$ and $Y$ are [[../01 Basic Probability Theory/05_Independence|independent]] if and only if their joint PDF is the product of their marginal PDFs for all $x, y$:
+*   Continuous RVs $X$ and $Y$ are [[05_Independence|independent]] if and only if their joint PDF is the product of their marginal PDFs for all $x, y$:
     $$ f_{X,Y}(x, y) = f_X(x) f_Y(y) $$
 *   Equivalently, $f_{X|Y}(x|y) = f_X(x)$ and $f_{Y|X}(y|x) = f_Y(y)$.
 
 ## Connections to Other Topics & Relevance
-*   **[[../04 Expectation Variance Covariance/03_Covariance_and_Correlation|Covariance and Correlation]]:** Defined based on the joint distribution. $E[XY]$ is calculated using the joint PMF/PDF: $E[XY] = \sum_x \sum_y xy \, p_{X,Y}(x,y)$ or $E[XY] = \iint xy \, f_{X,Y}(x,y) \, dx \, dy$.
-*   **[[../01 Basic Probability Theory/06_Bayes_Theorem|Bayes' Theorem for RVs]]:** Can be expressed using conditional and marginal distributions: $f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x) f_X(x)}{f_Y(y)}$. Crucial for Bayesian inference.
+*   **[[03_Covariance_and_Correlation|Covariance and Correlation]]:** Defined based on the joint distribution. $E[XY]$ is calculated using the joint PMF/PDF: $E[XY] = \sum_x \sum_y xy \, p_{X,Y}(x,y)$ or $E[XY] = \iint xy \, f_{X,Y}(x,y) \, dx \, dy$.
+*   **[[06_Bayes_Theorem|Bayes' Theorem for RVs]]:** Can be expressed using conditional and marginal distributions: $f_{X|Y}(x|y) = \frac{f_{Y|X}(y|x) f_X(x)}{f_Y(y)}$. Crucial for Bayesian inference.
 *   **Multivariate Models:** Concepts extend to more than two variables (Multivariate Distributions, e.g., Multivariate Normal). Foundational for understanding relationships in complex datasets.
 *   **Machine Learning:** Understanding conditional distributions is key to generative models (e.g., generating an image $X$ given a class label $Y$), sequence models (probability of next word given previous words), and graphical models (e.g., Bayesian Networks represent conditional independencies).
 *   **Feature Engineering/Selection:** Analyzing joint and conditional distributions helps understand how features interact and influence a target variable.

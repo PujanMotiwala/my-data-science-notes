@@ -1,8 +1,18 @@
+---
+tags:
+  - Probability
+  - Foundations
+  - Terminology
+  - Math/index
+  - Statistics
+  - Core
+  - Concept
+---
 # Basic Probability: Definitions and Terminology
 
 ## Definition / Introduction
 *   Probability theory is the mathematical framework for quantifying uncertainty and the likelihood of events. It provides a precise language to reason about randomness.
-*   Understanding these core terms is essential because they form the building blocks for analyzing data, building statistical models, interpreting [[../02 Inferential statistics/Hypothesis testing|Hypothesis Tests]], and understanding algorithms in [[../../06 Machine Learning/ML model|Machine Learning]] and AI.
+*   Understanding these core terms is essential because they form the building blocks for analyzing data, building statistical models, interpreting [[Hypothesis testing|Hypothesis Tests]], and understanding algorithms in [[ML model|Machine Learning]] and AI.
 *   This section covers the fundamental vocabulary. We will primarily discuss *theoretical probability* (based on models like fair coins or dice), but these terms also apply to *empirical probability* (based on observed data frequencies), which we'll explore later.
 
 ## Key Concepts
@@ -67,8 +77,8 @@
 
 ## Connections to Other Topics
 *   These terms are fundamental for [[02_Types_of_Probability|Types of Probability]], [[04_Conditional_Probability|Conditional Probability]], and [[06_Bayes_Theorem|Bayes' Theorem]].
-*   Understanding sample spaces and events is key to defining [[../02 Random Variables/01_Definition|Random Variables]] and their [[../02 Random Variables/02_Probability_Mass_Function_PMF|Probability Mass Functions (PMF)]] or [[../02 Random Variables/03_Probability_Density_Function_PDF|Probability Density Functions (PDF)]].
-*   Essential for framing questions in [[../02 Inferential statistics/Hypothesis testing|Hypothesis Testing]].
+*   Understanding sample spaces and events is key to defining [[02 Math/03 Linear Algebra/05 Norms/01_Definition|Random Variables]] and their [[02_Probability_Mass_Function_PMF|Probability Mass Functions (PMF)]] or [[03_Probability_Density_Function_PDF|Probability Density Functions (PDF)]].
+*   Essential for framing questions in [[Hypothesis testing|Hypothesis Testing]].
 
 ## Summary
 *   Probability provides a language for uncertainty.
@@ -86,6 +96,3 @@
 *   [Seeing Theory: Basic Probability (Interactive)](https://seeing-theory.brown.edu/basic-probability/index.html#section1)
 *   [LibreTexts Statistics: Basic Concepts of Probability](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(OpenStax)/03%3A_Probability_Topics/3.01%3A_Terminology)
 *   Primary Textbooks: (e.g., "Probability and Statistics for Engineers and Scientists" by Walpole et al.; "A First Course in Probability" by Sheldon Ross)
-
-## TAGS
-[[Probability]] [[Foundations]] [[Terminology]] [[02 Math/index]] [[Statistics]] [[Core Concept]]

@@ -5,7 +5,7 @@
 *   Think back to the [[02_Cross_Entropy|cross-entropy]] scenario: $KL(P || Q)$ represents the **extra average bits/nats** required per message to encode events from distribution $P$ using a code optimized for distribution $Q$, compared to using the optimal code based on $P$ itself. It's the "cost" or "inefficiency" incurred by using the wrong distribution $Q$ as an approximation for $P$.
 
 ## Formal Definition
-*   For two [[../01 Probability/02 Random Variables/01_Definition|discrete probability distributions]] $P = \{p_1, ..., p_n\}$ and $Q = \{q_1, ..., q_n\}$ defined over the same set of events, the **Kullback-Leibler (KL) divergence** of $Q$ from $P$ (also called the relative entropy of $P$ with respect to $Q$) is:
+*   For two [[02 Math/01 Probability/02 Random Variables/01_Definition|discrete probability distributions]] $P = \{p_1, ..., p_n\}$ and $Q = \{q_1, ..., q_n\}$ defined over the same set of events, the **Kullback-Leibler (KL) divergence** of $Q$ from $P$ (also called the relative entropy of $P$ with respect to $Q$) is:
     $$ D_{KL}(P || Q) = \sum_{i=1}^n p_i \log\left(\frac{p_i}{q_i}\right) $$
 *   **Logarithm Base:** Base determines units (bits for $\log_2$, nats for $\ln$). Use $\ln$ (nats) for ML context.
 *   **Handling Zeros:**

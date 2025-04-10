@@ -27,12 +27,12 @@
 ## Key Concepts & Relevance
 
 *   **Functions in DS/AI:** Models are essentially complex functions mapping inputs (features) to outputs (predictions). Loss functions map model parameters to an error value. Activation functions introduce non-linearities.
-*   **Limits Foundation:** Limits are the theoretical underpinning for [[02_Derivatives|Derivatives]] and [[../05 Integrals/01_Definite_and_Indefinite_Integrals|Integrals]], the two main branches of calculus. Understanding the concept of "approaching" is key.
-*   **Continuity Importance:** Many theorems and algorithms in calculus and optimization (like finding minima/maxima using [[02_Derivatives|derivatives]]) assume the function is continuous and/or differentiable (which requires continuity). Smooth, predictable behavior is often desired. Discontinuities can cause problems for algorithms like [[../03 Optimization/02_Gradient_Descent|Gradient Descent]].
+*   **Limits Foundation:** Limits are the theoretical underpinning for [[02_Derivatives|Derivatives]] and [[01_Definite_and_Indefinite_Integrals|Integrals]], the two main branches of calculus. Understanding the concept of "approaching" is key.
+*   **Continuity Importance:** Many theorems and algorithms in calculus and optimization (like finding minima/maxima using [[02_Derivatives|derivatives]]) assume the function is continuous and/or differentiable (which requires continuity). Smooth, predictable behavior is often desired. Discontinuities can cause problems for algorithms like [[02_Gradient_Descent|Gradient Descent]].
 
 ## Connections to Other Topics
 *   Prerequisite for understanding [[02_Derivatives|Derivatives]] (defined as a limit of a difference quotient).
-*   Prerequisite for understanding [[../05 Integrals/01_Definite_and_Indefinite_Integrals|Integrals]] (defined as a limit of Riemann sums).
+*   Prerequisite for understanding [[01_Definite_and_Indefinite_Integrals|Integrals]] (defined as a limit of Riemann sums).
 *   Types of functions (linear, polynomial, exponential, logarithmic) are fundamental building blocks in modeling.
 
 ## Summary

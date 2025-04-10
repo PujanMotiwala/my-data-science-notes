@@ -2,8 +2,8 @@
 
 ## Simple Idea
 *   Finding maxima (peaks) and minima (valleys) of functions is a core task in optimization. Calculus gives us tools to find these points.
-*   **Single Variable:** Think about finding the highest or lowest point on a curve $y=f(x)$. At these points, the slope ([[../01 Foundations/02_Derivatives|derivative]]) is usually zero (the tangent line is horizontal).
-*   **Multiple Variables:** Think about finding peaks or valley bottoms on a surface $z=f(x, y)$. At these points, the "ground" is flat in *all* directions, meaning all [[../02 Multivariable Calculus/02_Partial_Derivatives|partial derivatives]] (and thus the [[../02 Multivariable Calculus/03_Gradient|gradient]]) must be zero.
+*   **Single Variable:** Think about finding the highest or lowest point on a curve $y=f(x)$. At these points, the slope ([[02_Derivatives|derivative]]) is usually zero (the tangent line is horizontal).
+*   **Multiple Variables:** Think about finding peaks or valley bottoms on a surface $z=f(x, y)$. At these points, the "ground" is flat in *all* directions, meaning all [[02_Partial_Derivatives|partial derivatives]] (and thus the [[03_Gradient|gradient]]) must be zero.
 
 ## Formal Definitions
 
@@ -38,7 +38,7 @@
 
 ### 3. Second Derivative Test (Multiple Variables - using Hessian)
 *   Find critical points where $\nabla f(\mathbf{a}) = \mathbf{0}$.
-*   Compute the **[[../04 Advanced Topics/01_Hessian_Matrix|Hessian matrix]]** $\mathbf{H}(\mathbf{a})$, the matrix of second partial derivatives evaluated at $\mathbf{a}$.
+*   Compute the **[[01_Hessian_Matrix|Hessian matrix]]** $\mathbf{H}(\mathbf{a})$, the matrix of second partial derivatives evaluated at $\mathbf{a}$.
 *   Calculate the [[../03 Linear Algebra/03 Matrix Properties and Concepts/03_Determinant|determinant]] of the Hessian, $D = \det(\mathbf{H}(\mathbf{a}))$. Let $f_{xx} = \partial^2 f / \partial x^2$ evaluated at $\mathbf{a}$.
     *   If $D > 0$ and $f_{xx}(\mathbf{a}) > 0$: Local minimum. (Hessian is positive definite).
     *   If $D > 0$ and $f_{xx}(\mathbf{a}) < 0$: Local maximum. (Hessian is negative definite).
@@ -52,15 +52,15 @@
 *   The largest value found is the global maximum; the smallest is the global minimum.
 
 ## Connections to Other Topics & Relevance
-*   **[[02_Gradient_Descent|Gradient Descent]] & Optimization Algorithms:** These algorithms aim to find minima (usually local minima) of loss functions by iteratively moving towards points where the [[../02 Multivariable Calculus/03_Gradient|gradient]] is zero.
+*   **[[02_Gradient_Descent|Gradient Descent]] & Optimization Algorithms:** These algorithms aim to find minima (usually local minima) of loss functions by iteratively moving towards points where the [[03_Gradient|gradient]] is zero.
 *   **Model Training:** Finding the optimal parameters for a machine learning model involves minimizing a loss function, i.e., finding its minimum value.
 *   **Maximum Likelihood Estimation (MLE):** A statistical method that finds parameter values maximizing the likelihood function (finding a maximum).
 *   **[[04_Convexity|Convex Functions]]:** For convex functions, any local minimum is also a global minimum, which significantly simplifies optimization.
 
 ## Summary
 *   **Extrema** are maximum or minimum values of a function.
-*   **Local Extrema** occur at **critical points** where the [[../01 Foundations/02_Derivatives|derivative]] $f'(x)=0$ (single var) or the [[../02 Multivariable Calculus/03_Gradient|gradient]] $\nabla f(\mathbf{a})=\mathbf{0}$ (multi var), or where they don't exist.
-*   **First/Second Derivative Tests** (single var) or the **Second Derivative Test using the [[../04 Advanced Topics/01_Hessian_Matrix|Hessian Matrix]]** (multi var) help classify critical points as local maxima, minima, or saddle points.
+*   **Local Extrema** occur at **critical points** where the [[02_Derivatives|derivative]] $f'(x)=0$ (single var) or the [[03_Gradient|gradient]] $\nabla f(\mathbf{a})=\mathbf{0}$ (multi var), or where they don't exist.
+*   **First/Second Derivative Tests** (single var) or the **Second Derivative Test using the [[01_Hessian_Matrix|Hessian Matrix]]** (multi var) help classify critical points as local maxima, minima, or saddle points.
 *   Finding extrema is the core goal of **optimization**.
 
 ## Sources

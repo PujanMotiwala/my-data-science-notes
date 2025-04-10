@@ -15,13 +15,13 @@
     $$ \mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \mathbb{R}^n $$
 *   **Row Vector:** Written horizontally:
     $$ \mathbf{v}^T = \begin{bmatrix} v_1 & v_2 & \dots & v_n \end{bmatrix} \in \mathbb{R}^{1 \times n} $$
-    Often represented as the **[[../02 Basic Operations/02_Matrix_Operations|transpose]]** (denoted by $T$) of a column vector.
+    Often represented as the **[[02_Matrix_Operations|transpose]]** (denoted by $T$) of a column vector.
 
 ### 2. Geometric Interpretation
 *   A vector $\mathbf{v}$ in $\mathbb{R}^n$ can be visualized (for $n=2, 3$) as:
     *   An **arrow** starting from the origin $\mathbf{0} = [0, ..., 0]^T$ and ending at the point specified by its components $(v_1, v_2, ..., v_n)$.
     *   The **position vector** of the point $(v_1, v_2, ..., v_n)$ relative to the origin.
-*   The **magnitude** (or length or [[../05 Norms/03_L2_Norm_Euclidean|norm]], often $||\mathbf{v}||$) of the vector corresponds to the length of the arrow.
+*   The **magnitude** (or length or [[03_L2_Norm_Euclidean|norm]], often $||\mathbf{v}||$) of the vector corresponds to the length of the arrow.
 *   The **direction** corresponds to the orientation of the arrow in space.
 
 ### 3. Algebraic Interpretation
@@ -36,10 +36,10 @@
 
 ## Connections to Other Topics
 *   Vectors are composed of [[01_Scalars|Scalars]].
-*   [[../02 Basic Operations/01_Vector_Operations|Vector Operations]] (addition, scalar multiplication, dot product) define how vectors interact.
+*   [[01_Vector_Operations|Vector Operations]] (addition, scalar multiplication, dot product) define how vectors interact.
 *   Vectors form the columns or rows of [[03_Matrices|Matrices]].
-*   The concept of [[../04 Vector Spaces and Concepts/01_Linear_Independence|Linear Independence]], [[../04 Vector Spaces and Concepts/02_Span_and_Basis|Span, and Basis]] revolves around vectors.
-*   [[../05 Norms/01_Definition|Norms]] measure the magnitude (length) of vectors.
+*   The concept of [[01_Linear_Independence|Linear Independence]], [[02_Span_and_Basis|Span, and Basis]] revolves around vectors.
+*   [[02 Math/03 Linear Algebra/05 Norms/01_Definition|Norms]] measure the magnitude (length) of vectors.
 
 ## Summary
 *   A **vector** ($\mathbf{v}$) is an ordered list (array) of numbers ([[01_Scalars|scalars]]).

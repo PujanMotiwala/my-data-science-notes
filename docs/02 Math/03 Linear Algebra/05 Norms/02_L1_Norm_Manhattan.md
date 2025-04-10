@@ -1,13 +1,13 @@
 # L₁ Norm (Manhattan Norm)
 
 ## Simple Idea
-*   The **L₁ norm** of a [[../01 Core Objects/02_Vectors|vector]] measures its "length" by summing the **absolute values** of all its components.
+*   The **L₁ norm** of a [[02_Vectors|vector]] measures its "length" by summing the **absolute values** of all its components.
 *   Imagine moving along a city grid (like Manhattan) where you can only travel horizontally or vertically. The L₁ norm is the total distance you travel along the grid lines from the origin to the vector's endpoint.
 
 ## Formal Definition
 *   For a vector $\mathbf{x} = [x_1, x_2, ..., x_n]^T$ in $\mathbb{R}^n$, the **L₁ norm**, denoted $||\mathbf{x}||_1$, is defined as:
     $$ ||\mathbf{x}||_1 = \sum_{i=1}^n |x_i| = |x_1| + |x_2| + \dots + |x_n| $$
-*   It is a specific case of the [[01_Definition|Lₚ norm]] family where $p=1$.
+*   It is a specific case of the [[02 Math/03 Linear Algebra/05 Norms/01_Definition|Lₚ norm]] family where $p=1$.
 
 ## Key Concepts
 
@@ -21,7 +21,7 @@
     *(Visual Idea: An Excalidraw showing the L₁ unit "circle" (diamond) vs the L₂ unit circle (circle) would highlight the difference).*
 
 ### 3. Properties
-*   Satisfies all the properties of a [[01_Definition|norm]]: Non-negativity, Definiteness, Absolute Homogeneity, Triangle Inequality.
+*   Satisfies all the properties of a [[02 Math/03 Linear Algebra/05 Norms/01_Definition|norm]]: Non-negativity, Definiteness, Absolute Homogeneity, Triangle Inequality.
 
 ## Connections to Other Topics & Relevance
 *   **[[../../06 Machine Learning/01 The Basics/02_Model Evaluation/Test metrics/Regularization/Lasso Regression|Lasso Regression (L1 Regularization)]]:** This is the most significant application in machine learning. Lasso adds a penalty term to the loss function proportional to the L₁ norm of the model's weight vector ($\lambda ||\mathbf{w}||_1$).

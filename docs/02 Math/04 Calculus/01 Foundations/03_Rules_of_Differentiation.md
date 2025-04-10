@@ -61,7 +61,7 @@
 *   These rules are applied repeatedly when differentiating complex functions.
 *   The **[[04_Chain_Rule|Chain Rule]]** is another crucial rule needed for composite functions ($f(g(x))$).
 *   Form the basis for symbolic differentiation used in software packages (like SymPy, Mathematica).
-*   Essential for finding [[../02 Multivariable Calculus/02_Partial_Derivatives|partial derivatives]] in multivariable calculus (treat other variables as constants).
+*   Essential for finding [[02_Partial_Derivatives|partial derivatives]] in multivariable calculus (treat other variables as constants).
 
 ## Summary
 *   Differentiation rules provide shortcuts for finding [[02_Derivatives|derivatives]] without using the limit definition.

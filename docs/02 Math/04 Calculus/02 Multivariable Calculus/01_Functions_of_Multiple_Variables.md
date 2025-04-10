@@ -24,7 +24,7 @@
 *   **Image Representation:** Pixel intensity can be a function of coordinates $I = f(\text{row}, \text{column})$.
 
 ### 3. Limits and Continuity
-*   The concepts of [[../01 Foundations/01_Functions_Limits_Continuity|limits]] and [[../01 Foundations/01_Functions_Limits_Continuity|continuity]] extend to multiple variables, but become more complex. A limit requires the function to approach the same value regardless of the path taken towards the point $(x_0, y_0, ...)$. Continuity requires the limit to exist, the function to be defined, and the limit to equal the function value, just like the single-variable case.
+*   The concepts of [[01_Functions_Limits_Continuity|limits]] and [[01_Functions_Limits_Continuity|continuity]] extend to multiple variables, but become more complex. A limit requires the function to approach the same value regardless of the path taken towards the point $(x_0, y_0, ...)$. Continuity requires the limit to exist, the function to be defined, and the limit to equal the function value, just like the single-variable case.
 
 ## Connections to Other Topics
 *   Foundation for **Multivariable Calculus**: We need functions of multiple variables to define [[02_Partial_Derivatives|Partial Derivatives]], [[03_Gradient|Gradients]], [[04_Directional_Derivatives|Directional Derivatives]], and multiple integrals.

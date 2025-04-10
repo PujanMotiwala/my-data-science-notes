@@ -1,14 +1,14 @@
 # Information Entropy
 
 ## Simple Idea
-*   **Entropy** measures the **average amount of surprise** or **uncertainty** associated with the possible outcomes of a [[../01 Probability/02 Random Variables/01_Definition|random variable]].
+*   **Entropy** measures the **average amount of surprise** or **uncertainty** associated with the possible outcomes of a [[02 Math/01 Probability/02 Random Variables/01_Definition|random variable]].
 *   Think about predicting the outcome:
     *   A very biased coin (e.g., 99% Heads) has *low entropy*. You're quite certain about the outcome (Heads), so there's little surprise on average.
     *   A fair coin (50% Heads, 50% Tails) has *high entropy*. You are maximally uncertain about the outcome, so the average surprise is high.
 *   It can also be interpreted as the **average number of bits** required to encode or communicate the outcome of the random variable, assuming an optimal coding scheme.
 
 ## Formal Definition
-*   For a [[../01 Probability/02 Random Variables/01_Definition|discrete random variable]] $X$ with possible outcomes $\{x_1, ..., x_n\}$ and [[../01 Probability/02 Random Variables/02_Probability_Mass_Function_PMF|Probability Mass Function (PMF)]] $P(X=x_i) = p_i$, the **Shannon Entropy** $H(X)$ is defined as:
+*   For a [[02 Math/01 Probability/02 Random Variables/01_Definition|discrete random variable]] $X$ with possible outcomes $\{x_1, ..., x_n\}$ and [[02_Probability_Mass_Function_PMF|Probability Mass Function (PMF)]] $P(X=x_i) = p_i$, the **Shannon Entropy** $H(X)$ is defined as:
     $$ H(X) = - \sum_{i=1}^n p_i \log(p_i) $$
 *   **Logarithm Base:**
     *   If the logarithm base is 2 ($\log_2$), entropy is measured in **bits**. This is common in information theory and computer science.
@@ -33,7 +33,7 @@
 *   **Nats ($\ln$):** More mathematically convenient when dealing with calculus (e.g., derivatives involving entropy). `1 nat ≈ 1.44 bits`.
 
 ### 4. Differential Entropy (Continuous Case)
-*   For a [[../01 Probability/02 Random Variables/01_Definition|continuous random variable]] $X$ with [[../01 Probability/02 Random Variables/03_Probability_Density_Function_PDF|PDF]] $f(x)$, the **differential entropy** $h(X)$ is defined as:
+*   For a [[02 Math/01 Probability/02 Random Variables/01_Definition|continuous random variable]] $X$ with [[03_Probability_Density_Function_PDF|PDF]] $f(x)$, the **differential entropy** $h(X)$ is defined as:
     $$ h(X) = - \int_{-\infty}^{\infty} f(x) \log(f(x)) \, dx $$
 *   **Caution:** Differential entropy shares some properties with discrete entropy but lacks others. It can be negative, is not unitless, and is sensitive to scaling of $x$. It's more about relative uncertainty.
 

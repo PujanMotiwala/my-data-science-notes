@@ -57,7 +57,7 @@ There are three equivalent ways to mathematically define independence for events
 ## Connections to Other Topics
 *   Crucial distinction when applying the [[04_Conditional_Probability|Multiplication Rule]]. Use $P(A \cap B) = P(A)P(B)$ only if independent, otherwise use $P(A \cap B) = P(A|B)P(B)$.
 *   The assumption of feature independence (often conditional independence given the class) is the core idea behind the [[../../06 Machine Learning/02 Supervised/02 Classification/Naive Bayes|Naive Bayes classifier]], making computations tractable.
-*   Related to the concept of uncorrelated variables in [[../04 Expectation Variance Covariance/03_Covariance_and_Correlation|Covariance and Correlation]], although independence is a stronger condition (independence implies zero correlation, but zero correlation does not always imply independence, except for normally distributed variables).
+*   Related to the concept of uncorrelated variables in [[03_Covariance_and_Correlation|Covariance and Correlation]], although independence is a stronger condition (independence implies zero correlation, but zero correlation does not always imply independence, except for normally distributed variables).
 
 ## Summary
 *   **Independent Events:** Occurrence of one does not affect the probability of the other.

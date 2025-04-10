@@ -1,7 +1,7 @@
 # Cumulative Distribution Function (CDF)
 
 ## Definition / Introduction
-*   The **Cumulative Distribution Function (CDF)** provides a unified way to describe the probability distribution of *any* random variable, whether it's [[01_Definition|Discrete]] or [[01_Definition|Continuous]].
+*   The **Cumulative Distribution Function (CDF)** provides a unified way to describe the probability distribution of *any* random variable, whether it's [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete]] or [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous]].
 *   The CDF, denoted $F(x)$ or $F_X(x)$, gives the probability that the random variable $X$ takes on a value *less than or equal to* a specific value $x$.
 *   It accumulates probability as the value $x$ increases.
 

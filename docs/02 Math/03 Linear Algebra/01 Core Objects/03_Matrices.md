@@ -20,7 +20,7 @@
 
 ### 3. Special Types of Matrices
 *   **Square Matrix:** Number of rows equals number of columns ($m = n$).
-*   **[[../03 Matrix Properties and Concepts/01_Identity_Matrix|Identity Matrix ($\mathbf{I}$)]]:** A square matrix with 1s on the main diagonal (top-left to bottom-right) and 0s elsewhere. Acts like the number 1 in matrix multiplication.
+*   **[[01_Identity_Matrix|Identity Matrix ($\mathbf{I}$)]]:** A square matrix with 1s on the main diagonal (top-left to bottom-right) and 0s elsewhere. Acts like the number 1 in matrix multiplication.
 *   **Zero Matrix ($\mathbf{0}$):** A matrix where all entries are 0.
 *   **Diagonal Matrix:** A square matrix where all off-diagonal entries ($i \neq j$) are 0.
 *   **Symmetric Matrix:** A square matrix where $A_{ij} = A_{ji}$ for all $i, j$ (equal to its transpose: $\mathbf{A} = \mathbf{A}^T$). [[../04 Expectation Variance Covariance/03_Covariance_and_Correlation|Covariance matrices]] are symmetric.
@@ -36,8 +36,8 @@
 
 ## Connections to Other Topics
 *   Matrices are composed of [[01_Scalars|Scalars]] and can be seen as collections of row or column [[02_Vectors|Vectors]].
-*   [[../02 Basic Operations/02_Matrix_Operations|Matrix Operations]] (addition, scalar multiplication, matrix multiplication, transpose) define how matrices interact.
-*   Concepts like [[../03 Matrix Properties and Concepts/02_Inverse_Matrix|Inverse]], [[../03 Matrix Properties and Concepts/03_Determinant|Determinant]], [[../04 Vector Spaces and Concepts/03_Rank|Rank]], [[../06 Decompositions and Factorizations/01_Eigenvalues_and_Eigenvectors|Eigenvalues/Eigenvectors]], and [[../06 Decompositions and Factorizations/02_Singular_Value_Decomposition_SVD|SVD]] are key properties and operations related to matrices.
+*   [[02_Matrix_Operations|Matrix Operations]] (addition, scalar multiplication, matrix multiplication, transpose) define how matrices interact.
+*   Concepts like [[02_Inverse_Matrix|Inverse]], [[03_Determinant|Determinant]], [[03_Rank|Rank]], [[01_Eigenvalues_and_Eigenvectors|Eigenvalues/Eigenvectors]], and [[02_Singular_Value_Decomposition_SVD|SVD]] are key properties and operations related to matrices.
 *   [[04_Tensors|Tensors]] generalize matrices to more than two dimensions.
 
 ## Summary

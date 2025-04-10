@@ -37,16 +37,16 @@
 *   For any random variables $X$ and $Y$:
     $$ Var(X + Y) = Var(X) + Var(Y) + 2 Cov(X, Y) $$
     where $Cov(X, Y)$ is the [[03_Covariance_and_Correlation|Covariance]] between X and Y.
-*   **If X and Y are [[../01 Basic Probability Theory/05_Independence|Independent]]:** Then $Cov(X, Y) = 0$, and the formula simplifies significantly:
+*   **If X and Y are [[05_Independence|Independent]]:** Then $Cov(X, Y) = 0$, and the formula simplifies significantly:
     $$ Var(X + Y) = Var(X) + Var(Y) \quad (\text{if X, Y independent}) $$
     $$ Var(X - Y) = Var(X) + Var(Y) \quad (\text{if X, Y independent}) $$
     *Note:* Variance ADDS even when subtracting independent variables because subtraction can still increase the range of outcomes.
 
 ## Connections to Other Topics & Relevance
 *   **Risk Assessment:** In finance and business, variance and standard deviation are key measures of risk or volatility (e.g., of investment returns).
-*   **Data Analysis & Feature Scaling:** Standard deviation is used in standardization (calculating [[../03 Common Probability Distributions/05_Normal_Gaussian_Distribution|Z-scores]]: $Z = (X - \mu) / \sigma$) which is essential for many machine learning algorithms. Understanding variance helps interpret feature importance and variability.
+*   **Data Analysis & Feature Scaling:** Standard deviation is used in standardization (calculating [[05_Normal_Gaussian_Distribution|Z-scores]]: $Z = (X - \mu) / \sigma$) which is essential for many machine learning algorithms. Understanding variance helps interpret feature importance and variability.
 *   **Confidence Intervals & Hypothesis Testing:** Standard deviation (often estimated from samples as the standard error) is crucial for constructing confidence intervals and performing hypothesis tests about population means.
-*   **[[../03 Common Probability Distributions/05_Normal_Gaussian_Distribution|Normal Distribution]] & Empirical Rule:** Standard deviation defines the intervals ($\mu \pm k\sigma$) containing specific percentages of data (68%, 95%, 99.7%).
+*   **[[05_Normal_Gaussian_Distribution|Normal Distribution]] & Empirical Rule:** Standard deviation defines the intervals ($\mu \pm k\sigma$) containing specific percentages of data (68%, 95%, 99.7%).
 *   **Process Control:** Used to monitor the stability and consistency of processes (e.g., manufacturing).
 
 ## Summary
@@ -64,4 +64,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Variance]] [[Standard Deviation]] [[Dispersion]] [[Spread]] [[Risk]] [[Expected Value]] [[PMF]] [[PDF]] [[02 Math/index]] [[Statistics]] [[Feature Scaling]]
+[[Probability]] [[Random Variable]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Standard Deviation]] [[Dispersion]] [[Spread]] [[Risk]] [[Expected Value]] [[PMF]] [[PDF]] [[02 Math/index]] [[Statistics]] [[Feature Scaling]]

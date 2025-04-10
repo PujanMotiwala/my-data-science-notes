@@ -2,7 +2,7 @@
 
 ## Definition / Introduction
 *   In probability, we often care more about a *numerical consequence* of an experiment's random outcome than the outcome itself.
-*   A **Random Variable** is a rule (or function) that assigns a unique numerical value to each possible outcome in the [[../01 Basic Probability Theory/01_Definition_and_Terminology|Sample Space]] of a random experiment.
+*   A **Random Variable** is a rule (or function) that assigns a unique numerical value to each possible outcome in the [[01_Definition_and_Terminology|Sample Space]] of a random experiment.
 *   **Crucially, it's a *variable* whose value is determined by chance.** We don't know the exact value the random variable will take beforehand, but we can describe the probabilities associated with its possible values.
 *   They are typically denoted by uppercase letters (e.g., X, Y, Z), while the specific values they can take are denoted by corresponding lowercase letters (e.g., x, y, z).
 
@@ -47,7 +47,7 @@ Random variables are broadly classified based on the types of numerical values t
 ## Connections to Other Topics
 *   The possible values of a random variable form the domain over which [[02_Probability_Mass_Function_PMF|Probability Mass Functions (PMF)]] (for discrete RVs) and [[03_Probability_Density_Function_PDF|Probability Density Functions (PDF)]] (for continuous RVs) are defined.
 *   The [[04_Cumulative_Distribution_Function_CDF|Cumulative Distribution Function (CDF)]] describes the probability that a random variable takes a value less than or equal to a specific point, regardless of type.
-*   Understanding random variables is essential for [[../04 Expectation Variance Covariance/01_Expected_Value|Expected Value]] and [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|Variance]].
+*   Understanding random variables is essential for [[01_Expected_Value|Expected Value]] and [[02_Variance_and_Standard_Deviation|Variance]].
 
 ## Summary
 *   A **Random Variable (RV)** assigns a numerical value to each outcome in a sample space.

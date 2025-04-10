@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c63fb594186d218e","type":"text","text":"\nIt is used for gradient descent algorithm, and it determines by how much parameter theta changes with each iteration.\n**Regularization parameter (λ)**\n$$\\theta_j := \\theta_j - \\alpha*\\frac{1}{m}* \\sum_{i=1}^m (h(x)^i - y^i)*x_j$$","x":-1175,"y":-6,"width":453,"height":221,"color":"2"},
+		{"id":"6c10fdaab93f0f60","type":"text","text":"Hyperparameter Tuning\n- Hyperparameters are set manually to help in the estimation of the model parameters. They are not part of the final model equation. (Link: https://www.jeremyjordan.me/hyperparameter-tuning/)","x":-505,"y":-206,"width":997,"height":797},
+		{"id":"20219ea76d391e5e","type":"text","text":"**Learning rate (α)**\nIt is used for [gradient descent algorithm](https://towardsdatascience.com/linear-regression-and-gradient-descent-for-absolute-beginners-eef9574eadb0). It determines by how much parameter theta changes with each iteration.\n$$\\theta_j := \\theta_j - \\alpha*\\frac{1}{m}* \\sum_{i=1}^m (h(x)^i - y^i)*x_j$$","x":-1175,"y":249,"width":453,"height":221,"color":"2"},
+		{"id":"ca9e02ecfa2da019","type":"text","text":"Linear Models\n\n$$$$","x":-460,"y":-6,"width":793,"height":559}
+	],
+	"edges":[]
+}

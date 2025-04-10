@@ -34,9 +34,9 @@
     *   At point (1, 2): $\nabla f(1, 2) = \begin{bmatrix} 2(1) \\ 2(2) \end{bmatrix} = \begin{bmatrix} 2 \\ 4 \end{bmatrix}$. This vector points away from the origin (the minimum) in the direction of steepest ascent.
 
 ## Connections to Other Topics & Relevance
-*   **[[../03 Optimization/02_Gradient_Descent|Gradient Descent]]:** This is the core application. Gradient descent algorithms iteratively update parameters by moving in the direction *opposite* to the gradient ($-\nabla f$) of the loss function, thereby moving towards a minimum.
+*   **[[02_Gradient_Descent|Gradient Descent]]:** This is the core application. Gradient descent algorithms iteratively update parameters by moving in the direction *opposite* to the gradient ($-\nabla f$) of the loss function, thereby moving towards a minimum.
 *   **[[04_Directional_Derivatives|Directional Derivatives]]:** The gradient is used to calculate the rate of change in *any* direction using the dot product: $D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u}$ (where $\mathbf{u}$ is a unit vector).
-*   **[[../01 Foundations/02_Derivatives|Derivative Generalization]]:** The gradient generalizes the concept of the derivative to multivariable functions. While the derivative $f'(x)$ is a scalar slope, the gradient $\nabla f$ is a vector indicating direction and magnitude of maximum change.
+*   **[[02_Derivatives|Derivative Generalization]]:** The gradient generalizes the concept of the derivative to multivariable functions. While the derivative $f'(x)$ is a scalar slope, the gradient $\nabla f$ is a vector indicating direction and magnitude of maximum change.
 *   **Backpropagation:** Computes the gradient of the loss function with respect to all network weights and biases.
 
 ## Summary
@@ -44,7 +44,7 @@
     $$ \nabla f = \left[ \frac{\partial f}{\partial x_1}, \dots, \frac{\partial f}{\partial x_n} \right]^T $$
 *   Points in the direction of **steepest ascent** of the function.
 *   Its magnitude $||\nabla f||$ is the rate of change in that steepest direction.
-*   Crucial for optimization algorithms like **[[../03 Optimization/02_Gradient_Descent|Gradient Descent]]**, which moves opposite to the gradient ($-\nabla f$).
+*   Crucial for optimization algorithms like **[[02_Gradient_Descent|Gradient Descent]]**, which moves opposite to the gradient ($-\nabla f$).
 
 ## Sources
 *   Any standard Multivariable Calculus textbook (e.g., Stewart, Thomas, Anton).

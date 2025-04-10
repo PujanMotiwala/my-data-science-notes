@@ -1,7 +1,7 @@
 # Exponential Distribution
 
 ## Definition / Introduction
-*   The Exponential distribution is a [[../02 Random Variables/01_Definition|Continuous Probability Distribution]] that models the **time until an event occurs** in a [[03_Poisson_Distribution|Poisson process]].
+*   The Exponential distribution is a [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Probability Distribution]] that models the **time until an event occurs** in a [[03_Poisson_Distribution|Poisson process]].
 *   A Poisson process is one where events occur continuously and independently at a constant average rate ($\lambda$). The Exponential distribution describes the waiting time for the *next* event.
 *   Examples: Time until the next customer arrives, time until a radioactive particle decays, time until a component fails (assuming constant failure rate), duration of telephone calls.
 
@@ -13,7 +13,7 @@
 *   Notation: $X \sim \text{Exponential}(\lambda)$ or $X \sim \text{Exp}(\lambda)$. (Sometimes parameterized by the mean $\beta = 1/\lambda$, as $\text{Exp}(\beta)$). We'll use the rate parameter $\lambda$.
 
 ### 2. Probability Density Function (PDF)
-*   The [[../02 Random Variables/03_Probability_Density_Function_PDF|PDF]] shows that shorter waiting times are more likely, with the probability decreasing exponentially as the waiting time $x$ increases:
+*   The [[03_Probability_Density_Function_PDF|PDF]] shows that shorter waiting times are more likely, with the probability decreasing exponentially as the waiting time $x$ increases:
     $$
     f(x | \lambda) = \begin{cases} \lambda e^{-\lambda x} & \text{if } x \ge 0 \\ 0 & \text{if } x < 0 \end{cases}
     $$
@@ -27,19 +27,19 @@
     *   $\lambda$ (Rate): The average number of events per unit interval (same $\lambda$ as in the related [[03_Poisson_Distribution|Poisson distribution]]).
 
 ### 4. Cumulative Distribution Function (CDF)
-*   The [[../02 Random Variables/04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ gives the probability that the event occurs *within* time $x$:
+*   The [[04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ gives the probability that the event occurs *within* time $x$:
     $$
     F(x) = P(X \le x) = \begin{cases} 1 - e^{-\lambda x} & \text{if } x \ge 0 \\ 0 & \text{if } x < 0 \end{cases}
     $$
 *   This is derived by integrating the PDF: $\int_0^x \lambda e^{-\lambda t} dt$.
 
 ### 5. Expected Value (Mean)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected]] (average) waiting time until the next event is the reciprocal of the rate:
+*   The [[01_Expected_Value|expected]] (average) waiting time until the next event is the reciprocal of the rate:
     $$ E[X] = \frac{1}{\lambda} $$
 *   Intuition: If events occur at a high rate ($\lambda$ is large), the average waiting time between them ($1/\lambda$) is short.
 
 ### 6. Variance
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] of the waiting time is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] of the waiting time is:
     $$ Var(X) = \frac{1}{\lambda^2} $$
 *   Note: The standard deviation is $\sigma = \sqrt{Var(X)} = 1/\lambda$, which is equal to the mean.
 
@@ -74,4 +74,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Exponential Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Memorylessness]] [[Poisson Distribution]] [[Poisson Process]] [[Gamma Distribution]] [[Geometric Distribution]] [[Survival Analysis]] [[Queueing Theory]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Exponential Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Rate Parameter]] [[Memorylessness]] [[Poisson Distribution]] [[Poisson Process]] [[Gamma Distribution]] [[Geometric Distribution]] [[Survival Analysis]] [[Queueing Theory]] [[02 Math/index]] [[Statistics]]

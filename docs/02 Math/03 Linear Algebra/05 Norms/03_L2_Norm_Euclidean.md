@@ -1,13 +1,13 @@
 # L₂ Norm (Euclidean Norm)
 
 ## Simple Idea
-*   The **L₂ norm** is what we typically think of as the standard "length" or "distance" of a [[../01 Core Objects/02_Vectors|vector]] in everyday geometry (Euclidean space).
+*   The **L₂ norm** is what we typically think of as the standard "length" or "distance" of a [[02_Vectors|vector]] in everyday geometry (Euclidean space).
 *   It's calculated using the Pythagorean theorem in multiple dimensions: the square root of the sum of the squares of the components.
 
 ## Formal Definition
 *   For a vector $\mathbf{x} = [x_1, x_2, ..., x_n]^T$ in $\mathbb{R}^n$, the **L₂ norm**, denoted $||\mathbf{x}||_2$ or often just $||\mathbf{x}||$ (when the context is clear), is defined as:
     $$ ||\mathbf{x}||_2 = \sqrt{\sum_{i=1}^n x_i^2} = \sqrt{x_1^2 + x_2^2 + \dots + x_n^2} $$
-*   It is a specific case of the [[01_Definition|Lₚ norm]] family where $p=2$.
+*   It is a specific case of the [[02 Math/03 Linear Algebra/05 Norms/01_Definition|Lₚ norm]] family where $p=2$.
 
 ## Key Concepts
 
@@ -23,11 +23,11 @@
     *(Visual Idea: An Excalidraw showing the L₂ unit circle vs the L₁ unit diamond).*
 
 ### 3. Relationship to Dot Product
-*   The L₂ norm squared is equal to the [[../02 Basic Operations/01_Vector_Operations|dot product]] of the vector with itself:
+*   The L₂ norm squared is equal to the [[01_Vector_Operations|dot product]] of the vector with itself:
     $$ ||\mathbf{x}||_2^2 = x_1^2 + \dots + x_n^2 = \mathbf{x} \cdot \mathbf{x} = \mathbf{x}^T \mathbf{x} $$
 
 ### 4. Properties
-*   Satisfies all the properties of a [[01_Definition|norm]]: Non-negativity, Definiteness, Absolute Homogeneity, Triangle Inequality.
+*   Satisfies all the properties of a [[02 Math/03 Linear Algebra/05 Norms/01_Definition|norm]]: Non-negativity, Definiteness, Absolute Homogeneity, Triangle Inequality.
 *   It's induced by the standard dot product (inner product).
 
 ## Connections to Other Topics & Relevance

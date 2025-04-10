@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"9381e89e7579db0e","type":"text","text":"Continuous\nEx: Height, Weight, Temperature (20.1°C, 20.11°C, 20.111°C, etc)","x":159,"y":70,"width":250,"height":130},
+		{"id":"3788ab0afe21bf97","type":"text","text":"Ordinal \nEx: Satisfaction level, Education level","x":159,"y":-490,"width":250,"height":100},
+		{"id":"eeef98181f7a4fb8","type":"text","text":"Nominal\nEx: Gender, Eye color, Blood type","x":159,"y":-370,"width":250,"height":90},
+		{"id":"b5791b551580c898","type":"text","text":"Binary\nExamples: Yes/No, True/False, Male/Female","x":159,"y":-250,"width":250,"height":110},
+		{"id":"c561a110c00b1777","type":"text","text":"Discrete \nEx: Number of students, Number of cars","x":159,"y":-70,"width":250,"height":115},
+		{"id":"f619feba9acfba4d","type":"text","text":"Interval\nEx: Temperature (20°C,30°C)=(30°C,40°C),\nCalendar years\nNo true zero point\n","x":159,"y":210,"width":250,"height":160},
+		{"id":"2ee03ac2bc951ea3","type":"text","text":"Ratio\nEx: Age, Income, Distance\nHaving a true zero point","x":159,"y":390,"width":250,"height":100},
+		{"id":"0c36ef1b9bb2db22","type":"text","text":"[[Numeric (Quantitative data)]]","x":-200,"y":155,"width":200,"height":90},
+		{"id":"d08755b6fd22ad48","type":"text","text":"Data Types","x":-640,"y":-130,"width":250,"height":60},
+		{"id":"cdf772a152b8a247","type":"text","text":"[[Categorical (Qualitative data)]]","x":-200,"y":-370,"width":200,"height":90}
+	],
+	"edges":[
+		{"id":"547901791a1e66bf","fromNode":"d08755b6fd22ad48","fromSide":"right","toNode":"cdf772a152b8a247","toSide":"left"},
+		{"id":"6e6e2ebd4a113c38","fromNode":"d08755b6fd22ad48","fromSide":"right","toNode":"0c36ef1b9bb2db22","toSide":"left"},
+		{"id":"a971497627e06e01","fromNode":"cdf772a152b8a247","fromSide":"right","toNode":"3788ab0afe21bf97","toSide":"left"},
+		{"id":"8a392609f78e8276","fromNode":"cdf772a152b8a247","fromSide":"right","toNode":"eeef98181f7a4fb8","toSide":"left"},
+		{"id":"8e86559b1ebf1907","fromNode":"cdf772a152b8a247","fromSide":"right","toNode":"b5791b551580c898","toSide":"left"},
+		{"id":"c9aec9325ab34542","fromNode":"0c36ef1b9bb2db22","fromSide":"right","toNode":"9381e89e7579db0e","toSide":"left"},
+		{"id":"fd70d934b40135bc","fromNode":"0c36ef1b9bb2db22","fromSide":"right","toNode":"c561a110c00b1777","toSide":"left"},
+		{"id":"7e11eb6edd2195b4","fromNode":"0c36ef1b9bb2db22","fromSide":"right","toNode":"f619feba9acfba4d","toSide":"left"},
+		{"id":"3e1bc3c8bccd2076","fromNode":"0c36ef1b9bb2db22","fromSide":"right","toNode":"2ee03ac2bc951ea3","toSide":"left"}
+	]
+}

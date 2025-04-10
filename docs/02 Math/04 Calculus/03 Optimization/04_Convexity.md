@@ -30,7 +30,7 @@
     (The function lies above its tangent lines/planes).
 *   **Second Derivative Condition (for twice differentiable $f$):**
     *   Single Variable: $f$ is convex iff $f''(x) \ge 0$ for all $x$.
-    *   Multiple Variables: $f$ is convex iff its **[[../04 Advanced Topics/01_Hessian_Matrix|Hessian matrix]]** $\nabla^2 f(\mathbf{x})$ is **positive semidefinite** for all $\mathbf{x}$. (Positive semidefinite means $\mathbf{v}^T \mathbf{H} \mathbf{v} \ge 0$ for all vectors $\mathbf{v}$).
+    *   Multiple Variables: $f$ is convex iff its **[[01_Hessian_Matrix|Hessian matrix]]** $\nabla^2 f(\mathbf{x})$ is **positive semidefinite** for all $\mathbf{x}$. (Positive semidefinite means $\mathbf{v}^T \mathbf{H} \mathbf{v} \ge 0$ for all vectors $\mathbf{v}$).
 
 ### 2. Importance in Optimization
 *   **Global Optimality:** For a convex function $f$ defined on a convex set $S$, any point $\mathbf{x}^*$ where $\nabla f(\mathbf{x}^*) = \mathbf{0}$ (a critical point) is a **global minimum**.
@@ -50,13 +50,13 @@
 ## Connections to Other Topics & Relevance
 *   **[[02_Gradient_Descent|Gradient Descent]] & Optimization Theory:** Explains why GD works perfectly for some problems (like [[../../06 Machine Learning/02 Supervised/01 Regression/01_Simple Linear Regression/Linear Regression|Linear Regression]] with MSE loss, [[../../06 Machine Learning/01 The Basics/02_Model Evaluation/Test metrics/Regularization/Ridge Regression|Ridge Regression]], [[../../06 Machine Learning/02 Supervised/02 Classification/02_Logistic Regression/Logistic Regression|Logistic Regression]], SVMs) which have convex loss functions, but faces challenges in Deep Learning.
 *   **Linear Programming & Convex Optimization:** A whole field dedicated to efficiently solving optimization problems involving convex functions and sets.
-*   **[[../04 Advanced Topics/01_Hessian_Matrix|Hessian Matrix]]:** Used to test for convexity (positive semidefiniteness).
+*   **[[01_Hessian_Matrix|Hessian Matrix]]:** Used to test for convexity (positive semidefiniteness).
 
 ## Summary
 *   **Convex Function:** Bowl-shaped graph; line segment between two graph points lies above or on the graph.
 *   **Convex Set:** Line segment between any two points in the set stays within the set.
 *   **Key Property:** For convex functions, **any local minimum is a global minimum**.
-*   Tested using first derivative condition or second derivative condition ([[../04 Advanced Topics/01_Hessian_Matrix|Hessian]] positive semidefinite).
+*   Tested using first derivative condition or second derivative condition ([[01_Hessian_Matrix|Hessian]] positive semidefinite).
 *   Guarantees [[02_Gradient_Descent|Gradient Descent]] finds the global optimum. Most Deep Learning problems are non-convex.
 
 ## Sources

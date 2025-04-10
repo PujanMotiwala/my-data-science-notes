@@ -22,9 +22,9 @@ Similar to the Geometric case, there are two common definitions:
 *   Let $X$ be the number of trials until the $r$-th success. For $X$ to equal $k$ (where $k \ge r$), the following must happen:
     1.  The $k$-th trial *must* be a success.
     2.  In the first $k-1$ trials, there must have been exactly $r-1$ successes (and thus $(k-1)-(r-1) = k-r$ failures).
-*   The number of ways to arrange the $r-1$ successes within the first $k-1$ trials is given by the [[../01 Basic Probability Theory/03_Combinatorics|binomial coefficient]] $\binom{k-1}{r-1}$.
+*   The number of ways to arrange the $r-1$ successes within the first $k-1$ trials is given by the [[03_Combinatorics|binomial coefficient]] $\binom{k-1}{r-1}$.
 *   The probability of any specific sequence with $r$ successes and $k-r$ failures is $p^r (1-p)^{k-r}$.
-*   Combining these, the [[../02 Random Variables/02_Probability_Mass_Function_PMF|PMF]] is:
+*   Combining these, the [[02_Probability_Mass_Function_PMF|PMF]] is:
     $$ P(X=k) = \binom{k-1}{r-1} p^r (1-p)^{k-r} \quad \text{for } k = r, r+1, r+2, ... $$
 *   Where:
     *   $k$ is the number of trials ($k \ge r$).
@@ -40,14 +40,14 @@ Similar to the Geometric case, there are two common definitions:
 *   (Note: Some parameterizations allow $r$ to be a real number, involving the Gamma function in the coefficient, but the interpretation as number of successes requires integer $r$).
 
 ### 5. Expected Value (Mean) - Version 1 (Trials)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected]] number of trials needed to get $r$ successes is:
+*   The [[01_Expected_Value|expected]] number of trials needed to get $r$ successes is:
     $$ E[X] = \frac{r}{p} $$
 *   Intuition: If $r=1$, this reduces to $1/p$, the mean of the Geometric distribution. If $r=5$ and $p=0.5$, you expect $5 / 0.5 = 10$ trials.
 
 *(Expected Value for Version 2 (Failures): $E[Y] = \frac{r(1-p)}{p}$)*
 
 ### 6. Variance - Version 1 (Trials)
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] of the number of trials is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] of the number of trials is:
     $$ Var(X) = \frac{r(1-p)}{p^2} $$
 
 *(Variance for Version 2 (Failures): $Var(Y) = \frac{r(1-p)}{p^2}$ - Same variance)*
@@ -74,4 +74,4 @@ Similar to the Geometric case, there are two common definitions:
 *   Classic Texts: (e.g., Walpole et al.; Ross; Casella & Berger) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Negative Binomial Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Overdispersion]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Negative Binomial Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Overdispersion]] [[02 Math/index]] [[Statistics]]

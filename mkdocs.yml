@@ -62,27 +62,11 @@ nav:
   # 3. Foundational Math
   - 'Mathematics':
       - 'Overview': '02 Math/index.md'
-      - 'Probability':
-          - 'Basic Concepts': '02 Math/01 Probability/Basic.md'
-      - 'Inferential Statistics':
-          - 'Introduction': '02 Math/02 Inferential statistics/001 Inferential Statistics.md'
-          - 'Degrees of Freedom': '02 Math/02 Inferential statistics/002 Degrees of Freedom.md'
-          - 'Central Limit Theorem': '02 Math/02 Inferential statistics/003 Central Limit Theorem.md'
-          - 'Hypothesis Testing': '02 Math/02 Inferential statistics/Hypothesis testing.md'
-          - 'Estimation (Std Error)': '02 Math/02 Inferential statistics/Estimation/Standard error.md'
-          - 'Bias-Variance Tradeoff': '02 Math/02 Inferential statistics/Tradeoffs/Tradeoffs.md'
-          - 'Basic Descriptive Stats':
-              - 'Distributions': '02 Math/02 Inferential statistics/01 The Basics/Distributions/Guassian Distribution.md'
-              - 'Central Tendency': '02 Math/02 Inferential statistics/01 The Basics/Measures of central tendency/Central Tendency.md'
-              - 'Variability': '02 Math/02 Inferential statistics/01 The Basics/Measures of variability/Measures of variability.md'
-          - 'Parametric Tests':
-              - 'Overview': '02 Math/02 Inferential statistics/parametric tests/Parametric Tests.md'
-              - 'T-Test': '02 Math/02 Inferential statistics/parametric tests/01 t test/t test.md'
-              - 'ANOVA': '02 Math/02 Inferential statistics/parametric tests/02 ANOVA/ANOVA.md'
-          # - 'Non-Parametric Tests': '02 Math/02 Inferential statistics/non-parametric tests/...' # Add when content exists
-      - 'Linear Algebra': '02 Math/03 Linear Algebra/index.md' # Assumes index.md exists or will be created
-      - 'Calculus': '02 Math/04 Calculus/index.md' # Assumes index.md exists or will be created
-
+      - 'Probability Theory': '02 Math/01 Probability/index.md'
+      - 'Inferential Statistics': '02 Math/02 Inferential statistics/index.md'
+      - 'Linear Algebra': '02 Math/03 Linear Algebra/index.md'
+      - 'Calculus': '02 Math/04 Calculus/index.md'
+      - 'Information Theory': '02 Math/05 Information Theory/index.md'
   # 4. Data Handling Workflow
   - 'Data Collection':
       - 'Overview': '03 Data Collection/index.md'

@@ -13,7 +13,7 @@
     $$ Cov(X, Y) = \sigma_{XY} = E[(X - \mu_X)(Y - \mu_Y)] $$
 *   **Computational Formula:** Derived using linearity of expectation:
     $$ Cov(X, Y) = E[XY] - E[X]E[Y] = E[XY] - \mu_X \mu_Y $$
-    Requires calculating $E[X]$, $E[Y]$, and $E[XY]$ (the expected value of the product, found using the [[../02 Random Variables/05_Joint_Marginal_Conditional_Distributions|joint distribution]]).
+    Requires calculating $E[X]$, $E[Y]$, and $E[XY]$ (the expected value of the product, found using the [[05_Joint_Marginal_Conditional_Distributions|joint distribution]]).
 *   **Interpretation of Sign:**
     *   $Cov(X, Y) > 0$: Indicates a positive linear relationship (X and Y tend to move in the same direction relative to their means).
     *   $Cov(X, Y) < 0$: Indicates a negative linear relationship (X and Y tend to move in opposite directions relative to their means).
@@ -41,7 +41,7 @@
 *   $Var(X+Y) = Var(X) + Var(Y) + 2 Cov(X, Y)$
 
 ### 4. Independence vs. Zero Correlation
-*   If $X$ and $Y$ are **[[../01 Basic Probability Theory/05_Independence|independent]]**, then $Cov(X, Y) = 0$ and $Corr(X, Y) = 0$.
+*   If $X$ and $Y$ are **[[05_Independence|independent]]**, then $Cov(X, Y) = 0$ and $Corr(X, Y) = 0$.
     *   *Proof Sketch:* If independent, $E[XY] = E[X]E[Y]$, so $Cov(X, Y) = E[XY] - E[X]E[Y] = 0$.
 *   **Important:** The converse is **not** generally true. $Cov(X, Y) = 0$ (or $\rho = 0$) **does not** imply independence. It only implies the absence of a *linear* relationship. Variables can have a strong non-linear relationship (e.g., $Y = X^2$ for $X \sim N(0,1)$) and still have zero covariance/correlation.
     *   (Exception: If X and Y are jointly Normally distributed, then zero correlation *does* imply independence).
@@ -63,7 +63,7 @@
 *   **Covariance $Cov(X, Y)$** measures the direction of the linear relationship between $X$ and $Y$. Units depend on X and Y. $E[(X-\mu_X)(Y-\mu_Y)] = E[XY] - E[X]E[Y]$.
 *   **Correlation $Corr(X, Y)$ or $\rho$** standardizes covariance ($\frac{Cov(X,Y)}{\sigma_X \sigma_Y}$) to be between -1 and +1, measuring the strength and direction of the *linear* relationship. It is unitless.
 *   $\rho = +1$: Perfect positive linear relation. $\rho = -1$: Perfect negative linear relation. $\rho = 0$: No linear relation.
-*   **[[../01 Basic Probability Theory/05_Independence|Independence]] implies zero correlation**, but zero correlation **does not** imply independence (unless jointly Normal).
+*   **[[05_Independence|Independence]] implies zero correlation**, but zero correlation **does not** imply independence (unless jointly Normal).
 *   **Correlation $\neq$ Causation**.
 
 ## Sources
@@ -74,4 +74,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Covariance]] [[Correlation]] [[Pearson Correlation]] [[Linear Relationship]] [[Dependence]] [[Independence]] [[Variance]] [[02 Math/index]] [[Statistics]] [[Feature Selection]] [[Multicollinearity]]
+[[Probability]] [[Random Variable]] [[Covariance]] [[Correlation]] [[Pearson Correlation]] [[Linear Relationship]] [[Dependence]] [[Independence]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[02 Math/index]] [[Statistics]] [[Feature Selection]] [[Multicollinearity]]

@@ -1,9 +1,9 @@
 # Normal (Gaussian) Distribution
 
 ## Definition / Introduction
-*   The Normal distribution, also known as the Gaussian distribution or the "bell curve," is arguably the most important [[../02 Random Variables/01_Definition|Continuous Probability Distribution]] in statistics and many scientific fields.
+*   The Normal distribution, also known as the Gaussian distribution or the "bell curve," is arguably the most important [[02 Math/01 Probability/02 Random Variables/01_Definition|Continuous Probability Distribution]] in statistics and many scientific fields.
 *   It describes data that cluster around a central mean value ($\mu$), with probabilities tapering off symmetrically as values move further away from the mean.
-*   Many natural phenomena (e.g., heights, blood pressure), measurement errors, and sums/averages of random variables (due to the [[../05 Important Theorems/02_Central_Limit_Theorem_CLT|Central Limit Theorem]]) tend to follow a Normal distribution.
+*   Many natural phenomena (e.g., heights, blood pressure), measurement errors, and sums/averages of random variables (due to the [[02_Central_Limit_Theorem_CLT|Central Limit Theorem]]) tend to follow a Normal distribution.
 
 ## Key Concepts
 
@@ -12,7 +12,7 @@
 *   Notation: $X \sim \text{Normal}(\mu, \sigma^2)$ or $X \sim N(\mu, \sigma^2)$.
 
 ### 2. Probability Density Function (PDF)
-*   The [[../02 Random Variables/03_Probability_Density_Function_PDF|PDF]] formula defines the characteristic symmetrical bell shape:
+*   The [[03_Probability_Density_Function_PDF|PDF]] formula defines the characteristic symmetrical bell shape:
     $$ f(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( - \frac{(x-\mu)^2}{2\sigma^2} \right) $$
 *   Where:
     *   $x$ is the value of the random variable ($x \in \mathbb{R}$).
@@ -29,7 +29,7 @@
     *   $\sigma^2$ (Variance): Determines the spread or width of the bell. ($\sigma$ is Standard Deviation).
 
 ### 4. Cumulative Distribution Function (CDF)
-*   The [[../02 Random Variables/04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ is the integral of the PDF from $-\infty$ to $x$:
+*   The [[04_Cumulative_Distribution_Function_CDF|CDF]] $F(x) = P(X \le x)$ is the integral of the PDF from $-\infty$ to $x$:
     $$ F(x | \mu, \sigma^2) = \int_{-\infty}^{x} \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( - \frac{(t-\mu)^2}{2\sigma^2} \right) \, dt $$
 *   There is no simple closed-form expression for this integral in terms of elementary functions. Probabilities are typically found using:
     *   Statistical software or calculators (using error function `erf` or standard normal CDF $\Phi$).
@@ -53,12 +53,12 @@ For any Normal distribution:
 *   Approximately **99.7%** of the data falls within 3 standard deviations of the mean: $P(\mu-3\sigma \le X \le \mu+3\sigma) \approx 0.997$.
 
 ### 7. Expected Value (Mean) & Variance
-*   By definition, the parameters directly give the [[../04 Expectation Variance Covariance/01_Expected_Value|mean]] and [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]]:
+*   By definition, the parameters directly give the [[01_Expected_Value|mean]] and [[02_Variance_and_Standard_Deviation|variance]]:
     $$ E[X] = \mu $$
     $$ Var(X) = \sigma^2 $$
 
 ## Connections to Other Topics
-*   **[[../05 Important Theorems/02_Central_Limit_Theorem_CLT|Central Limit Theorem (CLT)]]:** States that the sum (or average) of a large number of independent, identically distributed random variables will be approximately Normally distributed, regardless of the original distribution. This is why the Normal distribution appears so often.
+*   **[[02_Central_Limit_Theorem_CLT|Central Limit Theorem (CLT)]]:** States that the sum (or average) of a large number of independent, identically distributed random variables will be approximately Normally distributed, regardless of the original distribution. This is why the Normal distribution appears so often.
 *   **Approximation to Binomial:** The Normal distribution approximates the [[02_Binomial_Distribution|Binomial distribution]] $B(n, p)$ for large $n$ (using continuity correction).
 *   **Approximation to Poisson:** The Normal distribution approximates the [[03_Poisson_Distribution|Poisson distribution]] $\text{Poi}(\lambda)$ for large $\lambda$.
 *   Foundation for many **[[../02 Inferential statistics/001 Inferential Statistics|Inferential Statistics]]** methods: [[../02 Inferential statistics/parametric tests/01 t test/t test|t-tests]], [[../02 Inferential statistics/parametric tests/02 ANOVA/ANOVA|ANOVA]], [[../02 Inferential statistics/Hypothesis testing|Hypothesis testing]] for means, confidence intervals, [[../../06 Machine Learning/02 Supervised/01 Regression/01_Simple Linear Regression/Linear Regression|Linear Regression]] assumptions often involve normality of errors.
@@ -70,7 +70,7 @@ For any Normal distribution:
 *   PDF: $f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$. No simple CDF formula.
 *   **Standard Normal (Z):** $N(0, 1)$. Use Z-scores $Z = \frac{X - \mu}{\sigma}$ to find probabilities for any $N(\mu, \sigma^2)$.
 *   **Empirical Rule:** 68% within $\mu \pm 1\sigma$, 95% within $\mu \pm 2\sigma$, 99.7% within $\mu \pm 3\sigma$.
-*   [[../05 Important Theorems/02_Central_Limit_Theorem_CLT|Central Limit Theorem]] explains its prevalence. Foundational for much of statistics.
+*   [[02_Central_Limit_Theorem_CLT|Central Limit Theorem]] explains its prevalence. Foundational for much of statistics.
 
 ## Sources
 *   [Wikipedia: Normal Distribution](https://en.wikipedia.org/wiki/Normal_distribution)
@@ -80,4 +80,4 @@ For any Normal distribution:
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish "Probability and Statistics") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Normal Distribution]] [[Gaussian Distribution]] [[Bell Curve]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Standard Deviation]] [[Z-score]] [[Standard Normal Distribution]] [[Central Limit Theorem]] [[Empirical Rule]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Normal Distribution]] [[Gaussian Distribution]] [[Bell Curve]] [[PDF]] [[CDF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Standard Deviation]] [[Z-score]] [[Standard Normal Distribution]] [[Central Limit Theorem]] [[Empirical Rule]] [[02 Math/index]] [[Statistics]]

@@ -32,9 +32,9 @@
     *   $f''(x) < 0$: Concave down (like a frown).
 
 ## Connections to Other Topics & Relevance
-*   **[[../03 Optimization/01_Maxima_and_Minima|Optimization]]:** Finding where the derivative is zero ($f'(x) = 0$) is crucial for locating potential minima or maxima of a function. This is the foundation of optimization algorithms like [[../03 Optimization/02_Gradient_Descent|Gradient Descent]].
-*   **[[../03 Optimization/02_Gradient_Descent|Gradient Descent]]:** Uses the derivative (or [[../02 Multivariable Calculus/03_Gradient|gradient]] in higher dimensions) to determine the direction in which to adjust parameters to minimize a loss function. The derivative tells you which way is "downhill".
-*   **[[../02 Multivariable Calculus/02_Partial_Derivatives|Partial Derivatives]] & [[../02 Multivariable Calculus/03_Gradient|Gradients]]:** Extend the concept of derivatives to functions of multiple variables.
+*   **[[01_Maxima_and_Minima|Optimization]]:** Finding where the derivative is zero ($f'(x) = 0$) is crucial for locating potential minima or maxima of a function. This is the foundation of optimization algorithms like [[02_Gradient_Descent|Gradient Descent]].
+*   **[[02_Gradient_Descent|Gradient Descent]]:** Uses the derivative (or [[03_Gradient|gradient]] in higher dimensions) to determine the direction in which to adjust parameters to minimize a loss function. The derivative tells you which way is "downhill".
+*   **[[02_Partial_Derivatives|Partial Derivatives]] & [[03_Gradient|Gradients]]:** Extend the concept of derivatives to functions of multiple variables.
 *   **[[04_Chain_Rule|Chain Rule]]:** Essential rule for differentiating composite functions, forming the basis of backpropagation in neural networks.
 *   **Taylor Series:** Derivatives are used to construct polynomial approximations of functions (Taylor expansions).
 
@@ -43,7 +43,7 @@
 *   Geometrically, it's the **slope of the tangent line** to the graph of $f(x)$.
 *   Defined via a [[01_Functions_Limits_Continuity|limit]]: $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$.
 *   $f'(x) = 0$ often indicates local optima (max/min).
-*   Fundamental tool for **optimization** (like [[../03 Optimization/02_Gradient_Descent|Gradient Descent]]) and understanding how functions change.
+*   Fundamental tool for **optimization** (like [[02_Gradient_Descent|Gradient Descent]]) and understanding how functions change.
 
 ## Sources
 *   Any standard Calculus textbook (e.g., Stewart, Thomas, Anton).

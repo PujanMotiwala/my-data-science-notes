@@ -1,0 +1,7 @@
+- ANOVA determines whether the groups created by the levels of the independent variable are statistically different by calculating whether the means of the treatment levels are different from the overall mean of the dependent variable.
+- If any of the group means is significantly different from the overall mean, then the [null hypothesis](https://www.scribbr.com/statistics/null-and-alternative-hypotheses/) is rejected.
+- ANOVA uses the [[F test]] for [statistical significance](https://www.scribbr.com/statistics/statistical-significance/)
+- This allows for comparison of multiple means at once, because the error is calculated for the whole set of comparisons rather than for each individual two-way comparison (which would happen with a _t_ test)
+- Output of [[t test]] goes as an input for [[F test]].
+- The _F_ test compares the [[Career/Data Science/02 Math/02 Inferential statistics/Tradeoffs/Variance]] in each group [[Mean]] from the overall group variance. 
+- If the variance [within groups](https://www.scribbr.com/methodology/within-subjects-design/) is smaller than the variance [between groups](https://www.scribbr.com/methodology/between-subjects-design/), the _F_ test will find a higher _F_ value, and therefore a higher likelihood that the difference observed is real and not due to chance.

@@ -1,7 +1,7 @@
 # Geometric Distribution
 
 ## Definition / Introduction
-*   The Geometric distribution is a [[../02 Random Variables/01_Definition|Discrete Probability Distribution]] that models the number of **[[01_Bernoulli_Distribution|Bernoulli trials]]** needed to achieve the **first success**.
+*   The Geometric distribution is a [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete Probability Distribution]] that models the number of **[[01_Bernoulli_Distribution|Bernoulli trials]]** needed to achieve the **first success**.
 *   It's closely related to the [[02_Binomial_Distribution|Binomial distribution]], but instead of fixing the number of trials and counting successes, we fix the number of successes (at 1) and count the trials.
 *   Examples: Number of coin flips until the first Head appears, number of items inspected until the first defective one is found, number of times you attempt a task until you succeed for the first time.
 
@@ -20,7 +20,7 @@ There are two common definitions for the Geometric random variable $X$:
 
 ### 3. Probability Mass Function (PMF) - Version 1 (Trials)
 *   Let $X$ be the number of trials until the first success. For $X$ to equal $k$ (where $k \ge 1$), we must have $k-1$ failures followed by one success.
-*   The [[../02 Random Variables/02_Probability_Mass_Function_PMF|PMF]] is:
+*   The [[02_Probability_Mass_Function_PMF|PMF]] is:
     $$ P(X=k) = (1-p)^{k-1} p \quad \text{for } k = 1, 2, 3, ... $$
 *   Where:
     *   $k$ is the number of trials ($k \ge 1$).
@@ -34,14 +34,14 @@ There are two common definitions for the Geometric random variable $X$:
     *   $p$: The probability of success on each trial ($0 < p \le 1$).
 
 ### 5. Expected Value (Mean) - Version 1 (Trials)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected]] number of trials needed to get the first success is:
+*   The [[01_Expected_Value|expected]] number of trials needed to get the first success is:
     $$ E[X] = \frac{1}{p} $$
 *   Intuition: If the probability of success is $p=0.1$ (10%), you expect to need $1/0.1 = 10$ trials on average to get the first success.
 
 *(Expected Value for Version 2 (Failures): $E[Y] = \frac{1-p}{p}$)*
 
 ### 6. Variance - Version 1 (Trials)
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] of the number of trials is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] of the number of trials is:
     $$ Var(X) = \frac{1-p}{p^2} $$
 
 *(Variance for Version 2 (Failures): $Var(Y) = \frac{1-p}{p^2}$ - Same variance)*
@@ -74,4 +74,4 @@ There are two common definitions for the Geometric random variable $X$:
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[Negative Binomial Distribution]] [[Exponential Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Memorylessness]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[Negative Binomial Distribution]] [[Exponential Distribution]] [[PMF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[Memorylessness]] [[02 Math/index]] [[Statistics]]

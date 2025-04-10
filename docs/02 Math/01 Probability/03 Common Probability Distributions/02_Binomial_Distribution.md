@@ -2,7 +2,7 @@
 
 ## Definition / Introduction
 *   The Binomial distribution models the number of "successes" in a **fixed number ($n$) of independent [[01_Bernoulli_Distribution|Bernoulli trials]]**, where each trial has the same probability of success ($p$).
-*   It's one of the most important [[../02 Random Variables/01_Definition|Discrete Probability Distributions]], used extensively in quality control, polling, genetics, and any scenario counting successes in repeated independent trials.
+*   It's one of the most important [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete Probability Distributions]], used extensively in quality control, polling, genetics, and any scenario counting successes in repeated independent trials.
 *   Think of it as counting the number of Heads in $n$ coin flips.
 
 ## Key Concepts
@@ -15,19 +15,19 @@ An experiment can be modeled by a Binomial distribution if it meets these criter
 *   **S**ame Probability of Success: The probability of success, $p$, is constant for every trial.
 
 ### 2. The Binomial Random Variable
-*   A [[../02 Random Variables/01_Definition|Random Variable]] $X$ follows a Binomial distribution if it represents the count of successes in $n$ independent Bernoulli trials, each with success probability $p$.
+*   A [[02 Math/01 Probability/02 Random Variables/01_Definition|Random Variable]] $X$ follows a Binomial distribution if it represents the count of successes in $n$ independent Bernoulli trials, each with success probability $p$.
 *   Possible values for $X$ are integers from 0 to $n$, i.e., $X \in \{0, 1, 2, ..., n\}$.
 *   Notation: $X \sim \text{Binomial}(n, p)$ or $X \sim B(n, p)$.
 
 ### 3. Probability Mass Function (PMF)
-*   The [[../02 Random Variables/02_Probability_Mass_Function_PMF|PMF]] gives the probability of obtaining exactly $k$ successes in $n$ trials:
+*   The [[02_Probability_Mass_Function_PMF|PMF]] gives the probability of obtaining exactly $k$ successes in $n$ trials:
     $$ P(X=k) = \binom{n}{k} p^k (1-p)^{n-k} \quad \text{for } k = 0, 1, 2, ..., n $$
 *   Where:
     *   $n$ is the number of trials.
     *   $k$ is the number of successes.
     *   $p$ is the probability of success on a single trial.
     *   $(1-p)$ is the probability of failure on a single trial.
-    *   $\binom{n}{k} = C(n, k) = \frac{n!}{k!(n-k)!}$ is the [[../01 Basic Probability Theory/03_Combinatorics|Binomial Coefficient]], representing the number of ways to choose $k$ successes from $n$ trials.
+    *   $\binom{n}{k} = C(n, k) = \frac{n!}{k!(n-k)!}$ is the [[03_Combinatorics|Binomial Coefficient]], representing the number of ways to choose $k$ successes from $n$ trials.
 
 ### 4. Parameters
 *   The Binomial distribution has **two parameters**:
@@ -35,12 +35,12 @@ An experiment can be modeled by a Binomial distribution if it meets these criter
     *   $p$: The probability of success on each trial (where $0 \le p \le 1$).
 
 ### 5. Expected Value (Mean)
-*   The [[../04 Expectation Variance Covariance/01_Expected_Value|expected]] number of successes in $n$ trials is:
+*   The [[01_Expected_Value|expected]] number of successes in $n$ trials is:
     $$ E[X] = np $$
 *   Intuition: If you flip a fair coin ($p=0.5$) 10 times ($n=10$), you expect $10 \times 0.5 = 5$ Heads on average.
 
 ### 6. Variance
-*   The [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|variance]] (measure of spread) of the number of successes is:
+*   The [[02_Variance_and_Standard_Deviation|variance]] (measure of spread) of the number of successes is:
     $$ Var(X) = np(1-p) $$
 *   Note: The variance is the sum of variances of $n$ independent Bernoulli(p) variables.
 
@@ -71,4 +71,4 @@ An experiment can be modeled by a Binomial distribution if it meets these criter
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Binomial Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[02 Math/index]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Binomial Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[02 Math/02 Inferential statistics/Tradeoffs/Variance]] [[02 Math/index]] [[Statistics]]

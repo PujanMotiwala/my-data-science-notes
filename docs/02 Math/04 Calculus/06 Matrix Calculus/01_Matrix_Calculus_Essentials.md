@@ -1,8 +1,8 @@
 # Matrix Calculus Essentials for ML
 
 ## Simple Idea
-*   Matrix calculus extends the concepts of [[../01 Foundations/02_Derivatives|differentiation]] to functions involving [[../03 Linear Algebra/01 Core Objects/02_Vectors|vectors]] and [[../03 Linear Algebra/01 Core Objects/03_Matrices|matrices]].
-*   Instead of finding the derivative of $f(x)$ with respect to a scalar $x$, we want to find how a scalar function $f(\mathbf{w})$ changes with respect to a *vector* $\mathbf{w}$ (giving the [[../02 Multivariable Calculus/03_Gradient|gradient]]) or even how it changes with respect to a *matrix* $\mathbf{W}$.
+*   Matrix calculus extends the concepts of [[02_Derivatives|differentiation]] to functions involving [[../03 Linear Algebra/01 Core Objects/02_Vectors|vectors]] and [[../03 Linear Algebra/01 Core Objects/03_Matrices|matrices]].
+*   Instead of finding the derivative of $f(x)$ with respect to a scalar $x$, we want to find how a scalar function $f(\mathbf{w})$ changes with respect to a *vector* $\mathbf{w}$ (giving the [[03_Gradient|gradient]]) or even how it changes with respect to a *matrix* $\mathbf{W}$.
 *   This is absolutely essential for optimizing machine learning models, where the loss function depends on vectors/matrices of parameters (weights and biases).
 
 ## Formal Definitions & Key Results
@@ -12,12 +12,12 @@
 
 ### 1. Derivative w.r.t. a Vector (Gradient)
 *   Let $f(\mathbf{x})$ be a scalar function of a vector $\mathbf{x} = [x_1, ..., x_n]^T$.
-*   The derivative of $f$ w.r.t. $\mathbf{x}$ is the **[[../02 Multivariable Calculus/03_Gradient|gradient]]** vector (a column vector in denominator layout):
+*   The derivative of $f$ w.r.t. $\mathbf{x}$ is the **[[03_Gradient|gradient]]** vector (a column vector in denominator layout):
     $$ \frac{\partial f}{\partial \mathbf{x}} = \nabla_{\mathbf{x}} f = \begin{bmatrix} \frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n} \end{bmatrix} $$
 
 ### 2. Derivative w.r.t. a Matrix
 *   Let $f(\mathbf{X})$ be a scalar function of an $m \times n$ matrix $\mathbf{X}$.
-*   The derivative of $f$ w.r.t. $\mathbf{X}$ is an $m \times n$ matrix where the $(i, j)$-th element is the [[../02 Multivariable Calculus/02_Partial_Derivatives|partial derivative]] of $f$ w.r.t. the $(i, j)$-th element of $\mathbf{X}$:
+*   The derivative of $f$ w.r.t. $\mathbf{X}$ is an $m \times n$ matrix where the $(i, j)$-th element is the [[02_Partial_Derivatives|partial derivative]] of $f$ w.r.t. the $(i, j)$-th element of $\mathbf{X}$:
     $$ \frac{\partial f}{\partial \mathbf{X}} = \begin{bmatrix}
         \frac{\partial f}{\partial X_{11}} & \dots & \frac{\partial f}{\partial X_{1n}} \\
         \vdots & \ddots & \vdots \\
@@ -55,19 +55,19 @@ These are useful shortcuts for deriving gradients needed in ML:
 
 ## Connections to Other Topics & Relevance
 
-*   **[[../02 Multivariable Calculus/03_Gradient|Gradient]] & [[../02 Multivariable Calculus/02_Partial_Derivatives|Partial Derivatives]]:** Matrix calculus is the systematic application of these concepts to vector/matrix inputs.
-*   **[[../01 Foundations/04_Chain_Rule|Chain Rule]]:** The most critical tool. Used implicitly in deriving many patterns and explicitly in backpropagation.
+*   **[[03_Gradient|Gradient]] & [[02_Partial_Derivatives|Partial Derivatives]]:** Matrix calculus is the systematic application of these concepts to vector/matrix inputs.
+*   **[[04_Chain_Rule|Chain Rule]]:** The most critical tool. Used implicitly in deriving many patterns and explicitly in backpropagation.
 *   **[[../02 Multivariable Calculus/02_Jacobian_Matrix|Jacobian Matrix]]:** Represents the derivative of a vector function w.r.t. a vector. The gradient is (the transpose of) the Jacobian of a scalar function.
-*   **[[../03 Optimization/02_Gradient_Descent|Gradient Descent]]:** Matrix calculus provides the tools to compute the gradients needed for the update steps $\mathbf{w} \leftarrow \mathbf{w} - \eta \nabla L(\mathbf{w})$.
+*   **[[02_Gradient_Descent|Gradient Descent]]:** Matrix calculus provides the tools to compute the gradients needed for the update steps $\mathbf{w} \leftarrow \mathbf{w} - \eta \nabla L(\mathbf{w})$.
 *   **Backpropagation:** Essentially a clever application of the chain rule using matrix/vector derivatives to compute the gradient of the loss w.r.t all parameters in a neural network efficiently.
 
 ## Summary
 *   **Matrix Calculus** extends differentiation to functions with vector or matrix inputs/outputs.
 *   Focus is often on the derivative of a **scalar loss** w.r.t. **vector/matrix parameters**.
-*   The derivative w.r.t. a vector is the **[[../02 Multivariable Calculus/03_Gradient|gradient]]** (column vector in denominator layout).
+*   The derivative w.r.t. a vector is the **[[03_Gradient|gradient]]** (column vector in denominator layout).
 *   The derivative w.r.t. a matrix is a matrix of partial derivatives.
 *   Knowing common patterns (linear, quadratic, trace) simplifies gradient calculation for ML models.
-*   Underpins **[[../03 Optimization/02_Gradient_Descent|gradient-based optimization]]** and **backpropagation**.
+*   Underpins **[[02_Gradient_Descent|gradient-based optimization]]** and **backpropagation**.
 
 ## Sources
 *   *The Matrix Cookbook* by Petersen and Pedersen (Comprehensive reference for matrix identities and derivatives) ([https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf))

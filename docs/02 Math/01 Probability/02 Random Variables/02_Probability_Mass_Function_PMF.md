@@ -1,7 +1,7 @@
 # Probability Mass Function (PMF)
 
 ## Definition / Introduction
-*   For a [[01_Definition|Discrete Random Variable]] (RV), we need a way to describe the probability associated with each specific value it can take.
+*   For a [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete Random Variable]] (RV), we need a way to describe the probability associated with each specific value it can take.
 *   The **Probability Mass Function (PMF)** provides this description. It gives the probability that a discrete random variable $X$ is exactly equal to some specific value $x$.
 *   It essentially lists all possible numerical values the discrete RV can take and their corresponding probabilities.
 
@@ -47,8 +47,8 @@ A function $p(x)$ can be considered a valid PMF if and only if it satisfies thes
     *   $P(X \ge 1) = P(X=1) + P(X=2) = p(1) + p(2) = \frac{1}{2} + \frac{1}{4} = \frac{3}{4}$.
 
 ## Connections to Other Topics
-*   The PMF defines the probability distribution for a [[01_Definition|Discrete Random Variable]]. Common discrete distributions like [[../03 Common Probability Distributions/01_Bernoulli_Distribution|Bernoulli]], [[../03 Common Probability Distributions/02_Binomial_Distribution|Binomial]], and [[../03 Common Probability Distributions/03_Poisson_Distribution|Poisson]] are characterized by their specific PMF formulas.
-*   The PMF is used to calculate the [[../04 Expectation Variance Covariance/01_Expected_Value|Expected Value]] ($E[X] = \sum x p(x)$) and [[../04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|Variance]] ($Var(X) = \sum (x-\mu)^2 p(x)$) of a discrete RV.
+*   The PMF defines the probability distribution for a [[02 Math/01 Probability/02 Random Variables/01_Definition|Discrete Random Variable]]. Common discrete distributions like [[01_Bernoulli_Distribution|Bernoulli]], [[02_Binomial_Distribution|Binomial]], and [[03_Poisson_Distribution|Poisson]] are characterized by their specific PMF formulas.
+*   The PMF is used to calculate the [[01_Expected_Value|Expected Value]] ($E[X] = \sum x p(x)$) and [[02_Variance_and_Standard_Deviation|Variance]] ($Var(X) = \sum (x-\mu)^2 p(x)$) of a discrete RV.
 *   It is related to the [[04_Cumulative_Distribution_Function_CDF|Cumulative Distribution Function (CDF)]] for discrete variables: $F(x) = P(X \le x) = \sum_{t \le x} p(t)$.
 
 ## Summary

@@ -1,7 +1,7 @@
 # Matrix Inverse
 
 ## Simple Idea
-*   Think of the inverse of a [[../01 Core Objects/03_Matrices|matrix]] $\mathbf{A}$, called $\mathbf{A}^{-1}$, like the reciprocal $1/c$ of a number $c$. Just as $c \times (1/c) = 1$, multiplying a matrix by its inverse gives the [[01_Identity_Matrix|Identity Matrix]]: $\mathbf{A} \mathbf{A}^{-1} = \mathbf{I}$.
+*   Think of the inverse of a [[03_Matrices|matrix]] $\mathbf{A}$, called $\mathbf{A}^{-1}$, like the reciprocal $1/c$ of a number $c$. Just as $c \times (1/c) = 1$, multiplying a matrix by its inverse gives the [[01_Identity_Matrix|Identity Matrix]]: $\mathbf{A} \mathbf{A}^{-1} = \mathbf{I}$.
 *   It allows you to "undo" the linear transformation represented by the matrix $\mathbf{A}$.
 
 ## Formal Definition
@@ -16,10 +16,10 @@
 *   **Not all square matrices have an inverse.**
 *   A square matrix $\mathbf{A}$ is invertible if and only if any of the following equivalent conditions hold:
     *   Its [[03_Determinant|Determinant]] is non-zero ($\det(\mathbf{A}) \neq 0$).
-    *   Its columns (or rows) are [[../04 Vector Spaces and Concepts/01_Linear_Independence|linearly independent]].
-    *   Its [[../04 Vector Spaces and Concepts/03_Rank|Rank]] equals its dimension ($n$ for an $n \times n$ matrix). $\text{rank}(\mathbf{A}) = n$.
+    *   Its columns (or rows) are [[01_Linear_Independence|linearly independent]].
+    *   Its [[03_Rank|Rank]] equals its dimension ($n$ for an $n \times n$ matrix). $\text{rank}(\mathbf{A}) = n$.
     *   The equation $\mathbf{Ax = 0}$ has only the trivial solution $\mathbf{x = 0}$.
-    *   It does not map any non-zero [[../01 Core Objects/02_Vectors|vector]] to the zero vector (its null space contains only the zero vector).
+    *   It does not map any non-zero [[02_Vectors|vector]] to the zero vector (its null space contains only the zero vector).
 
 ### 2. Finding the Inverse
 *   **For a 2x2 Matrix:** If $\mathbf{A} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, the inverse is:
@@ -34,7 +34,7 @@
 *   $(\mathbf{A}^{-1})^{-1} = \mathbf{A}$ (The inverse of the inverse is the original matrix).
 *   $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$ (Reverse order law, similar to transpose). Requires A and B to be invertible square matrices of the same size.
 *   $(\mathbf{A}^T)^{-1} = (\mathbf{A}^{-1})^T$ (Inverse of transpose is transpose of inverse).
-*   $(k\mathbf{A})^{-1} = \frac{1}{k} \mathbf{A}^{-1}$ for a non-zero [[../01 Core Objects/01_Scalars|scalar]] $k$.
+*   $(k\mathbf{A})^{-1} = \frac{1}{k} \mathbf{A}^{-1}$ for a non-zero [[01_Scalars|scalar]] $k$.
 
 ### 4. Use Cases
 *   **Solving Systems of Linear Equations:** If $\mathbf{Ax = b}$ and $\mathbf{A}$ is invertible, the unique solution is $\mathbf{x = A^{-1}b}$. (Though direct inversion is often avoided numerically in favor of methods like Gaussian elimination or LU decomposition for solving systems).
@@ -43,13 +43,13 @@
 
 ## Connections to Other Topics
 *   Closely related to the [[03_Determinant|Determinant]] (non-zero determinant $\iff$ invertible).
-*   Related to [[../04 Vector Spaces and Concepts/01_Linear_Independence|Linear Independence]] and [[../04 Vector Spaces and Concepts/03_Rank|Rank]].
-*   Used in computing [[../06 Decompositions and Factorizations/03_Overview|matrix decompositions]].
+*   Related to [[01_Linear_Independence|Linear Independence]] and [[03_Rank|Rank]].
+*   Used in computing [[03_Overview|matrix decompositions]].
 
 ## Summary
 *   The **Matrix Inverse ($\mathbf{A}^{-1}$)** "undoes" the operation of matrix $\mathbf{A}$: $\mathbf{A} \mathbf{A}^{-1} = \mathbf{A}^{-1} \mathbf{A} = \mathbf{I}$.
 *   Exists only for **square** matrices that are **non-singular** (or invertible).
-*   A matrix is invertible $\iff$ its [[03_Determinant|determinant]] is non-zero $\iff$ columns are [[../04 Vector Spaces and Concepts/01_Linear_Independence|linearly independent]] $\iff$ [[../04 Vector Spaces and Concepts/03_Rank|rank]] equals dimension.
+*   A matrix is invertible $\iff$ its [[03_Determinant|determinant]] is non-zero $\iff$ columns are [[01_Linear_Independence|linearly independent]] $\iff$ [[03_Rank|rank]] equals dimension.
 *   Used for solving $\mathbf{Ax=b}$ (as $\mathbf{x = A^{-1}b}$) and in theoretical derivations.
 
 ## Sources

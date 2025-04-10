@@ -1,8 +1,8 @@
 # Eigenvalues and Eigenvectors
 
 ## Simple Idea
-*   Imagine a square [[../01 Core Objects/03_Matrices|matrix]] $\mathbf{A}$ representing a linear transformation (like stretching, shearing, rotating). An **eigenvector** of $\mathbf{A}$ is a special non-zero [[../01 Core Objects/02_Vectors|vector]] $\mathbf{v}$ whose direction **does not change** when the transformation $\mathbf{A}$ is applied to it. It might get stretched or shrunk, but it still points along the same line through the origin.
-*   The **eigenvalue** ($\lambda$) associated with that eigenvector $\mathbf{v}$ is the [[../01 Core Objects/01_Scalars|scalar]] factor by which the eigenvector is stretched or shrunk. $\mathbf{Av = \lambda v}$.
+*   Imagine a square [[03_Matrices|matrix]] $\mathbf{A}$ representing a linear transformation (like stretching, shearing, rotating). An **eigenvector** of $\mathbf{A}$ is a special non-zero [[02_Vectors|vector]] $\mathbf{v}$ whose direction **does not change** when the transformation $\mathbf{A}$ is applied to it. It might get stretched or shrunk, but it still points along the same line through the origin.
+*   The **eigenvalue** ($\lambda$) associated with that eigenvector $\mathbf{v}$ is the [[01_Scalars|scalar]] factor by which the eigenvector is stretched or shrunk. $\mathbf{Av = \lambda v}$.
 
 ## Formal Definition
 *   For a given $n \times n$ square matrix $\mathbf{A}$, a non-zero vector $\mathbf{v} \in \mathbb{C}^n$ is an **eigenvector** of $\mathbf{A}$ if there exists a scalar $\lambda \in \mathbb{C}$ such that:
@@ -13,10 +13,10 @@
 ## Key Concepts
 
 ### 1. Finding Eigenvalues
-*   The defining equation $\mathbf{Av = \lambda v}$ can be rewritten as $\mathbf{Av - \lambda v = 0}$, or $\mathbf{Av - \lambda I v = 0}$ (where $\mathbf{I}$ is the [[../03 Matrix Properties and Concepts/01_Identity_Matrix|Identity matrix]]).
+*   The defining equation $\mathbf{Av = \lambda v}$ can be rewritten as $\mathbf{Av - \lambda v = 0}$, or $\mathbf{Av - \lambda I v = 0}$ (where $\mathbf{I}$ is the [[01_Identity_Matrix|Identity matrix]]).
 *   Factoring out $\mathbf{v}$: $(\mathbf{A} - \lambda \mathbf{I})\mathbf{v} = \mathbf{0}$.
-*   For this equation to have a non-zero solution for $\mathbf{v}$ (which is required for an eigenvector), the matrix $(\mathbf{A} - \lambda \mathbf{I})$ must be **singular** ([[../03 Matrix Properties and Concepts/02_Inverse_Matrix|non-invertible]]).
-*   This means the [[../03 Matrix Properties and Concepts/03_Determinant|determinant]] of $(\mathbf{A} - \lambda \mathbf{I})$ must be zero:
+*   For this equation to have a non-zero solution for $\mathbf{v}$ (which is required for an eigenvector), the matrix $(\mathbf{A} - \lambda \mathbf{I})$ must be **singular** ([[02_Inverse_Matrix|non-invertible]]).
+*   This means the [[03_Determinant|determinant]] of $(\mathbf{A} - \lambda \mathbf{I})$ must be zero:
     $$ \det(\mathbf{A} - \lambda \mathbf{I}) = 0 $$
 *   This equation is called the **characteristic equation** of matrix $\mathbf{A}$. Solving this polynomial equation for $\lambda$ yields the eigenvalues. The left side $p(\lambda) = \det(\mathbf{A} - \lambda \mathbf{I})$ is the characteristic polynomial of degree $n$.
 
@@ -37,9 +37,9 @@
 
 ### 4. Properties
 *   An $n \times n$ matrix has exactly $n$ eigenvalues (roots of the characteristic polynomial), counting algebraic multiplicities, which may be real or complex conjugate pairs for real matrices.
-*   Eigenvectors corresponding to *distinct* eigenvalues are [[../04 Vector Spaces and Concepts/01_Linear_Independence|linearly independent]].
-*   The [[../03 Matrix Properties and Concepts/03_Determinant|determinant]] of $\mathbf{A}$ is the product of its eigenvalues: $\det(\mathbf{A}) = \prod_{i=1}^n \lambda_i$.
-*   The [[../03 Matrix Properties and Concepts/04_Trace|trace]] of $\mathbf{A}$ is the sum of its eigenvalues: $\text{tr}(\mathbf{A}) = \sum_{i=1}^n \lambda_i$.
+*   Eigenvectors corresponding to *distinct* eigenvalues are [[01_Linear_Independence|linearly independent]].
+*   The [[03_Determinant|determinant]] of $\mathbf{A}$ is the product of its eigenvalues: $\det(\mathbf{A}) = \prod_{i=1}^n \lambda_i$.
+*   The [[04_Trace|trace]] of $\mathbf{A}$ is the sum of its eigenvalues: $\text{tr}(\mathbf{A}) = \sum_{i=1}^n \lambda_i$.
 *   For **symmetric matrices** (real), eigenvalues are always real, and eigenvectors corresponding to distinct eigenvalues are orthogonal. Symmetric matrices are always diagonalizable by an orthogonal matrix.
 
 ## Connections to Other Topics & Relevance
