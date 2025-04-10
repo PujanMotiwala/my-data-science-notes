@@ -55,4 +55,4 @@ There are two main forms, differing in the type of convergence:
 *   Classic Texts: (e.g., Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Important Theorems]] [[Law of Large Numbers]] [[LLN]] [[Expected Value]] [[Sample Mean]] [[Convergence]] [[Statistical Inference]] [[Monte Carlo]] [[Math]] [[Statistics]]
+[[Probability]] [[Important Theorems]] [[Law of Large Numbers]] [[LLN]] [[Expected Value]] [[Sample Mean]] [[Convergence]] [[Statistical Inference]] [[Monte Carlo]] [[02 Math/index]] [[Statistics]]

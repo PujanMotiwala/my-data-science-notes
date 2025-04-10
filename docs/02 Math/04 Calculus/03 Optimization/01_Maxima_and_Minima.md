@@ -69,4 +69,4 @@
 *   [Paul's Online Math Notes: Finding Absolute Extrema](https://tutorial.math.lamar.edu/Classes/CalcI/AbsExtrema.aspx), [Absolute Minima and Maxima (Multivariable)](https://tutorial.math.lamar.edu/Classes/CalcIII/AbsMinMax.aspx)
 
 ## TAGS
-[[Calculus]] [[Optimization]] [[Maxima]] [[Minima]] [[Extrema]] [[Critical Point]] [[Derivative]] [[Gradient]] [[Hessian Matrix]] [[Second Derivative Test]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Calculus]] [[Optimization]] [[Maxima]] [[Minima]] [[Extrema]] [[Critical Point]] [[Derivative]] [[Gradient]] [[Hessian Matrix]] [[Second Derivative Test]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

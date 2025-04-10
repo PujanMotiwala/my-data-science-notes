@@ -51,4 +51,4 @@
 *   [3Blue1Brown: Linear Combinations, Span, Basis | Essence of Linear Algebra](https://www.youtube.com/watch?v=k7RM-ot2NWY)
 
 ## TAGS
-[[Linear Algebra]] [[Vector Space]] [[Linear Independence]] [[Linear Dependence]] [[Basis]] [[Span]] [[Rank]] [[Determinant]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Vector Space]] [[Linear Independence]] [[Linear Dependence]] [[Basis]] [[Span]] [[Rank]] [[Determinant]] [[02 Math/index]] [[Foundations]]

@@ -71,4 +71,4 @@ An experiment can be modeled by a Binomial distribution if it meets these criter
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Binomial Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Binomial Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[02 Math/index]] [[Statistics]]

@@ -47,4 +47,4 @@
 *   [Paul's Online Math Notes: Limits, Continuity](https://tutorial.math.lamar.edu/Classes/CalcI/LimitsIntro.aspx), ([https://tutorial.math.lamar.edu/Classes/CalcI/Continuity.aspx](https://tutorial.math.lamar.edu/Classes/CalcI/Continuity.aspx))
 
 ## TAGS
-[[Calculus]] [[Foundations]] [[Function]] [[Limit]] [[Continuity]] [[Math]]
+[[Calculus]] [[Foundations]] [[Function]] [[Limit]] [[Continuity]] [[02 Math/index]]

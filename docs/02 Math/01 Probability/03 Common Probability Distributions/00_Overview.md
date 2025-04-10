@@ -47,4 +47,4 @@
 *   General Probability & Statistics Textbooks (e.g., *OpenIntro Statistics*, Walpole et al., Ross, DeGroot & Schervish, Casella & Berger) provide comprehensive coverage.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Continuous Distribution]] [[Bernoulli Distribution]] [[Binomial Distribution]] [[Geometric Distribution]] [[Negative Binomial Distribution]] [[Poisson Distribution]] [[Uniform Distribution]] [[Exponential Distribution]] [[Gamma Distribution]] [[Normal Distribution]] [[Beta Distribution]] [[Summary]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Continuous Distribution]] [[Bernoulli Distribution]] [[Binomial Distribution]] [[Geometric Distribution]] [[Negative Binomial Distribution]] [[Poisson Distribution]] [[Uniform Distribution]] [[Exponential Distribution]] [[Gamma Distribution]] [[Normal Distribution]] [[Beta Distribution]] [[Summary]] [[02 Math/index]] [[Statistics]]

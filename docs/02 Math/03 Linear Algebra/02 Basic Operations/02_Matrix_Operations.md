@@ -66,4 +66,4 @@
 *   [3Blue1Brown: Matrix Multiplication | Essence of Linear Algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU)
 
 ## TAGS
-[[Linear Algebra]] [[Basic Operation]] [[Matrix]] [[Vector]] [[Matrix Multiplication]] [[Matrix Addition]] [[Scalar Multiplication]] [[Transpose]] [[Math]] [[Foundations]] [[Machine Learning]] [[Deep Learning]]
+[[Linear Algebra]] [[Basic Operation]] [[Matrix]] [[Vector]] [[Matrix Multiplication]] [[Matrix Addition]] [[Scalar Multiplication]] [[Transpose]] [[02 Math/index]] [[Foundations]] [[Machine Learning]] [[Deep Learning]]

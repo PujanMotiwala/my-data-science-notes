@@ -43,4 +43,4 @@
 *   [Paul's Online Math Notes: Functions of Several Variables](https://tutorial.math.lamar.edu/Classes/CalcIII/MultiVrbleFcns.aspx)
 
 ## TAGS
-[[Calculus]] [[Multivariable Calculus]] [[Function]] [[Level Set]] [[Contour Map]] [[Surface]] [[Loss Function]] [[Math]] [[Foundations]]
+[[Calculus]] [[Multivariable Calculus]] [[Function]] [[Level Set]] [[Contour Map]] [[Surface]] [[Loss Function]] [[02 Math/index]] [[Foundations]]

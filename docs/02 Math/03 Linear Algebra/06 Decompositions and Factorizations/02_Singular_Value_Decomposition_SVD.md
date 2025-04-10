@@ -69,4 +69,4 @@
 *   *Numerical Linear Algebra* by Trefethen and Bau
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Decomposition]] [[Singular Value Decomposition]] [[SVD]] [[Singular Value]] [[Singular Vector]] [[Orthogonal Matrix]] [[Rank]] [[PCA]] [[Dimensionality Reduction]] [[Recommender Systems]] [[Low-Rank Approximation]] [[Pseudoinverse]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Matrix Decomposition]] [[Singular Value Decomposition]] [[SVD]] [[Singular Value]] [[Singular Vector]] [[Orthogonal Matrix]] [[Rank]] [[PCA]] [[Dimensionality Reduction]] [[Recommender Systems]] [[Low-Rank Approximation]] [[Pseudoinverse]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

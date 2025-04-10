@@ -40,4 +40,4 @@
 *   [Khan Academy: Identity Matrix](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:identity-matrix/v/identity-matrix)
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Property]] [[Identity Matrix]] [[Matrix Multiplication]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Matrix Property]] [[Identity Matrix]] [[Matrix Multiplication]] [[02 Math/index]] [[Foundations]]

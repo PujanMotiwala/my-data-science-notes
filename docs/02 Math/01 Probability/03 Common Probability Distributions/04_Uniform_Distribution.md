@@ -67,4 +67,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Uniform Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Random Number Generation]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Uniform Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Random Number Generation]] [[02 Math/index]] [[Statistics]]

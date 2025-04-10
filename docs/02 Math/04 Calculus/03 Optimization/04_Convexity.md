@@ -66,4 +66,4 @@
 *   [Brief Introduction to Convex Optimization](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/05-convexity.pdf) (Lecture slides often provide good summaries)
 
 ## TAGS
-[[Calculus]] [[Optimization]] [[Convexity]] [[Convex Function]] [[Convex Set]] [[Global Minimum]] [[Local Minimum]] [[Gradient Descent]] [[Hessian Matrix]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Calculus]] [[Optimization]] [[Convexity]] [[Convex Function]] [[Convex Set]] [[Global Minimum]] [[Local Minimum]] [[Gradient Descent]] [[Hessian Matrix]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

@@ -63,4 +63,4 @@ Random variables are broadly classified based on the types of numerical values t
 *   [Seeing Theory: Random Variables (Interactive)](https://seeing-theory.brown.edu/basic-probability/index.html#section3)
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Discrete Variable]] [[Continuous Variable]] [[Foundations]] [[Math]] [[Statistics]]
+[[Probability]] [[Random Variable]] [[Discrete Variable]] [[Continuous Variable]] [[Foundations]] [[02 Math/index]] [[Statistics]]

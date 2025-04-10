@@ -71,4 +71,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Conditional Probability]] [[Bayes Theorem]] [[Independence]] [[Multiplication Rule]] [[Chain Rule]] [[Math]] [[Statistics]] [[Machine Learning]]
+[[Probability]] [[Conditional Probability]] [[Bayes Theorem]] [[Independence]] [[Multiplication Rule]] [[Chain Rule]] [[02 Math/index]] [[Statistics]] [[Machine Learning]]

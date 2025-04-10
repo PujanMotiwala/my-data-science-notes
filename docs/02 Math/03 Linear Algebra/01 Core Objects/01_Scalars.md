@@ -39,4 +39,4 @@
 *   [Khan Academy: Scalars](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/scalar-multiplication) (Introduced alongside vector scaling)
 
 ## TAGS
-[[Linear Algebra]] [[Core Object]] [[Scalar]] [[Number]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Core Object]] [[Scalar]] [[Number]] [[02 Math/index]] [[Foundations]]

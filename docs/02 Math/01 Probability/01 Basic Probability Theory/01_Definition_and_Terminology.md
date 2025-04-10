@@ -88,4 +88,4 @@
 *   Primary Textbooks: (e.g., "Probability and Statistics for Engineers and Scientists" by Walpole et al.; "A First Course in Probability" by Sheldon Ross)
 
 ## TAGS
-[[Probability]] [[Foundations]] [[Terminology]] [[Math]] [[Statistics]] [[Core Concept]]
+[[Probability]] [[Foundations]] [[Terminology]] [[02 Math/index]] [[Statistics]] [[Core Concept]]

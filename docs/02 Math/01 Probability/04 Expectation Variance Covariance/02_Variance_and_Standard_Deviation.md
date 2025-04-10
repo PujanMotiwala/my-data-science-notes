@@ -64,4 +64,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Variance]] [[Standard Deviation]] [[Dispersion]] [[Spread]] [[Risk]] [[Expected Value]] [[PMF]] [[PDF]] [[Math]] [[Statistics]] [[Feature Scaling]]
+[[Probability]] [[Random Variable]] [[Variance]] [[Standard Deviation]] [[Dispersion]] [[Spread]] [[Risk]] [[Expected Value]] [[PMF]] [[PDF]] [[02 Math/index]] [[Statistics]] [[Feature Scaling]]

@@ -66,4 +66,4 @@
 *   Classic Texts: (e.g., "Probability and Statistics for Engineers and Scientists" by Walpole, Myers, Ye; "A First Course in Probability" by Sheldon Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Math]] [[Statistics]] [[Binomial Distribution]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[02 Math/index]] [[Statistics]] [[Binomial Distribution]]

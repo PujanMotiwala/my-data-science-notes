@@ -85,4 +85,4 @@ The Gamma distribution is typically parameterized in two main ways:
 *   Classic Texts: (e.g., Casella & Berger; Hogg, McKean, Craig "Introduction to Mathematical Statistics") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Gamma Distribution]] [[Exponential Distribution]] [[Chi-squared Distribution]] [[Poisson Process]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Gamma Function]] [[Bayesian Statistics]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Gamma Distribution]] [[Exponential Distribution]] [[Chi-squared Distribution]] [[Poisson Process]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Gamma Function]] [[Bayesian Statistics]] [[02 Math/index]] [[Statistics]]

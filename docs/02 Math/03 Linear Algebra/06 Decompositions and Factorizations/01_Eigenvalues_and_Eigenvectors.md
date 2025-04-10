@@ -64,4 +64,4 @@
 *   [3Blue1Brown: Eigenvectors and Eigenvalues | Essence of Linear Algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g) (Excellent geometric intuition)
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Decomposition]] [[Eigenvalue]] [[Eigenvector]] [[Eigenspace]] [[Characteristic Equation]] [[Determinant]] [[Trace]] [[PCA]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Matrix Decomposition]] [[Eigenvalue]] [[Eigenvector]] [[Eigenspace]] [[Characteristic Equation]] [[Determinant]] [[Trace]] [[PCA]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

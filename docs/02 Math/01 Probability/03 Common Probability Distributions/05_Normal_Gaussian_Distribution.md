@@ -80,4 +80,4 @@ For any Normal distribution:
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish "Probability and Statistics") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Normal Distribution]] [[Gaussian Distribution]] [[Bell Curve]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Standard Deviation]] [[Z-score]] [[Standard Normal Distribution]] [[Central Limit Theorem]] [[Empirical Rule]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Normal Distribution]] [[Gaussian Distribution]] [[Bell Curve]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Standard Deviation]] [[Z-score]] [[Standard Normal Distribution]] [[Central Limit Theorem]] [[Empirical Rule]] [[02 Math/index]] [[Statistics]]

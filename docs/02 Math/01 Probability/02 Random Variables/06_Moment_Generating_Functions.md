@@ -75,4 +75,4 @@
 *   Classic Texts: (e.g., Ross; Casella & Berger; Hogg, McKean, Craig "Introduction to Mathematical Statistics") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Moment Generating Function]] [[MGF]] [[Moments]] [[Expected Value]] [[Variance]] [[Probability Distribution]] [[Characteristic Function]] [[Math]] [[Statistics]] [[Theoretical Statistics]]
+[[Probability]] [[Random Variable]] [[Moment Generating Function]] [[MGF]] [[Moments]] [[Expected Value]] [[Variance]] [[Probability Distribution]] [[Characteristic Function]] [[02 Math/index]] [[Statistics]] [[Theoretical Statistics]]

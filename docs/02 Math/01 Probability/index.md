@@ -1,0 +1,13 @@
+# Probability Theory
+
+Probability theory is the mathematical language for reasoning about uncertainty and chance. It provides the foundation for statistical inference and underlies many machine learning algorithms.
+
+This section covers:
+
+*   **[[01 Basic Probability Theory/01_Definition_and_Terminology|Basic Concepts]]**: Core definitions like experiments, outcomes, sample spaces, events, and the axioms of probability. Includes fundamental counting techniques ([[01 Basic Probability Theory/03_Combinatorics|Combinatorics]]), understanding [[01 Basic Probability Theory/04_Conditional_Probability|Conditional Probability]] and [[01 Basic Probability Theory/05_Independence|Independence]], and the crucial [[01 Basic Probability Theory/06_Bayes_Theorem|Bayes' Theorem]].
+*   **[[02 Random Variables/01_Definition|Random Variables]]**: Mapping outcomes to numbers (discrete vs. continuous), described by [[02 Random Variables/02_Probability_Mass_Function_PMF|PMFs]] (discrete) or [[02 Random Variables/03_Probability_Density_Function_PDF|PDFs]] (continuous), and the unifying [[02 Random Variables/04_Cumulative_Distribution_Function_CDF|CDF]]. Also covers [[02 Random Variables/05_Joint_Marginal_Conditional_Distributions|Joint, Marginal, and Conditional Distributions]] for multiple variables and theoretical tools like [[02 Random Variables/06_Moment_Generating_Functions|Moment Generating Functions]].
+*   **[[03 Common Probability Distributions/11_Overview|Common Distributions]]**: Detailed notes on essential distributions used in modeling, including Bernoulli, Binomial, Poisson, Geometric, Negative Binomial, Uniform, Exponential, Gamma, Normal (Gaussian), and Beta.
+*   **[[04 Expectation Variance Covariance/01_Expected_Value|Expectation, Variance, Covariance]]**: Key measures summarizing distributions, including [[04 Expectation Variance Covariance/01_Expected_Value|Expected Value]] (mean), [[04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|Variance]]/[[04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation|Standard Deviation]] (spread), and [[04 Expectation Variance Covariance/03_Covariance_and_Correlation|Covariance]]/[[04 Expectation Variance Covariance/03_Covariance_and_Correlation|Correlation]] (relationships).
+*   **[[05 Important Theorems/01_Law_of_Large_Numbers_LLN|Important Theorems]]**: Foundational results like the [[05 Important Theorems/01_Law_of_Large_Numbers_LLN|Law of Large Numbers (LLN)]] and the [[05 Important Theorems/02_Central_Limit_Theorem_CLT|Central Limit Theorem (CLT)]].
+
+Use the sidebar navigation to explore specific topics within Probability Theory.

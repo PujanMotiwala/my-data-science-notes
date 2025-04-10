@@ -53,4 +53,4 @@
 *   [Paul's Online Math Notes: Chain Rule](https://tutorial.math.lamar.edu/Classes/CalcI/ChainRule.aspx)
 
 ## TAGS
-[[Calculus]] [[Foundations]] [[Derivative]] [[Differentiation Rules]] [[Chain Rule]] [[Composite Function]] [[Backpropagation]] [[Neural Networks]] [[Math]]
+[[Calculus]] [[Foundations]] [[Derivative]] [[Differentiation Rules]] [[Chain Rule]] [[Composite Function]] [[Backpropagation]] [[Neural Networks]] [[02 Math/index]]

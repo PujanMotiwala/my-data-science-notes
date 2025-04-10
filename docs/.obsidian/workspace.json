@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ccd32d9f41626507",
+        "id": "b2b0b6126cef5a9c",
         "type": "tabs",
         "children": [
           {
-            "id": "b22b6b73fba1688b",
+            "id": "1b0a3ca773d3814e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02 Math/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 Math/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 Math/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 Math/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           }
         ]
@@ -161,11 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b22b6b73fba1688b",
+  "active": "1b0a3ca773d3814e",
   "lastOpenFiles": [
+    "02 Math/05 Information Theory/index.md",
+    "02 Math/04 Calculus/index.md",
+    "02 Math/03 Linear Algebra/index.md",
+    "02 Math/02 Inferential statistics/index.md",
+    "02 Math/01 Probability/index.md",
+    "02 Math/index.md",
+    "Math.md",
     "02 Math/01 Probability/03 Common Probability Distributions/00_Overview.md",
     "02 Math/01 Probability/05 Important Theorems/02_Central_Limit_Theorem_CLT.md",
-    "02 Math/01 Probability/Basic.md",
     "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/03_Overview.md",
     "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/02_Singular_Value_Decomposition_SVD.md",
     "02 Math/03 Linear Algebra/06 Decompositions and Factorizations/01_Eigenvalues_and_Eigenvectors.md",
@@ -183,12 +196,6 @@
     "02 Math/03 Linear Algebra/03 Matrix Properties and Concepts/01_Identity_Matrix.md",
     "02 Math/03 Linear Algebra/02 Basic Operations/02_Matrix_Operations.md",
     "02 Math/03 Linear Algebra/01 Core Objects/04_Tensors.md",
-    "02 Math/03 Linear Algebra/01 Core Objects/02_Vectors.md",
-    "02 Math/03 Linear Algebra/01 Core Objects/03_Matrices.md",
-    "02 Math/03 Linear Algebra/01 Core Objects/01_Scalars.md",
-    "02 Math/01 Probability/05 Important Theorems/01_Law_of_Large_Numbers_LLN.md",
-    "02 Math/01 Probability/04 Expectation Variance Covariance/03_Covariance_and_Correlation.md",
-    "02 Math/01 Probability/04 Expectation Variance Covariance/02_Variance_and_Standard_Deviation.md",
     "02 Math/04 Calculus/06 Matrix Calculus",
     "02 Math/05 Information Theory",
     "03 Data Collection/Data Types/Data Types.canvas",

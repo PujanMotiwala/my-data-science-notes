@@ -64,4 +64,4 @@
 *   (Introductory Discrete Mathematics or Probability textbooks)
 
 ## TAGS
-[[Probability]] [[Combinatorics]] [[Counting]] [[Permutation]] [[Combination]] [[Factorial]] [[Binomial Coefficient]] [[Math]] [[Statistics]]
+[[Probability]] [[Combinatorics]] [[Counting]] [[Permutation]] [[Combination]] [[Factorial]] [[Binomial Coefficient]] [[02 Math/index]] [[Statistics]]

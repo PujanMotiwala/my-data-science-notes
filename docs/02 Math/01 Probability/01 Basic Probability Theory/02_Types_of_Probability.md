@@ -59,4 +59,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Interpretations]] [[Theoretical Probability]] [[Empirical Probability]] [[Subjective Probability]] [[Frequentist]] [[Bayesian]] [[Math]] [[Statistics]]
+[[Probability]] [[Interpretations]] [[Theoretical Probability]] [[Empirical Probability]] [[Subjective Probability]] [[Frequentist]] [[Bayesian]] [[02 Math/index]] [[Statistics]]

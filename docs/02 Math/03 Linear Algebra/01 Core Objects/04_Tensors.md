@@ -55,4 +55,4 @@
 *   [What's the difference between a matrix and a tensor?](https://datascience.stackexchange.com/questions/15116/whats-the-difference-between-a-matrix-and-a-tensor) (Discussion focusing on the ML context)
 
 ## TAGS
-[[Linear Algebra]] [[Core Object]] [[Tensor]] [[Matrix]] [[Vector]] [[Scalar]] [[Tensor Rank]] [[Math]] [[Foundations]] [[Deep Learning]] [[TensorFlow]] [[PyTorch]]
+[[Linear Algebra]] [[Core Object]] [[Tensor]] [[Matrix]] [[Vector]] [[Scalar]] [[Tensor Rank]] [[02 Math/index]] [[Foundations]] [[Deep Learning]] [[TensorFlow]] [[PyTorch]]

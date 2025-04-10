@@ -59,4 +59,4 @@
 *   [Khan Academy: Matrix Rank](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-and-column-spaces/v/rank-of-a-matrix)
 
 ## TAGS
-[[Linear Algebra]] [[Vector Space]] [[Matrix Rank]] [[Rank]] [[Linear Independence]] [[Column Space]] [[Row Space]] [[Dimension]] [[Matrix Invertibility]] [[Math]] [[Foundations]] [[Dimensionality Reduction]]
+[[Linear Algebra]] [[Vector Space]] [[Matrix Rank]] [[Rank]] [[Linear Independence]] [[Column Space]] [[Row Space]] [[Dimension]] [[Matrix Invertibility]] [[02 Math/index]] [[Foundations]] [[Dimensionality Reduction]]

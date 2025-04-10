@@ -75,4 +75,4 @@ There are three equivalent ways to mathematically define independence for events
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Independence]] [[Dependence]] [[Conditional Probability]] [[Conditional Independence]] [[Multiplication Rule]] [[Naive Bayes]] [[Math]] [[Statistics]] [[Machine Learning]]
+[[Probability]] [[Independence]] [[Dependence]] [[Conditional Probability]] [[Conditional Independence]] [[Multiplication Rule]] [[Naive Bayes]] [[02 Math/index]] [[Statistics]] [[Machine Learning]]

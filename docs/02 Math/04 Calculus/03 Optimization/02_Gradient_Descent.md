@@ -68,4 +68,4 @@
 *   Many ML/DL course notes (e.g., Andrew Ng's courses on Coursera).
 
 ## TAGS
-[[Calculus]] [[Optimization]] [[Gradient Descent]] [[Gradient]] [[Learning Rate]] [[Local Minimum]] [[Loss Function]] [[Machine Learning]] [[Deep Learning]] [[Math]] [[Foundations]]
+[[Calculus]] [[Optimization]] [[Gradient Descent]] [[Gradient]] [[Learning Rate]] [[Local Minimum]] [[Loss Function]] [[Machine Learning]] [[Deep Learning]] [[02 Math/index]] [[Foundations]]

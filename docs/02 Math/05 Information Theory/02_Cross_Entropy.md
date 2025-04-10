@@ -55,4 +55,4 @@
 *   [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) (Chris Olah)
 
 ## TAGS
-[[Information Theory]] [[Cross-Entropy]] [[Entropy]] [[KL Divergence]] [[Loss Function]] [[Classification]] [[Log Loss]] [[Maximum Likelihood Estimation]] [[Probability Distribution]] [[Math]] [[Statistics]] [[Machine Learning]] [[Deep Learning]] [[Foundations]]
+[[Information Theory]] [[Cross-Entropy]] [[Entropy]] [[KL Divergence]] [[Loss Function]] [[Classification]] [[Log Loss]] [[Maximum Likelihood Estimation]] [[Probability Distribution]] [[02 Math/index]] [[Statistics]] [[Machine Learning]] [[Deep Learning]] [[Foundations]]

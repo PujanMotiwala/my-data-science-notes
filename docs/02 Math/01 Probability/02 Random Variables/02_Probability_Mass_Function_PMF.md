@@ -64,4 +64,4 @@ A function $p(x)$ can be considered a valid PMF if and only if it satisfies thes
 *   (Introductory Probability and Statistics textbooks)
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Discrete Variable]] [[Probability Mass Function]] [[PMF]] [[Probability Distribution]] [[Math]] [[Statistics]]
+[[Probability]] [[Random Variable]] [[Discrete Variable]] [[Probability Mass Function]] [[PMF]] [[Probability Distribution]] [[02 Math/index]] [[Statistics]]

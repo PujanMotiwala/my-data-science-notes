@@ -61,4 +61,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Expected Value]] [[Mean]] [[Central Tendency]] [[Linearity of Expectation]] [[LOTUS]] [[PMF]] [[PDF]] [[Math]] [[Statistics]] [[Decision Theory]]
+[[Probability]] [[Random Variable]] [[Expected Value]] [[Mean]] [[Central Tendency]] [[Linearity of Expectation]] [[LOTUS]] [[PMF]] [[PDF]] [[02 Math/index]] [[Statistics]] [[Decision Theory]]

@@ -45,4 +45,4 @@
 *   *The Matrix Cookbook* by Petersen and Pedersen ([https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf))
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Property]] [[Trace]] [[Eigenvalues]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Matrix Property]] [[Trace]] [[Eigenvalues]] [[02 Math/index]] [[Foundations]]

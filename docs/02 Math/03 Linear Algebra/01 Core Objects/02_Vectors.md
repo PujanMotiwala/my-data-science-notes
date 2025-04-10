@@ -54,4 +54,4 @@
 *   [3Blue1Brown: Vectors | Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs) (Excellent visual intuition)
 
 ## TAGS
-[[Linear Algebra]] [[Core Object]] [[Vector]] [[Vector Space]] [[Math]] [[Foundations]] [[Machine Learning]] [[Deep Learning]] [[NLP]]
+[[Linear Algebra]] [[Core Object]] [[Vector]] [[Vector Space]] [[02 Math/index]] [[Foundations]] [[Machine Learning]] [[Deep Learning]] [[NLP]]

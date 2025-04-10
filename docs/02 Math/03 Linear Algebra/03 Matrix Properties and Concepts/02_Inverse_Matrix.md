@@ -59,4 +59,4 @@
 *   [3Blue1Brown: Inverse Matrices | Essence of Linear Algebra](https://www.youtube.com/watch?v=uQhTuRlWMxw)
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Property]] [[Matrix Inverse]] [[Invertible Matrix]] [[Non-singular Matrix]] [[Identity Matrix]] [[Determinant]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Matrix Property]] [[Matrix Inverse]] [[Invertible Matrix]] [[Non-singular Matrix]] [[Identity Matrix]] [[Determinant]] [[02 Math/index]] [[Foundations]]

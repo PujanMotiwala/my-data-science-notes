@@ -52,4 +52,4 @@
 *   [3Blue1Brown: The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM) (Excellent visual intuition)
 
 ## TAGS
-[[Calculus]] [[Foundations]] [[Derivative]] [[Rate of Change]] [[Slope]] [[Tangent Line]] [[Limit]] [[Optimization]] [[Gradient Descent]] [[Math]]
+[[Calculus]] [[Foundations]] [[Derivative]] [[Rate of Change]] [[Slope]] [[Tangent Line]] [[Limit]] [[Optimization]] [[Gradient Descent]] [[02 Math/index]]

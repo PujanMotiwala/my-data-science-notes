@@ -74,4 +74,4 @@ Similar to the Geometric case, there are two common definitions:
 *   Classic Texts: (e.g., Walpole et al.; Ross; Casella & Berger) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Negative Binomial Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Overdispersion]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Negative Binomial Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Overdispersion]] [[02 Math/index]] [[Statistics]]

@@ -75,4 +75,4 @@
 *   [Paul's Online Math Notes: Differentiation Formulas](https://tutorial.math.lamar.edu/Classes/CalcI/Derivativeulas.aspx)
 
 ## TAGS
-[[Calculus]] [[Foundations]] [[Derivative]] [[Differentiation Rules]] [[Power Rule]] [[Product Rule]] [[Quotient Rule]] [[Math]]
+[[Calculus]] [[Foundations]] [[Derivative]] [[Differentiation Rules]] [[Power Rule]] [[Product Rule]] [[Quotient Rule]] [[02 Math/index]]

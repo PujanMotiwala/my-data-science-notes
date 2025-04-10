@@ -52,4 +52,4 @@
 *   [Paul's Online Math Notes: Gradient Vector](https://tutorial.math.lamar.edu/Classes/CalcIII/GradientVector.aspx)
 
 ## TAGS
-[[Calculus]] [[Multivariable Calculus]] [[Gradient]] [[Partial Derivative]] [[Vector]] [[Optimization]] [[Gradient Descent]] [[Directional Derivative]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Calculus]] [[Multivariable Calculus]] [[Gradient]] [[Partial Derivative]] [[Vector]] [[Optimization]] [[Gradient Descent]] [[Directional Derivative]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

@@ -74,4 +74,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Covariance]] [[Correlation]] [[Pearson Correlation]] [[Linear Relationship]] [[Dependence]] [[Independence]] [[Variance]] [[Math]] [[Statistics]] [[Feature Selection]] [[Multicollinearity]]
+[[Probability]] [[Random Variable]] [[Covariance]] [[Correlation]] [[Pearson Correlation]] [[Linear Relationship]] [[Dependence]] [[Independence]] [[Variance]] [[02 Math/index]] [[Statistics]] [[Feature Selection]] [[Multicollinearity]]

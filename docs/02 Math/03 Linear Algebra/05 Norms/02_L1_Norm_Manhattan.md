@@ -43,4 +43,4 @@
 *   [Explanation of L1 vs L2 Regularization](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)
 
 ## TAGS
-[[Linear Algebra]] [[Vector Norm]] [[Norm]] [[L1 Norm]] [[Manhattan Norm]] [[Magnitude]] [[Distance]] [[Regularization]] [[Lasso Regression]] [[Sparsity]] [[Feature Selection]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Vector Norm]] [[Norm]] [[L1 Norm]] [[Manhattan Norm]] [[Magnitude]] [[Distance]] [[Regularization]] [[Lasso Regression]] [[Sparsity]] [[Feature Selection]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

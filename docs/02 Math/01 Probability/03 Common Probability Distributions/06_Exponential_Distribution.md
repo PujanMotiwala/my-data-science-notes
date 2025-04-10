@@ -74,4 +74,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Exponential Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Memorylessness]] [[Poisson Distribution]] [[Poisson Process]] [[Gamma Distribution]] [[Geometric Distribution]] [[Survival Analysis]] [[Queueing Theory]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Exponential Distribution]] [[PDF]] [[CDF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Memorylessness]] [[Poisson Distribution]] [[Poisson Process]] [[Gamma Distribution]] [[Geometric Distribution]] [[Survival Analysis]] [[Queueing Theory]] [[02 Math/index]] [[Statistics]]

@@ -65,4 +65,4 @@
 *   [3Blue1Brown: Dot Products | Essence of Linear Algebra](https://www.youtube.com/watch?v=LyGKycYT2v0)
 
 ## TAGS
-[[Linear Algebra]] [[Basic Operation]] [[Vector]] [[Vector Addition]] [[Scalar Multiplication]] [[Dot Product]] [[Inner Product]] [[Linear Combination]] [[Orthogonality]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Basic Operation]] [[Vector]] [[Vector Addition]] [[Scalar Multiplication]] [[Dot Product]] [[Inner Product]] [[Linear Combination]] [[Orthogonality]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

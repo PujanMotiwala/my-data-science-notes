@@ -66,4 +66,4 @@
 *   Bayesian statistics textbooks (e.g., "Doing Bayesian Data Analysis" by Kruschke; "Bayesian Data Analysis" by Gelman et al.)
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Beta Distribution]] [[PDF]] [[Expected Value]] [[Variance]] [[Beta Function]] [[Gamma Function]] [[Bayesian Statistics]] [[Conjugate Prior]] [[Math]] [[Statistics]] [[Foundations]]
+[[Probability]] [[Probability Distribution]] [[Continuous Distribution]] [[Beta Distribution]] [[PDF]] [[Expected Value]] [[Variance]] [[Beta Function]] [[Gamma Function]] [[Bayesian Statistics]] [[Conjugate Prior]] [[02 Math/index]] [[Statistics]] [[Foundations]]

@@ -65,4 +65,4 @@
 *   [Wikipedia: Stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) (Often covers mini-batch too)
 
 ## TAGS
-[[Calculus]] [[Optimization]] [[Gradient Descent]] [[Stochastic Gradient Descent]] [[SGD]] [[Mini-batch Gradient Descent]] [[Batch Gradient Descent]] [[Learning Rate]] [[Machine Learning]] [[Deep Learning]] [[Math]] [[Foundations]]
+[[Calculus]] [[Optimization]] [[Gradient Descent]] [[Stochastic Gradient Descent]] [[SGD]] [[Mini-batch Gradient Descent]] [[Batch Gradient Descent]] [[Learning Rate]] [[Machine Learning]] [[Deep Learning]] [[02 Math/index]] [[Foundations]]

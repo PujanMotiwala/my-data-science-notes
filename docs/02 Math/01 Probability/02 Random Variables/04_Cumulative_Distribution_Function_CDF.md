@@ -80,4 +80,4 @@ A function $F(x)$ is a valid CDF if and only if it satisfies these properties:
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Cumulative Distribution Function]] [[CDF]] [[PMF]] [[PDF]] [[Probability Distribution]] [[Math]] [[Statistics]]
+[[Probability]] [[Random Variable]] [[Cumulative Distribution Function]] [[CDF]] [[PMF]] [[PDF]] [[Probability Distribution]] [[02 Math/index]] [[Statistics]]

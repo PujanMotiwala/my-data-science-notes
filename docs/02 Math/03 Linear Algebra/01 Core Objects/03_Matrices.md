@@ -52,4 +52,4 @@
 *   [3Blue1Brown: Matrix Multiplication | Essence of Linear Algebra](https://www.youtube.com/watch?v=XkY2DOUCWMU) (Focuses on transformation aspect)
 
 ## TAGS
-[[Linear Algebra]] [[Core Object]] [[Matrix]] [[Vector]] [[Math]] [[Foundations]] [[Machine Learning]] [[Deep Learning]] [[Linear Transformation]]
+[[Linear Algebra]] [[Core Object]] [[Matrix]] [[Vector]] [[02 Math/index]] [[Foundations]] [[Machine Learning]] [[Deep Learning]] [[Linear Transformation]]

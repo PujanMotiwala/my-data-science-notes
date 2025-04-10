@@ -60,4 +60,4 @@ A function $f(x)$ can be considered a valid PDF if and only if it satisfies thes
 *   (Introductory Probability and Statistics textbooks, Calculus textbooks)
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Continuous Variable]] [[Probability Density Function]] [[PDF]] [[Probability Distribution]] [[Calculus]] [[Integration]] [[Math]] [[Statistics]]
+[[Probability]] [[Random Variable]] [[Continuous Variable]] [[Probability Density Function]] [[PDF]] [[Probability Distribution]] [[Calculus]] [[Integration]] [[02 Math/index]] [[Statistics]]

@@ -58,4 +58,4 @@
 *   [3Blue1Brown: The Determinant | Essence of Linear Algebra](https://www.youtube.com/watch?v=Ip3X9LOh2dk) (Excellent geometric intuition)
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Property]] [[Determinant]] [[Matrix Inverse]] [[Singular Matrix]] [[Linear Transformation]] [[Eigenvalues]] [[Math]] [[Foundations]]
+[[Linear Algebra]] [[Matrix Property]] [[Determinant]] [[Matrix Inverse]] [[Singular Matrix]] [[Linear Transformation]] [[Eigenvalues]] [[02 Math/index]] [[Foundations]]

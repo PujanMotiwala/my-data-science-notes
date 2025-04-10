@@ -74,4 +74,4 @@ There are two common definitions for the Geometric random variable $X$:
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[Negative Binomial Distribution]] [[Exponential Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Memorylessness]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Geometric Distribution]] [[Bernoulli Distribution]] [[Negative Binomial Distribution]] [[Exponential Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Memorylessness]] [[02 Math/index]] [[Statistics]]

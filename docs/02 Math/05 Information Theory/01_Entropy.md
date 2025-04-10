@@ -58,4 +58,4 @@
 *   [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) (Excellent blog post by Chris Olah)
 
 ## TAGS
-[[Information Theory]] [[Entropy]] [[Shannon Entropy]] [[Uncertainty]] [[Surprise]] [[Probability Distribution]] [[Decision Tree]] [[Information Gain]] [[Math]] [[Statistics]] [[Foundations]] [[Machine Learning]]
+[[Information Theory]] [[Entropy]] [[Shannon Entropy]] [[Uncertainty]] [[Surprise]] [[Probability Distribution]] [[Decision Tree]] [[Information Gain]] [[02 Math/index]] [[Statistics]] [[Foundations]] [[Machine Learning]]

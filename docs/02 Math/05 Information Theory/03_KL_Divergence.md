@@ -55,4 +55,4 @@
 *   [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/) (Chris Olah)
 
 ## TAGS
-[[Information Theory]] [[KL Divergence]] [[Relative Entropy]] [[Cross-Entropy]] [[Entropy]] [[Probability Distribution]] [[Variational Autoencoder]] [[VAE]] [[Math]] [[Statistics]] [[Machine Learning]] [[Foundations]]
+[[Information Theory]] [[KL Divergence]] [[Relative Entropy]] [[Cross-Entropy]] [[Entropy]] [[Probability Distribution]] [[Variational Autoencoder]] [[VAE]] [[02 Math/index]] [[Statistics]] [[Machine Learning]] [[Foundations]]

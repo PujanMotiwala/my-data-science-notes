@@ -58,4 +58,4 @@
 *   [Paul's Online Math Notes: Partial Derivatives](https://tutorial.math.lamar.edu/Classes/CalcIII/PartialDerivs.aspx)
 
 ## TAGS
-[[Calculus]] [[Multivariable Calculus]] [[Partial Derivative]] [[Derivative]] [[Gradient]] [[Rate of Change]] [[Slope]] [[Optimization]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Calculus]] [[Multivariable Calculus]] [[Partial Derivative]] [[Derivative]] [[Gradient]] [[Rate of Change]] [[Slope]] [[Optimization]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

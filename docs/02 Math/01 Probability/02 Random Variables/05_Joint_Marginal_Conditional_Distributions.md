@@ -88,4 +88,4 @@ Let $X$ and $Y$ be two [[01_Definition|continuous random variables]].
 *   Classic Texts: (e.g., Ross; DeGroot & Schervish; Casella & Berger "Statistical Inference") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Random Variable]] [[Joint Distribution]] [[Marginal Distribution]] [[Conditional Distribution]] [[Independence]] [[PMF]] [[PDF]] [[Bayes Theorem]] [[Multivariate Statistics]] [[Math]] [[Statistics]] [[Machine Learning]]
+[[Probability]] [[Random Variable]] [[Joint Distribution]] [[Marginal Distribution]] [[Conditional Distribution]] [[Independence]] [[PMF]] [[PDF]] [[Bayes Theorem]] [[Multivariate Statistics]] [[02 Math/index]] [[Statistics]] [[Machine Learning]]

@@ -76,4 +76,4 @@ These are useful shortcuts for deriving gradients needed in ML:
 *   [CS229 Linear Algebra Review - Stanford](https://cs229.stanford.edu/section/cs229-linalg.pdf) (Often includes matrix derivatives section)
 
 ## TAGS
-[[Calculus]] [[Matrix Calculus]] [[Gradient]] [[Jacobian Matrix]] [[Derivative]] [[Vector]] [[Matrix]] [[Optimization]] [[Backpropagation]] [[Math]] [[Foundations]] [[Machine Learning]] [[Deep Learning]]
+[[Calculus]] [[Matrix Calculus]] [[Gradient]] [[Jacobian Matrix]] [[Derivative]] [[Vector]] [[Matrix]] [[Optimization]] [[Backpropagation]] [[02 Math/index]] [[Foundations]] [[Machine Learning]] [[Deep Learning]]

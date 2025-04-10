@@ -57,4 +57,4 @@
 *   [Wikipedia: Matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Decomposition]] [[Factorization]] [[Eigenvalue]] [[Eigenvector]] [[Eigendecomposition]] [[Singular Value Decomposition]] [[SVD]] [[LU Decomposition]] [[QR Decomposition]] [[Cholesky Decomposition]] [[Orthogonal Matrix]] [[Math]] [[Foundations]] [[Machine Learning]] [[Numerical Linear Algebra]]
+[[Linear Algebra]] [[Matrix Decomposition]] [[Factorization]] [[Eigenvalue]] [[Eigenvector]] [[Eigendecomposition]] [[Singular Value Decomposition]] [[SVD]] [[LU Decomposition]] [[QR Decomposition]] [[Cholesky Decomposition]] [[Orthogonal Matrix]] [[02 Math/index]] [[Foundations]] [[Machine Learning]] [[Numerical Linear Algebra]]

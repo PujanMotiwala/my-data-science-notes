@@ -59,4 +59,4 @@
 *   [Paul's Online Math Notes: Directional Derivatives](https://tutorial.math.lamar.edu/Classes/CalcIII/DirectionalDeriv.aspx)
 
 ## TAGS
-[[Calculus]] [[Multivariable Calculus]] [[Directional Derivative]] [[Derivative]] [[Gradient]] [[Dot Product]] [[Unit Vector]] [[Rate of Change]] [[Slope]] [[Math]] [[Foundations]]
+[[Calculus]] [[Multivariable Calculus]] [[Directional Derivative]] [[Derivative]] [[Gradient]] [[Dot Product]] [[Unit Vector]] [[Rate of Change]] [[Slope]] [[02 Math/index]] [[Foundations]]

@@ -57,4 +57,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; DeGroot & Schervish) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Important Theorems]] [[Central Limit Theorem]] [[CLT]] [[Normal Distribution]] [[Sampling Distribution]] [[Sample Mean]] [[Standard Error]] [[Convergence]] [[Statistical Inference]] [[Math]] [[Statistics]]
+[[Probability]] [[Important Theorems]] [[Central Limit Theorem]] [[CLT]] [[Normal Distribution]] [[Sampling Distribution]] [[Sample Mean]] [[Standard Error]] [[Convergence]] [[Statistical Inference]] [[02 Math/index]] [[Statistics]]

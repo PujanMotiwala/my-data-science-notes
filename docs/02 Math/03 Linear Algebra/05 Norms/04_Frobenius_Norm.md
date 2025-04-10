@@ -50,4 +50,4 @@
 *   *The Matrix Cookbook* by Petersen and Pedersen ([https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf))
 
 ## TAGS
-[[Linear Algebra]] [[Matrix Norm]] [[Norm]] [[Frobenius Norm]] [[L2 Norm]] [[Magnitude]] [[Regularization]] [[Trace]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Matrix Norm]] [[Norm]] [[Frobenius Norm]] [[L2 Norm]] [[Magnitude]] [[Regularization]] [[Trace]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

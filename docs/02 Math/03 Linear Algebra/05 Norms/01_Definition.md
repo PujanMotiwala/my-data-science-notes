@@ -53,4 +53,4 @@
 *   *Numerical Linear Algebra* by Trefethen and Bau (Discusses matrix norms)
 
 ## TAGS
-[[Linear Algebra]] [[Vector Norm]] [[Matrix Norm]] [[Norm]] [[Lp Norm]] [[L1 Norm]] [[L2 Norm]] [[Frobenius Norm]] [[Magnitude]] [[Distance]] [[Regularization]] [[Math]] [[Foundations]] [[Machine Learning]]
+[[Linear Algebra]] [[Vector Norm]] [[Matrix Norm]] [[Norm]] [[Lp Norm]] [[L1 Norm]] [[L2 Norm]] [[Frobenius Norm]] [[Magnitude]] [[Distance]] [[Regularization]] [[02 Math/index]] [[Foundations]] [[Machine Learning]]

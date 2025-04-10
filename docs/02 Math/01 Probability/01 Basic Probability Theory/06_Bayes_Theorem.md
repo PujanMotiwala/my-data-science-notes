@@ -71,4 +71,4 @@
 *   Classic Texts: (e.g., Walpole et al.; Ross; Gelman et al. "Bayesian Data Analysis") - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Bayes Theorem]] [[Conditional Probability]] [[Prior]] [[Posterior]] [[Likelihood]] [[Bayesian Inference]] [[Math]] [[Statistics]] [[Machine Learning]]
+[[Probability]] [[Bayes Theorem]] [[Conditional Probability]] [[Prior]] [[Posterior]] [[Likelihood]] [[Bayesian Inference]] [[02 Math/index]] [[Statistics]] [[Machine Learning]]

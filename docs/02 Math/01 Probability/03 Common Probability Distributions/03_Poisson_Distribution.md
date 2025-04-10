@@ -66,4 +66,4 @@ A process can often be modeled by a Poisson distribution if:
 *   Classic Texts: (e.g., Walpole et al.; Ross) - Consult relevant chapters.
 
 ## TAGS
-[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Poisson Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Exponential Distribution]] [[Binomial Distribution]] [[Math]] [[Statistics]]
+[[Probability]] [[Probability Distribution]] [[Discrete Distribution]] [[Poisson Distribution]] [[PMF]] [[Expected Value]] [[Variance]] [[Rate Parameter]] [[Exponential Distribution]] [[Binomial Distribution]] [[02 Math/index]] [[Statistics]]
