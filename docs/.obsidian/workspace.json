@@ -170,6 +170,7 @@
   },
   "active": "1b0a3ca773d3814e",
   "lastOpenFiles": [
+    "generate_pages_script.py",
     "preprocess_notes.py",
     "preprocess_docs.py",
     "02 Math/01 Probability/01 Basic Probability Theory/01_Definition_and_Terminology.md",
@@ -206,7 +207,6 @@
     "02 Math/04 Calculus/03 Optimization",
     "02 Math/04 Calculus/02 Multivariable Calculus",
     "02 Math/04 Calculus/01 Foundations",
-    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations",
-    "02 Math/03 Linear Algebra/05 Norms"
+    "02 Math/03 Linear Algebra/06 Decompositions and Factorizations"
   ]
 }

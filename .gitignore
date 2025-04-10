@@ -18,3 +18,9 @@ __pycache__/
 
 # macOS specific files
 .DS_Store
+
+.pages
+
+docs_build/
+
+.obsidian/
