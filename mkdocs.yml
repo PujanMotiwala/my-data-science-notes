@@ -1,7 +1,6 @@
 site_url: https://pujanmotiwala.github.io/my-data-science-notes/
 site_name: My Data Science Notes
-docs_dir: docs_build
-
+docs_dir: docs
 theme:
   name: material
   custom_dir: docs/overrides
